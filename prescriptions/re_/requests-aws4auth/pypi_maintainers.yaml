@@ -13,7 +13,7 @@ units:
       justification:
       - type: WARNING
         message: >-
-          Project requests-aws4auth is maintained by maintainers that maintain small
+          Project 'requests-aws4auth' is maintained by maintainers that maintain small
           number of projects on PyPI (less than 3)
         link: https://pypi.org/project/requests-aws4auth/
         package_name: requests-aws4auth
