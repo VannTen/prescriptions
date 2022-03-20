@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project requests-unixsocket has low number of maintainers on PyPI (less than 3)
+        message: Project 'requests-unixsocket' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/requests-unixsocket/
         package_name: requests-unixsocket
