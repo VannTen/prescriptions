@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: TxzmqPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: txzmq
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'txzmq' has no recent release, last release dates back to 2021-09-15 13:53:26.134785
+        link: https://pypi.org/project/txzmq/#history
+        package_name: txzmq
