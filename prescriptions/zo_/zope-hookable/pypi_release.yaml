@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: ZopeHookablePyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: zope-hookable
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'zope-hookable' has no recent release, last release dates back to 2021-07-20 06:31:15.485158
+        link: https://pypi.org/project/zope-hookable/#history
+        package_name: zope-hookable
