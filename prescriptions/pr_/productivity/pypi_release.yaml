@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: ProductivityPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: productivity
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'productivity' has no recent release, last release dates back to 2021-09-09 18:45:18.787864
+        link: https://pypi.org/project/productivity/#history
+        package_name: productivity
