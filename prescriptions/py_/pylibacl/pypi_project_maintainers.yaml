@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project pylibacl has low number of maintainers on PyPI (less than 3)
+        message: Project 'pylibacl' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/pylibacl/
         package_name: pylibacl
