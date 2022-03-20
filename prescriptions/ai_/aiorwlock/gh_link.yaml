@@ -1,0 +1,16 @@
+units:
+  wraps:
+  - name: AiorwlockGitHubURLWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: aiorwlock
+    run:
+      justification:
+      - type: INFO
+        message: Package 'aiorwlock' is hosted on GitHub
+        link: https://github.com/aio-libs/aiorwlock
+        package_name: aiorwlock
