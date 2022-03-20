@@ -13,7 +13,7 @@ units:
       justification:
       - type: WARNING
         message: >-
-          Project python-iptables is maintained by maintainers that maintain small
+          Project 'python-iptables' is maintained by maintainers that maintain small
           number of projects on PyPI (less than 3)
         link: https://pypi.org/project/python-iptables/
         package_name: python-iptables
