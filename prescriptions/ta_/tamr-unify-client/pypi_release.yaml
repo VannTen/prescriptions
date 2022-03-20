@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: TamrUnifyClientPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: tamr-unify-client
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'tamr-unify-client' has no recent release, last release dates back to 2021-08-05 13:13:53.998976
+        link: https://pypi.org/project/tamr-unify-client/#history
+        package_name: tamr-unify-client
