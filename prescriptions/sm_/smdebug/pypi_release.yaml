@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: SmdebugPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smdebug
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'smdebug' has no recent release, last release dates back to 2021-08-25 23:38:25.363069
+        link: https://pypi.org/project/smdebug/#history
+        package_name: smdebug
