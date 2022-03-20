@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: YaspinPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: yaspin
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'yaspin' has no recent release, last release dates back to 2021-08-14 16:28:58.839355
+        link: https://pypi.org/project/yaspin/#history
+        package_name: yaspin
