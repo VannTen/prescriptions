@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project railroad-diagrams has low number of maintainers on PyPI (less than 3)
+        message: Project 'railroad-diagrams' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/railroad-diagrams/
         package_name: railroad-diagrams
