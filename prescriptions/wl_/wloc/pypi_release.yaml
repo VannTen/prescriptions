@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: WlocPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: wloc
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'wloc' has no recent release, last release dates back to 2021-06-19 15:02:31.616168
+        link: https://pypi.org/project/wloc/#history
+        package_name: wloc
