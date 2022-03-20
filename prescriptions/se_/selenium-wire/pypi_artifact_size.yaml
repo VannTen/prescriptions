@@ -432,3 +432,21 @@ units:
           '4.6.2' can have up to 59.27MiB
         link: https://pypi.org/project/selenium-wire/4.6.2/#files
         package_name: selenium-wire
+  - name: SeleniumWire4x6x3PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: selenium-wire
+          version: ==4.6.3
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'selenium-wire' in version
+          '4.6.3' can have up to 59.27MiB
+        link: https://pypi.org/project/selenium-wire/4.6.3/#files
+        package_name: selenium-wire
