@@ -252,6 +252,24 @@ units:
           '22.1.0rc1' can have up to 3.56MiB
         link: https://pypi.org/project/twisted/22.1.0rc1/#files
         package_name: twisted
+  - name: Twisted22x2x0PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: twisted
+          version: ==22.2.0
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'twisted' in version
+          '22.2.0' can have up to 3.56MiB
+        link: https://pypi.org/project/twisted/22.2.0/#files
+        package_name: twisted
   - name: Twisted22x2x0rc1PyPIArtifactSizeWrap
     type: wrap
     should_include:
