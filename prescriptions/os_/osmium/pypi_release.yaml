@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: OsmiumPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: osmium
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'osmium' has no recent release, last release dates back to 2021-08-10 09:37:07.521299
+        link: https://pypi.org/project/osmium/#history
+        package_name: osmium
