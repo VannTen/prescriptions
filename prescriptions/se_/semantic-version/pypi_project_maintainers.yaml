@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project semantic-version has low number of maintainers on PyPI (less than 3)
+        message: Project 'semantic-version' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/semantic-version/
         package_name: semantic-version
