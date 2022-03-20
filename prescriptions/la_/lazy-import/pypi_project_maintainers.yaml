@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project lazy-import has low number of maintainers on PyPI (less than 3)
+        message: Project 'lazy-import' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/lazy-import/
         package_name: lazy-import
