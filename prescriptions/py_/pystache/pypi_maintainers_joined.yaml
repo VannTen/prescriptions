@@ -13,7 +13,7 @@ units:
       justification:
       - type: WARNING
         message: >-
-          Project pystache has maintainers that joined PyPI
+          Project 'pystache' has maintainers that joined PyPI
           recently (less than 180 days ago)
         link: https://pypi.org/project/pystache/
         package_name: pystache
