@@ -13,7 +13,7 @@ units:
       justification:
       - type: WARNING
         message: >-
-          Project pystache is maintained by maintainers that maintain small
+          Project 'pystache' is maintained by maintainers that maintain small
           number of projects on PyPI (less than 3)
         link: https://pypi.org/project/pystache/
         package_name: pystache
