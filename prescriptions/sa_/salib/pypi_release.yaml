@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: SalibPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: salib
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'salib' has no recent release, last release dates back to 2021-09-04 05:27:05.034724
+        link: https://pypi.org/project/salib/#history
+        package_name: salib
