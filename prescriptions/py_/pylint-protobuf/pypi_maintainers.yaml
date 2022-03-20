@@ -13,7 +13,7 @@ units:
       justification:
       - type: WARNING
         message: >-
-          Project pylint-protobuf is maintained by maintainers that maintain small
+          Project 'pylint-protobuf' is maintained by maintainers that maintain small
           number of projects on PyPI (less than 3)
         link: https://pypi.org/project/pylint-protobuf/
         package_name: pylint-protobuf
