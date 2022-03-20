@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project sqlacodegen has low number of maintainers on PyPI (less than 3)
+        message: Project 'sqlacodegen' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/sqlacodegen/
         package_name: sqlacodegen
