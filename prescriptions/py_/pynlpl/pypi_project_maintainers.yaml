@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project pynlpl has low number of maintainers on PyPI (less than 3)
+        message: Project 'pynlpl' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/pynlpl/
         package_name: pynlpl
