@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: SqlalchemyMixinsPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: sqlalchemy-mixins
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'sqlalchemy-mixins' has no recent release, last release dates back to 2021-08-10 14:55:19.782162
+        link: https://pypi.org/project/sqlalchemy-mixins/#history
+        package_name: sqlalchemy-mixins
