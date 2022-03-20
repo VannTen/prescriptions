@@ -13,7 +13,7 @@ units:
       justification:
       - type: WARNING
         message: >-
-          Project pytest-json is maintained by maintainers that maintain small
+          Project 'pytest-json' is maintained by maintainers that maintain small
           number of projects on PyPI (less than 3)
         link: https://pypi.org/project/pytest-json/
         package_name: pytest-json
