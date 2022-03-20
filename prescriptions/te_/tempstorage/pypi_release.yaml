@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: TempstoragePyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: tempstorage
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'tempstorage' has no recent release, last release dates back to 2021-07-05 18:31:22.812192
+        link: https://pypi.org/project/tempstorage/#history
+        package_name: tempstorage
