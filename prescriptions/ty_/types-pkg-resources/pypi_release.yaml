@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: TypesPkgResourcesPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: types-pkg-resources
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'types-pkg-resources' has no recent release, last release dates back to 2021-06-17 15:01:28.046110
+        link: https://pypi.org/project/types-pkg-resources/#history
+        package_name: types-pkg-resources
