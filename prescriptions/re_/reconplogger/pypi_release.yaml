@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: ReconploggerPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: reconplogger
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'reconplogger' has no recent release, last release dates back to 2021-08-05 14:28:19.266383
+        link: https://pypi.org/project/reconplogger/#history
+        package_name: reconplogger
