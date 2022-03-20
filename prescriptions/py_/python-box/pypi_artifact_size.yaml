@@ -1,5 +1,23 @@
 units:
   wraps:
+  - name: PythonBox6x0x0PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: python-box
+          version: ==6.0.0
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'python-box' in version
+          '6.0.0' can have up to 3.19MiB
+        link: https://pypi.org/project/python-box/6.0.0/#files
+        package_name: python-box
   - name: PythonBox6x0x0rc4PyPIArtifactSizeWrap
     type: wrap
     should_include:
@@ -17,4 +35,22 @@ units:
           Installed artifact size for package 'python-box' in version
           '6.0.0rc4' can have up to 3.19MiB
         link: https://pypi.org/project/python-box/6.0.0rc4/#files
+        package_name: python-box
+  - name: PythonBox6x0x1PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: python-box
+          version: ==6.0.1
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'python-box' in version
+          '6.0.1' can have up to 3.20MiB
+        link: https://pypi.org/project/python-box/6.0.1/#files
         package_name: python-box
