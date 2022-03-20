@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project pylons-sphinx-themes has low number of maintainers on PyPI (less than 3)
+        message: Project 'pylons-sphinx-themes' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/pylons-sphinx-themes/
         package_name: pylons-sphinx-themes
