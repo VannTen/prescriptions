@@ -1566,3 +1566,21 @@ units:
           '0.84.0' can have up to 21.69MiB
         link: https://pypi.org/project/semgrep/0.84.0/#files
         package_name: semgrep
+  - name: Semgrep0x85x0PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: semgrep
+          version: ==0.85.0
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'semgrep' in version
+          '0.85.0' can have up to 21.70MiB
+        link: https://pypi.org/project/semgrep/0.85.0/#files
+        package_name: semgrep
