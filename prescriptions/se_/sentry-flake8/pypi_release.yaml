@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: SentryFlake8PyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: sentry-flake8
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'sentry-flake8' has no recent release, last release dates back to 2021-08-17 17:45:08.359179
+        link: https://pypi.org/project/sentry-flake8/#history
+        package_name: sentry-flake8
