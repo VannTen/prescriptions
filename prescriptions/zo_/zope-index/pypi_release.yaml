@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: ZopeIndexPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: zope-index
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'zope-index' has no recent release, last release dates back to 2021-07-19 06:42:21.946792
+        link: https://pypi.org/project/zope-index/#history
+        package_name: zope-index
