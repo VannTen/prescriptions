@@ -1,0 +1,16 @@
+units:
+  wraps:
+  - name: AlertaServerGitHubURLWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: alerta-server
+    run:
+      justification:
+      - type: INFO
+        message: Package 'alerta-server' is hosted on GitHub
+        link: https://github.com/alerta/alerta
+        package_name: alerta-server
