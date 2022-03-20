@@ -1,0 +1,16 @@
+units:
+  wraps:
+  - name: AioxmppGitHubURLWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: aioxmpp
+    run:
+      justification:
+      - type: INFO
+        message: Package 'aioxmpp' is hosted on GitHub
+        link: https://github.com/horazont/aioxmpp
+        package_name: aioxmpp
