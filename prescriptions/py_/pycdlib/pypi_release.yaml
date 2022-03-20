@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: PycdlibPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: pycdlib
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'pycdlib' has no recent release, last release dates back to 2021-08-13 02:18:08.727861
+        link: https://pypi.org/project/pycdlib/#history
+        package_name: pycdlib
