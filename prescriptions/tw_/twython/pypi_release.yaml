@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: TwythonPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: twython
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'twython' has no recent release, last release dates back to 2021-07-16 22:35:22.042872
+        link: https://pypi.org/project/twython/#history
+        package_name: twython
