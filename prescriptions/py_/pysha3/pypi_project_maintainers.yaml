@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project pysha3 has low number of maintainers on PyPI (less than 3)
+        message: Project 'pysha3' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/pysha3/
         package_name: pysha3
