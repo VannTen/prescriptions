@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: TrustmePyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: trustme
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'trustme' has no recent release, last release dates back to 2021-08-12 20:05:01.354092
+        link: https://pypi.org/project/trustme/#history
+        package_name: trustme
