@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: UvloopPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: uvloop
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'uvloop' has no recent release, last release dates back to 2021-08-10 19:41:40.678781
+        link: https://pypi.org/project/uvloop/#history
+        package_name: uvloop
