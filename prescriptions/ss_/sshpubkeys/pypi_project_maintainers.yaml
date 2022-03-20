@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project sshpubkeys has low number of maintainers on PyPI (less than 3)
+        message: Project 'sshpubkeys' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/sshpubkeys/
         package_name: sshpubkeys
