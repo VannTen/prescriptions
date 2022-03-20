@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project pytest-warnings has low number of maintainers on PyPI (less than 3)
+        message: Project 'pytest-warnings' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/pytest-warnings/
         package_name: pytest-warnings
