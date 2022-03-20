@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: XdgPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: xdg
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'xdg' has no recent release, last release dates back to 2021-07-24 16:51:12.272434
+        link: https://pypi.org/project/xdg/#history
+        package_name: xdg
