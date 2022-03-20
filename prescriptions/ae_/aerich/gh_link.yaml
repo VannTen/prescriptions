@@ -1,0 +1,16 @@
+units:
+  wraps:
+  - name: AerichGitHubURLWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: aerich
+    run:
+      justification:
+      - type: INFO
+        message: Package 'aerich' is hosted on GitHub
+        link: https://github.com/tortoise/aerich
+        package_name: aerich
