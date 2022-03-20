@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: PycoingeckoPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: pycoingecko
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'pycoingecko' has no recent release, last release dates back to 2021-06-17 08:47:59.128484
+        link: https://pypi.org/project/pycoingecko/#history
+        package_name: pycoingecko
