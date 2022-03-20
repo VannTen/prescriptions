@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: PriorityPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: priority
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'priority' has no recent release, last release dates back to 2021-06-27 10:15:05.487867
+        link: https://pypi.org/project/priority/#history
+        package_name: priority
