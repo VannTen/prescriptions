@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: WadllibPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: wadllib
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'wadllib' has no recent release, last release dates back to 2021-09-13 16:01:36.986783
+        link: https://pypi.org/project/wadllib/#history
+        package_name: wadllib
