@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: SsgPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: ssg
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'ssg' has no recent release, last release dates back to 2021-08-13 12:11:19.788203
+        link: https://pypi.org/project/ssg/#history
+        package_name: ssg
