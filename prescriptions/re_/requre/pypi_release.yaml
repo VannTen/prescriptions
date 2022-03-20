@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: RequrePyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: requre
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'requre' has no recent release, last release dates back to 2021-06-18 14:46:52.318209
+        link: https://pypi.org/project/requre/#history
+        package_name: requre
