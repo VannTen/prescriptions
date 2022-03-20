@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: Sgp4PyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: sgp4
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'sgp4' has no recent release, last release dates back to 2021-07-01 09:48:37.246788
+        link: https://pypi.org/project/sgp4/#history
+        package_name: sgp4
