@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: TyperPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: typer
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'typer' has no recent release, last release dates back to 2021-08-30 08:58:58.409946
+        link: https://pypi.org/project/typer/#history
+        package_name: typer
