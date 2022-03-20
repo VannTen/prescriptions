@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: ReprojectPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: reproject
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'reproject' has no recent release, last release dates back to 2021-08-11 13:28:06.855090
+        link: https://pypi.org/project/reproject/#history
+        package_name: reproject
