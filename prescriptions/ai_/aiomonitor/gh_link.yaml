@@ -1,0 +1,16 @@
+units:
+  wraps:
+  - name: AiomonitorGitHubURLWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: aiomonitor
+    run:
+      justification:
+      - type: INFO
+        message: Package 'aiomonitor' is hosted on GitHub
+        link: https://github.com/aio-libs/aiomonitor
+        package_name: aiomonitor
