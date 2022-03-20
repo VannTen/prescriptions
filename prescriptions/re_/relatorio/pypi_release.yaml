@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: RelatorioPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: relatorio
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'relatorio' has no recent release, last release dates back to 2021-09-11 21:26:35.780005
+        link: https://pypi.org/project/relatorio/#history
+        package_name: relatorio
