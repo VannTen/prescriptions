@@ -1,0 +1,16 @@
+units:
+  wraps:
+  - name: AioredisGitHubURLWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: aioredis
+    run:
+      justification:
+      - type: INFO
+        message: Package 'aioredis' is hosted on GitHub
+        link: https://github.com/aio-libs/aioredis-py
+        package_name: aioredis
