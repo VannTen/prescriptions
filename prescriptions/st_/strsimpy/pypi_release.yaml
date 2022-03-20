@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: StrsimpyPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: strsimpy
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'strsimpy' has no recent release, last release dates back to 2021-09-10 09:14:20.405440
+        link: https://pypi.org/project/strsimpy/#history
+        package_name: strsimpy
