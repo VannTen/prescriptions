@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: TexttablePyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: texttable
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'texttable' has no recent release, last release dates back to 2021-07-13 17:24:44.705205
+        link: https://pypi.org/project/texttable/#history
+        package_name: texttable
