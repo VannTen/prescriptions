@@ -1,0 +1,16 @@
+units:
+  wraps:
+  - name: AiohttpJinja2GitHubURLWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: aiohttp-jinja2
+    run:
+      justification:
+      - type: INFO
+        message: Package 'aiohttp-jinja2' is hosted on GitHub
+        link: https://github.com/aio-libs/aiohttp-jinja2
+        package_name: aiohttp-jinja2
