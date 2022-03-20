@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project pylatex has low number of maintainers on PyPI (less than 3)
+        message: Project 'pylatex' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/pylatex/
         package_name: pylatex
