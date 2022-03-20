@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project pylibmc has low number of maintainers on PyPI (less than 3)
+        message: Project 'pylibmc' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/pylibmc/
         package_name: pylibmc
