@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: PydeequPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: pydeequ
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'pydeequ' has no recent release, last release dates back to 2021-07-29 18:22:43.884021
+        link: https://pypi.org/project/pydeequ/#history
+        package_name: pydeequ
