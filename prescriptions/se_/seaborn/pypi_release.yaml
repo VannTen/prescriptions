@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: SeabornPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: seaborn
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'seaborn' has no recent release, last release dates back to 2021-08-16 00:42:21.015914
+        link: https://pypi.org/project/seaborn/#history
+        package_name: seaborn
