@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: StripHintsPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: strip-hints
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'strip-hints' has no recent release, last release dates back to 2021-07-28 02:06:39.223941
+        link: https://pypi.org/project/strip-hints/#history
+        package_name: strip-hints
