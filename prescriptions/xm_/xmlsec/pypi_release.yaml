@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: XmlsecPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: xmlsec
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'xmlsec' has no recent release, last release dates back to 2021-09-05 17:05:04.052063
+        link: https://pypi.org/project/xmlsec/#history
+        package_name: xmlsec
