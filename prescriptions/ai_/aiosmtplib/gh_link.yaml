@@ -1,0 +1,16 @@
+units:
+  wraps:
+  - name: AiosmtplibGitHubURLWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: aiosmtplib
+    run:
+      justification:
+      - type: INFO
+        message: Package 'aiosmtplib' is hosted on GitHub
+        link: https://github.com/cole/aiosmtplib
+        package_name: aiosmtplib
