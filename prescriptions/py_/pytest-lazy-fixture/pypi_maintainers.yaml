@@ -13,7 +13,7 @@ units:
       justification:
       - type: WARNING
         message: >-
-          Project pytest-lazy-fixture is maintained by maintainers that maintain small
+          Project 'pytest-lazy-fixture' is maintained by maintainers that maintain small
           number of projects on PyPI (less than 3)
         link: https://pypi.org/project/pytest-lazy-fixture/
         package_name: pytest-lazy-fixture
