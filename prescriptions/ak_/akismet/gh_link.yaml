@@ -1,0 +1,16 @@
+units:
+  wraps:
+  - name: AkismetGitHubURLWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: akismet
+    run:
+      justification:
+      - type: INFO
+        message: Package 'akismet' is hosted on GitHub
+        link: https://github.com/ubernostrum/akismet
+        package_name: akismet
