@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: SentencepiecePyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: sentencepiece
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'sentencepiece' has no recent release, last release dates back to 2021-06-18 09:34:45.263830
+        link: https://pypi.org/project/sentencepiece/#history
+        package_name: sentencepiece
