@@ -13,7 +13,7 @@ units:
       justification:
       - type: WARNING
         message: >-
-          Project simpletransformers is maintained by maintainers that maintain small
+          Project 'simpletransformers' is maintained by maintainers that maintain small
           number of projects on PyPI (less than 3)
         link: https://pypi.org/project/simpletransformers/
         package_name: simpletransformers
