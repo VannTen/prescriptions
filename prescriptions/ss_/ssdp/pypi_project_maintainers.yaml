@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project ssdp has low number of maintainers on PyPI (less than 3)
+        message: Project 'ssdp' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/ssdp/
         package_name: ssdp
