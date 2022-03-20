@@ -1,0 +1,16 @@
+units:
+  wraps:
+  - name: AccelerateGitHubURLWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: accelerate
+    run:
+      justification:
+      - type: INFO
+        message: Package 'accelerate' is hosted on GitHub
+        link: https://github.com/huggingface/accelerate
+        package_name: accelerate
