@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: WebtestPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: webtest
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'webtest' has no recent release, last release dates back to 2021-08-19 12:40:07.234266
+        link: https://pypi.org/project/webtest/#history
+        package_name: webtest
