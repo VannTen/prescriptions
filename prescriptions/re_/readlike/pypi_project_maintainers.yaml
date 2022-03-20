@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project readlike has low number of maintainers on PyPI (less than 3)
+        message: Project 'readlike' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/readlike/
         package_name: readlike
