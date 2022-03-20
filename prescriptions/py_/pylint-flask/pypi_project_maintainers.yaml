@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project pylint-flask has low number of maintainers on PyPI (less than 3)
+        message: Project 'pylint-flask' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/pylint-flask/
         package_name: pylint-flask
