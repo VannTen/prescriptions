@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project requirements-detector has low number of maintainers on PyPI (less than 3)
+        message: Project 'requirements-detector' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/requirements-detector/
         package_name: requirements-detector
