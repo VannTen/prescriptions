@@ -324,3 +324,21 @@ units:
           '2.0.0rc5.post1' can have up to 9.62MiB
         link: https://pypi.org/project/unicorn/2.0.0rc5.post1/#files
         package_name: unicorn
+  - name: Unicorn2x0x0rc6PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: unicorn
+          version: ==2.0.0rc6
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'unicorn' in version
+          '2.0.0rc6' can have up to 8.62MiB
+        link: https://pypi.org/project/unicorn/2.0.0rc6/#files
+        package_name: unicorn
