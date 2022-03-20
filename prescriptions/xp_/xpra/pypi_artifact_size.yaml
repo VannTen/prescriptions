@@ -612,3 +612,57 @@ units:
           '4.2.3' can have up to 3.72MiB
         link: https://pypi.org/project/xpra/4.2.3/#files
         package_name: xpra
+  - name: Xpra4x3PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: xpra
+          version: ==4.3
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'xpra' in version
+          '4.3' can have up to 3.98MiB
+        link: https://pypi.org/project/xpra/4.3/#files
+        package_name: xpra
+  - name: Xpra4x3x1PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: xpra
+          version: ==4.3.1
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'xpra' in version
+          '4.3.1' can have up to 3.98MiB
+        link: https://pypi.org/project/xpra/4.3.1/#files
+        package_name: xpra
+  - name: Xpra4x3x2PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: xpra
+          version: ==4.3.2
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'xpra' in version
+          '4.3.2' can have up to 3.98MiB
+        link: https://pypi.org/project/xpra/4.3.2/#files
+        package_name: xpra
