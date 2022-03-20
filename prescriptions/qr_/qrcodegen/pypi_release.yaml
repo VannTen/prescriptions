@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: QrcodegenPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: qrcodegen
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'qrcodegen' has no recent release, last release dates back to 2021-08-08 17:38:48.083499
+        link: https://pypi.org/project/qrcodegen/#history
+        package_name: qrcodegen
