@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project spark-parser has low number of maintainers on PyPI (less than 3)
+        message: Project 'spark-parser' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/spark-parser/
         package_name: spark-parser
