@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: SocialAuthAppDjangoPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: social-auth-app-django
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'social-auth-app-django' has no recent release, last release dates back to 2021-08-05 18:14:06.815524
+        link: https://pypi.org/project/social-auth-app-django/#history
+        package_name: social-auth-app-django
