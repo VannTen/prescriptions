@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: TensorflowCloudPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: tensorflow-cloud
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'tensorflow-cloud' has no recent release, last release dates back to 2021-06-17 01:15:10.845355
+        link: https://pypi.org/project/tensorflow-cloud/#history
+        package_name: tensorflow-cloud
