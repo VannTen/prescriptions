@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: PyusbPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: pyusb
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'pyusb' has no recent release, last release dates back to 2021-07-09 02:58:46.962860
+        link: https://pypi.org/project/pyusb/#history
+        package_name: pyusb
