@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project s3transfer has low number of maintainers on PyPI (less than 3)
+        message: Project 's3transfer' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/s3transfer/
         package_name: s3transfer
