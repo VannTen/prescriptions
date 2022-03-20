@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: PrestoPythonClientPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: presto-python-client
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'presto-python-client' has no recent release, last release dates back to 2021-08-05 22:39:17.784621
+        link: https://pypi.org/project/presto-python-client/#history
+        package_name: presto-python-client
