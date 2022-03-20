@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project sortedcollections has low number of maintainers on PyPI (less than 3)
+        message: Project 'sortedcollections' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/sortedcollections/
         package_name: sortedcollections
