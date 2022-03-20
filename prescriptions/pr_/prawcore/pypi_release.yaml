@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: PrawcorePyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: prawcore
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'prawcore' has no recent release, last release dates back to 2021-07-26 22:57:55.941556
+        link: https://pypi.org/project/prawcore/#history
+        package_name: prawcore
