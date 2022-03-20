@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: SphinxAutoapiPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: sphinx-autoapi
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'sphinx-autoapi' has no recent release, last release dates back to 2021-08-16 17:30:57.035090
+        link: https://pypi.org/project/sphinx-autoapi/#history
+        package_name: sphinx-autoapi
