@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: ThonnyPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: thonny
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'thonny' has no recent release, last release dates back to 2021-08-01 17:59:31.090068
+        link: https://pypi.org/project/thonny/#history
+        package_name: thonny
