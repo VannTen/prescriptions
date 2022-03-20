@@ -1,0 +1,16 @@
+units:
+  wraps:
+  - name: AiodataloaderGitHubURLWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: aiodataloader
+    run:
+      justification:
+      - type: INFO
+        message: Package 'aiodataloader' is hosted on GitHub
+        link: https://github.com/syrusakbary/aiodataloader
+        package_name: aiodataloader
