@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: SimpleitkPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: simpleitk
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'simpleitk' has no recent release, last release dates back to 2021-09-10 19:14:49.346483
+        link: https://pypi.org/project/simpleitk/#history
+        package_name: simpleitk
