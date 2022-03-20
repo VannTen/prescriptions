@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: RequestsPkcs12PyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: requests-pkcs12
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'requests-pkcs12' has no recent release, last release dates back to 2021-08-26 07:50:40.368347
+        link: https://pypi.org/project/requests-pkcs12/#history
+        package_name: requests-pkcs12
