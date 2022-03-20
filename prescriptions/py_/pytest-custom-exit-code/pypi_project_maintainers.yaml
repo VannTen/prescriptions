@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project pytest-custom-exit-code has low number of maintainers on PyPI (less than 3)
+        message: Project 'pytest-custom-exit-code' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/pytest-custom-exit-code/
         package_name: pytest-custom-exit-code
