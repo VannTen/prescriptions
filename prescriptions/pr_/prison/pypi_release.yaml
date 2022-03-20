@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: PrisonPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: prison
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'prison' has no recent release, last release dates back to 2021-08-26 18:58:48.128203
+        link: https://pypi.org/project/prison/#history
+        package_name: prison
