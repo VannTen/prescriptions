@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: ScrampPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: scramp
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'scramp' has no recent release, last release dates back to 2021-08-25 19:03:18.213760
+        link: https://pypi.org/project/scramp/#history
+        package_name: scramp
