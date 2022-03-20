@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project pyobjc-framework-devicecheck has low number of maintainers on PyPI (less than 3)
+        message: Project 'pyobjc-framework-devicecheck' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/pyobjc-framework-devicecheck/
         package_name: pyobjc-framework-devicecheck
