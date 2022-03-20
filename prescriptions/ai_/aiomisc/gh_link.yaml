@@ -1,0 +1,16 @@
+units:
+  wraps:
+  - name: AiomiscGitHubURLWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: aiomisc
+    run:
+      justification:
+      - type: INFO
+        message: Package 'aiomisc' is hosted on GitHub
+        link: https://github.com/aiokitchen/aiomisc
+        package_name: aiomisc
