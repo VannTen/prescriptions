@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: YaqlPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: yaql
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'yaql' has no recent release, last release dates back to 2021-07-12 10:44:54.897912
+        link: https://pypi.org/project/yaql/#history
+        package_name: yaql
