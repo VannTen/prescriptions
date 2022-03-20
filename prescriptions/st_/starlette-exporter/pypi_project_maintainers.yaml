@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project starlette-exporter has low number of maintainers on PyPI (less than 3)
+        message: Project 'starlette-exporter' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/starlette-exporter/
         package_name: starlette-exporter
