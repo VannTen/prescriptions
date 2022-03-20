@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: TftpyPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: tftpy
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'tftpy' has no recent release, last release dates back to 2021-08-13 16:27:07.302210
+        link: https://pypi.org/project/tftpy/#history
+        package_name: tftpy
