@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: SpatialpandasPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: spatialpandas
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'spatialpandas' has no recent release, last release dates back to 2021-08-12 22:01:52.260850
+        link: https://pypi.org/project/spatialpandas/#history
+        package_name: spatialpandas
