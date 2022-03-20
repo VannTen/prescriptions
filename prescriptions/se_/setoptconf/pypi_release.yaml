@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: SetoptconfPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: setoptconf
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'setoptconf' has no recent release, last release dates back to 2021-09-10 00:27:50.822275
+        link: https://pypi.org/project/setoptconf/#history
+        package_name: setoptconf
