@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: YamllintPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: yamllint
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'yamllint' has no recent release, last release dates back to 2021-08-21 17:26:55.668685
+        link: https://pypi.org/project/yamllint/#history
+        package_name: yamllint
