@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: Wsgiproxy2PyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: wsgiproxy2
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'wsgiproxy2' has no recent release, last release dates back to 2021-08-26 11:51:24.190327
+        link: https://pypi.org/project/wsgiproxy2/#history
+        package_name: wsgiproxy2
