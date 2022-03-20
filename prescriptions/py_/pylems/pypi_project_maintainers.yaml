@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project pylems has low number of maintainers on PyPI (less than 3)
+        message: Project 'pylems' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/pylems/
         package_name: pylems
