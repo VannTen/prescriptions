@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project pyobjc-framework-systemextensions has low number of maintainers on PyPI (less than 3)
+        message: Project 'pyobjc-framework-systemextensions' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/pyobjc-framework-systemextensions/
         package_name: pyobjc-framework-systemextensions
