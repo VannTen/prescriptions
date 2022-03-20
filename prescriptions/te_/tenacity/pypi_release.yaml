@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: TenacityPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: tenacity
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'tenacity' has no recent release, last release dates back to 2021-07-12 09:36:23.172464
+        link: https://pypi.org/project/tenacity/#history
+        package_name: tenacity
