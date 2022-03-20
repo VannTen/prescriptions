@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: PytestCheckdocsPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: pytest-checkdocs
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'pytest-checkdocs' has no recent release, last release dates back to 2021-07-31 03:44:15.498715
+        link: https://pypi.org/project/pytest-checkdocs/#history
+        package_name: pytest-checkdocs
