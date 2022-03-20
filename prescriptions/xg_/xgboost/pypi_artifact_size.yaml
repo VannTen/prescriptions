@@ -558,3 +558,21 @@ units:
           '1.5.1' can have up to 165.50MiB
         link: https://pypi.org/project/xgboost/1.5.1/#files
         package_name: xgboost
+  - name: Xgboost1x5x2PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: xgboost
+          version: ==1.5.2
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'xgboost' in version
+          '1.5.2' can have up to 165.55MiB
+        link: https://pypi.org/project/xgboost/1.5.2/#files
+        package_name: xgboost
