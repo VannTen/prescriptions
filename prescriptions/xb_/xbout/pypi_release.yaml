@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: XboutPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: xbout
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'xbout' has no recent release, last release dates back to 2021-09-13 16:04:23.442782
+        link: https://pypi.org/project/xbout/#history
+        package_name: xbout
