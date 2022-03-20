@@ -1,0 +1,16 @@
+units:
+  wraps:
+  - name: AmazonKclpyExtGitHubURLWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: amazon-kclpy-ext
+    run:
+      justification:
+      - type: INFO
+        message: Package 'amazon-kclpy-ext' is hosted on GitHub
+        link: https://github.com/awslabs/amazon-kinesis-client-python
+        package_name: amazon-kclpy-ext
