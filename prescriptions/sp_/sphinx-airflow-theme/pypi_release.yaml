@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: SphinxAirflowThemePyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: sphinx-airflow-theme
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'sphinx-airflow-theme' has no recent release, last release dates back to 2021-08-23 16:47:22.759807
+        link: https://pypi.org/project/sphinx-airflow-theme/#history
+        package_name: sphinx-airflow-theme
