@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: TabledataPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: tabledata
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'tabledata' has no recent release, last release dates back to 2021-09-19 14:21:27.176077
+        link: https://pypi.org/project/tabledata/#history
+        package_name: tabledata
