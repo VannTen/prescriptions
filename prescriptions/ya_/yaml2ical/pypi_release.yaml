@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: Yaml2icalPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: yaml2ical
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'yaml2ical' has no recent release, last release dates back to 2021-08-18 14:15:07.771193
+        link: https://pypi.org/project/yaml2ical/#history
+        package_name: yaml2ical
