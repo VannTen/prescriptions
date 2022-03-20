@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project rencode has low number of maintainers on PyPI (less than 3)
+        message: Project 'rencode' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/rencode/
         package_name: rencode
