@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project pymp-pypi has low number of maintainers on PyPI (less than 3)
+        message: Project 'pymp-pypi' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/pymp-pypi/
         package_name: pymp-pypi
