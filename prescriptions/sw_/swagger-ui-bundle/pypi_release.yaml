@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: SwaggerUiBundlePyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: swagger-ui-bundle
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'swagger-ui-bundle' has no recent release, last release dates back to 2021-09-13 00:24:24.671821
+        link: https://pypi.org/project/swagger-ui-bundle/#history
+        package_name: swagger-ui-bundle
