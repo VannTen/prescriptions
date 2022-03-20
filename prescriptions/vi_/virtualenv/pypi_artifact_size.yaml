@@ -1116,6 +1116,186 @@ units:
           '20.10.0' can have up to 8.59MiB
         link: https://pypi.org/project/virtualenv/20.10.0/#files
         package_name: virtualenv
+  - name: Virtualenv20x11x0PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: virtualenv
+          version: ==20.11.0
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'virtualenv' in version
+          '20.11.0' can have up to 9.49MiB
+        link: https://pypi.org/project/virtualenv/20.11.0/#files
+        package_name: virtualenv
+  - name: Virtualenv20x11x1PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: virtualenv
+          version: ==20.11.1
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'virtualenv' in version
+          '20.11.1' can have up to 9.49MiB
+        link: https://pypi.org/project/virtualenv/20.11.1/#files
+        package_name: virtualenv
+  - name: Virtualenv20x11x2PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: virtualenv
+          version: ==20.11.2
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'virtualenv' in version
+          '20.11.2' can have up to 9.49MiB
+        link: https://pypi.org/project/virtualenv/20.11.2/#files
+        package_name: virtualenv
+  - name: Virtualenv20x12x0PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: virtualenv
+          version: ==20.12.0
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'virtualenv' in version
+          '20.12.0' can have up to 9.49MiB
+        link: https://pypi.org/project/virtualenv/20.12.0/#files
+        package_name: virtualenv
+  - name: Virtualenv20x12x1PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: virtualenv
+          version: ==20.12.1
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'virtualenv' in version
+          '20.12.1' can have up to 9.49MiB
+        link: https://pypi.org/project/virtualenv/20.12.1/#files
+        package_name: virtualenv
+  - name: Virtualenv20x13x0PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: virtualenv
+          version: ==20.13.0
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'virtualenv' in version
+          '20.13.0' can have up to 9.50MiB
+        link: https://pypi.org/project/virtualenv/20.13.0/#files
+        package_name: virtualenv
+  - name: Virtualenv20x13x1PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: virtualenv
+          version: ==20.13.1
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'virtualenv' in version
+          '20.13.1' can have up to 11.44MiB
+        link: https://pypi.org/project/virtualenv/20.13.1/#files
+        package_name: virtualenv
+  - name: Virtualenv20x13x2PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: virtualenv
+          version: ==20.13.2
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'virtualenv' in version
+          '20.13.2' can have up to 11.55MiB
+        link: https://pypi.org/project/virtualenv/20.13.2/#files
+        package_name: virtualenv
+  - name: Virtualenv20x13x3PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: virtualenv
+          version: ==20.13.3
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'virtualenv' in version
+          '20.13.3' can have up to 11.59MiB
+        link: https://pypi.org/project/virtualenv/20.13.3/#files
+        package_name: virtualenv
+  - name: Virtualenv20x13x4PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: virtualenv
+          version: ==20.13.4
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'virtualenv' in version
+          '20.13.4' can have up to 11.59MiB
+        link: https://pypi.org/project/virtualenv/20.13.4/#files
+        package_name: virtualenv
   - name: Virtualenv20x2x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
