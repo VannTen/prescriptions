@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: PytestAssumePyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: pytest-assume
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'pytest-assume' has no recent release, last release dates back to 2021-06-24 17:13:00.321789
+        link: https://pypi.org/project/pytest-assume/#history
+        package_name: pytest-assume
