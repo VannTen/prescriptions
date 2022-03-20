@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: PybtexDocutilsPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: pybtex-docutils
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'pybtex-docutils' has no recent release, last release dates back to 2021-07-29 12:38:34.309026
+        link: https://pypi.org/project/pybtex-docutils/#history
+        package_name: pybtex-docutils
