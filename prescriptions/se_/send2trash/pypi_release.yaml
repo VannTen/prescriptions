@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: Send2trashPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: send2trash
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'send2trash' has no recent release, last release dates back to 2021-08-09 02:53:00.828585
+        link: https://pypi.org/project/send2trash/#history
+        package_name: send2trash
