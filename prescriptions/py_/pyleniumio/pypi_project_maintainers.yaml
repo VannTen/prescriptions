@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project pyleniumio has low number of maintainers on PyPI (less than 3)
+        message: Project 'pyleniumio' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/pyleniumio/
         package_name: pyleniumio
