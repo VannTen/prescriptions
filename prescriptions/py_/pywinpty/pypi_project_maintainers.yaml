@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project pywinpty has low number of maintainers on PyPI (less than 3)
+        message: Project 'pywinpty' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/pywinpty/
         package_name: pywinpty
