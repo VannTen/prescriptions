@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project scikit-garden has low number of maintainers on PyPI (less than 3)
+        message: Project 'scikit-garden' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/scikit-garden/
         package_name: scikit-garden
