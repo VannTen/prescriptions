@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project python-logstash-async has low number of maintainers on PyPI (less than 3)
+        message: Project 'python-logstash-async' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/python-logstash-async/
         package_name: python-logstash-async
