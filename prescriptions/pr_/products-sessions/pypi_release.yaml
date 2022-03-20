@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: ProductsSessionsPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: products-sessions
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'products-sessions' has no recent release, last release dates back to 2021-08-09 08:29:50.173157
+        link: https://pypi.org/project/products-sessions/#history
+        package_name: products-sessions
