@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project pyxdameraulevenshtein has low number of maintainers on PyPI (less than 3)
+        message: Project 'pyxdameraulevenshtein' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/pyxdameraulevenshtein/
         package_name: pyxdameraulevenshtein
