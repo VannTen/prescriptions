@@ -108,6 +108,24 @@ units:
           '2.10.3' can have up to 3.32MiB
         link: https://pypi.org/project/zarr/2.10.3/#files
         package_name: zarr
+  - name: Zarr2x11x0PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: zarr
+          version: ==2.11.0
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'zarr' in version
+          '2.11.0' can have up to 3.33MiB
+        link: https://pypi.org/project/zarr/2.11.0/#files
+        package_name: zarr
   - name: Zarr2x11x0a1PyPIArtifactSizeWrap
     type: wrap
     should_include:
@@ -143,6 +161,24 @@ units:
           Installed artifact size for package 'zarr' in version
           '2.11.0a2' can have up to 3.33MiB
         link: https://pypi.org/project/zarr/2.11.0a2/#files
+        package_name: zarr
+  - name: Zarr2x11x1PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: zarr
+          version: ==2.11.1
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'zarr' in version
+          '2.11.1' can have up to 3.33MiB
+        link: https://pypi.org/project/zarr/2.11.1/#files
         package_name: zarr
   - name: Zarr2x2x0PyPIArtifactSizeWrap
     type: wrap
