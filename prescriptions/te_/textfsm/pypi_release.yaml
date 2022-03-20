@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: TextfsmPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: textfsm
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'textfsm' has no recent release, last release dates back to 2021-06-28 07:07:16.986211
+        link: https://pypi.org/project/textfsm/#history
+        package_name: textfsm
