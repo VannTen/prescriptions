@@ -324,6 +324,42 @@ units:
           '0.17.4' can have up to 3.19MiB
         link: https://pypi.org/project/py7zr/0.17.4/#files
         package_name: py7zr
+  - name: Py7zr0x18x0PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: py7zr
+          version: ==0.18.0
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'py7zr' in version
+          '0.18.0' can have up to 3.19MiB
+        link: https://pypi.org/project/py7zr/0.18.0/#files
+        package_name: py7zr
+  - name: Py7zr0x18x1PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: py7zr
+          version: ==0.18.1
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'py7zr' in version
+          '0.18.1' can have up to 3.19MiB
+        link: https://pypi.org/project/py7zr/0.18.1/#files
+        package_name: py7zr
   - name: Py7zr0x2x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
