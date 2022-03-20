@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: ScikitUpliftPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: scikit-uplift
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'scikit-uplift' has no recent release, last release dates back to 2021-08-16 16:39:46.754434
+        link: https://pypi.org/project/scikit-uplift/#history
+        package_name: scikit-uplift
