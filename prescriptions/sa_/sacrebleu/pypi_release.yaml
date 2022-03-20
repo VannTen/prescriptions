@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: SacrebleuPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: sacrebleu
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'sacrebleu' has no recent release, last release dates back to 2021-08-09 18:16:28.481509
+        link: https://pypi.org/project/sacrebleu/#history
+        package_name: sacrebleu
