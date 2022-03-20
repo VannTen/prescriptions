@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project qiniu has low number of maintainers on PyPI (less than 3)
+        message: Project 'qiniu' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/qiniu/
         package_name: qiniu
