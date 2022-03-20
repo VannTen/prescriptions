@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: RinohtypePyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: rinohtype
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'rinohtype' has no recent release, last release dates back to 2021-06-16 13:16:34.867762
+        link: https://pypi.org/project/rinohtype/#history
+        package_name: rinohtype
