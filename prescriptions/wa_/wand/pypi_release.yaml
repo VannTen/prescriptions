@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: WandPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: wand
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'wand' has no recent release, last release dates back to 2021-08-17 02:23:43.430852
+        link: https://pypi.org/project/wand/#history
+        package_name: wand
