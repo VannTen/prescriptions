@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project pysmb has low number of maintainers on PyPI (less than 3)
+        message: Project 'pysmb' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/pysmb/
         package_name: pysmb
