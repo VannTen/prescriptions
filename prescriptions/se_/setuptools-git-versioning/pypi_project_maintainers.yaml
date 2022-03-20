@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project setuptools-git-versioning has low number of maintainers on PyPI (less than 3)
+        message: Project 'setuptools-git-versioning' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/setuptools-git-versioning/
         package_name: setuptools-git-versioning
