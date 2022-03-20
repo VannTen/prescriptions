@@ -1,0 +1,16 @@
+units:
+  wraps:
+  - name: AiogremlinGitHubURLWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: aiogremlin
+    run:
+      justification:
+      - type: INFO
+        message: Package 'aiogremlin' is hosted on GitHub
+        link: https://github.com/goblin-ogm/aiogremlin
+        package_name: aiogremlin
