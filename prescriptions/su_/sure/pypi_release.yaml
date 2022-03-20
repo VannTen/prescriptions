@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: SurePyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: sure
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'sure' has no recent release, last release dates back to 2021-06-21 22:38:24.802331
+        link: https://pypi.org/project/sure/#history
+        package_name: sure
