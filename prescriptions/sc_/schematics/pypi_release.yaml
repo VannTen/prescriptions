@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: SchematicsPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: schematics
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'schematics' has no recent release, last release dates back to 2021-08-17 21:16:56.633632
+        link: https://pypi.org/project/schematics/#history
+        package_name: schematics
