@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project smdebug has low number of maintainers on PyPI (less than 3)
+        message: Project 'smdebug' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/smdebug/
         package_name: smdebug
