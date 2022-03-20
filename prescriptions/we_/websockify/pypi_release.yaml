@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: WebsockifyPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: websockify
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'websockify' has no recent release, last release dates back to 2021-07-22 15:22:25.958685
+        link: https://pypi.org/project/websockify/#history
+        package_name: websockify
