@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project python-social-auth has low number of maintainers on PyPI (less than 3)
+        message: Project 'python-social-auth' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/python-social-auth/
         package_name: python-social-auth
