@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: SingledispatchPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: singledispatch
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'singledispatch' has no recent release, last release dates back to 2021-08-14 02:38:21.775945
+        link: https://pypi.org/project/singledispatch/#history
+        package_name: singledispatch
