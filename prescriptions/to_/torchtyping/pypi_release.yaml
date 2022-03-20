@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: TorchtypingPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: torchtyping
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'torchtyping' has no recent release, last release dates back to 2021-06-27 21:16:18.570316
+        link: https://pypi.org/project/torchtyping/#history
+        package_name: torchtyping
