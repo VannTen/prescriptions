@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project sortedcontainers has low number of maintainers on PyPI (less than 3)
+        message: Project 'sortedcontainers' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/sortedcontainers/
         package_name: sortedcontainers
