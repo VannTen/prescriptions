@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: SphinxPromptPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: sphinx-prompt
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'sphinx-prompt' has no recent release, last release dates back to 2021-08-10 06:52:04.514390
+        link: https://pypi.org/project/sphinx-prompt/#history
+        package_name: sphinx-prompt
