@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: TesttoolsPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: testtools
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'testtools' has no recent release, last release dates back to 2021-07-14 18:49:39.751645
+        link: https://pypi.org/project/testtools/#history
+        package_name: testtools
