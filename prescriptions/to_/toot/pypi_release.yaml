@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: TootPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: toot
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'toot' has no recent release, last release dates back to 2021-08-28 19:23:28.755100
+        link: https://pypi.org/project/toot/#history
+        package_name: toot
