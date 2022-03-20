@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: SanicJwtPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: sanic-jwt
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'sanic-jwt' has no recent release, last release dates back to 2021-08-12 10:44:39.465424
+        link: https://pypi.org/project/sanic-jwt/#history
+        package_name: sanic-jwt
