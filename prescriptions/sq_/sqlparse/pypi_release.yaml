@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: SqlparsePyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: sqlparse
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'sqlparse' has no recent release, last release dates back to 2021-09-10 06:51:58.920075
+        link: https://pypi.org/project/sqlparse/#history
+        package_name: sqlparse
