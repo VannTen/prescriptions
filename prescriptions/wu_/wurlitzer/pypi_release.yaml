@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: WurlitzerPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: wurlitzer
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'wurlitzer' has no recent release, last release dates back to 2021-08-25 07:59:32.235026
+        link: https://pypi.org/project/wurlitzer/#history
+        package_name: wurlitzer
