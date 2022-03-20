@@ -342,3 +342,21 @@ units:
           '1.3.post1' can have up to 16.01MiB
         link: https://pypi.org/project/yellowbrick/1.3.post1/#files
         package_name: yellowbrick
+  - name: Yellowbrick1x4PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: yellowbrick
+          version: ==1.4
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'yellowbrick' in version
+          '1.4' can have up to 17.76MiB
+        link: https://pypi.org/project/yellowbrick/1.4/#files
+        package_name: yellowbrick
