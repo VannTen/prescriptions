@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: ProductsTemporaryfolderPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: products-temporaryfolder
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'products-temporaryfolder' has no recent release, last release dates back to 2021-07-06 12:29:11.517138
+        link: https://pypi.org/project/products-temporaryfolder/#history
+        package_name: products-temporaryfolder
