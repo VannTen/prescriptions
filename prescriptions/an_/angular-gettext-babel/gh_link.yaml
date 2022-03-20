@@ -1,0 +1,16 @@
+units:
+  wraps:
+  - name: AngularGettextBabelGitHubURLWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: angular-gettext-babel
+    run:
+      justification:
+      - type: INFO
+        message: Package 'angular-gettext-babel' is hosted on GitHub
+        link: https://github.com/neillc/angular-gettext-babel
+        package_name: angular-gettext-babel
