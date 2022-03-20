@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: RosdepPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: rosdep
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'rosdep' has no recent release, last release dates back to 2021-06-25 21:15:35.342873
+        link: https://pypi.org/project/rosdep/#history
+        package_name: rosdep
