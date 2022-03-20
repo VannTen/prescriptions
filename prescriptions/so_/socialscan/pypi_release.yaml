@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: SocialscanPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: socialscan
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'socialscan' has no recent release, last release dates back to 2021-07-17 15:19:15.532031
+        link: https://pypi.org/project/socialscan/#history
+        package_name: socialscan
