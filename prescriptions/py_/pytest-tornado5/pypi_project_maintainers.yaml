@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project pytest-tornado5 has low number of maintainers on PyPI (less than 3)
+        message: Project 'pytest-tornado5' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/pytest-tornado5/
         package_name: pytest-tornado5
