@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project ssh2-python has low number of maintainers on PyPI (less than 3)
+        message: Project 'ssh2-python' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/ssh2-python/
         package_name: ssh2-python
