@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: TempitaPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: tempita
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'tempita' has no recent release, last release dates back to 2021-09-17 17:25:58.844081
+        link: https://pypi.org/project/tempita/#history
+        package_name: tempita
