@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project redis-py-cluster has low number of maintainers on PyPI (less than 3)
+        message: Project 'redis-py-cluster' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/redis-py-cluster/
         package_name: redis-py-cluster
