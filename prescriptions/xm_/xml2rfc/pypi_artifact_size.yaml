@@ -1080,6 +1080,24 @@ units:
           '3.12.0' can have up to 3.02MiB
         link: https://pypi.org/project/xml2rfc/3.12.0/#files
         package_name: xml2rfc
+  - name: Xml2rfc3x12x1PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: xml2rfc
+          version: ==3.12.1
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'xml2rfc' in version
+          '3.12.1' can have up to 3.02MiB
+        link: https://pypi.org/project/xml2rfc/3.12.1/#files
+        package_name: xml2rfc
   - name: Xml2rfc3x2x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
