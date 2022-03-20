@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project rfc3986-validator has low number of maintainers on PyPI (less than 3)
+        message: Project 'rfc3986-validator' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/rfc3986-validator/
         package_name: rfc3986-validator
