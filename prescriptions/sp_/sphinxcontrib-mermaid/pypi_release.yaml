@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: SphinxcontribMermaidPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: sphinxcontrib-mermaid
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'sphinxcontrib-mermaid' has no recent release, last release dates back to 2021-07-17 23:29:11.472747
+        link: https://pypi.org/project/sphinxcontrib-mermaid/#history
+        package_name: sphinxcontrib-mermaid
