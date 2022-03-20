@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: PyacoustidPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: pyacoustid
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'pyacoustid' has no recent release, last release dates back to 2021-09-01 13:35:58.897659
+        link: https://pypi.org/project/pyacoustid/#history
+        package_name: pyacoustid
