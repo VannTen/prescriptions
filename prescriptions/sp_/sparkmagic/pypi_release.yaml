@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: SparkmagicPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: sparkmagic
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'sparkmagic' has no recent release, last release dates back to 2021-08-19 13:52:26.703986
+        link: https://pypi.org/project/sparkmagic/#history
+        package_name: sparkmagic
