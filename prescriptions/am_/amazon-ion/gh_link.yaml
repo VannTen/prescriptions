@@ -1,0 +1,16 @@
+units:
+  wraps:
+  - name: AmazonIonGitHubURLWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: amazon-ion
+    run:
+      justification:
+      - type: INFO
+        message: Package 'amazon-ion' is hosted on GitHub
+        link: https://github.com/amzn/ion-python
+        package_name: amazon-ion
