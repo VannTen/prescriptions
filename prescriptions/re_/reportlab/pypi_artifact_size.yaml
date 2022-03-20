@@ -162,3 +162,21 @@ units:
           '3.6.7' can have up to 4.30MiB
         link: https://pypi.org/project/reportlab/3.6.7/#files
         package_name: reportlab
+  - name: Reportlab3x6x8PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: reportlab
+          version: ==3.6.8
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'reportlab' in version
+          '3.6.8' can have up to 4.29MiB
+        link: https://pypi.org/project/reportlab/3.6.8/#files
+        package_name: reportlab
