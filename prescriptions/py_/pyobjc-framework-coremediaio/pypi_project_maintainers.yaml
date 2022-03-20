@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project pyobjc-framework-coremediaio has low number of maintainers on PyPI (less than 3)
+        message: Project 'pyobjc-framework-coremediaio' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/pyobjc-framework-coremediaio/
         package_name: pyobjc-framework-coremediaio
