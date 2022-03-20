@@ -13,7 +13,7 @@ units:
       justification:
       - type: WARNING
         message: >-
-          Project py3exiv2 is maintained by maintainers that maintain small
+          Project 'py3exiv2' is maintained by maintainers that maintain small
           number of projects on PyPI (less than 3)
         link: https://pypi.org/project/py3exiv2/
         package_name: py3exiv2
