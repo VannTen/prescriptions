@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project qiskit-ibmq-provider has low number of maintainers on PyPI (less than 3)
+        message: Project 'qiskit-ibmq-provider' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/qiskit-ibmq-provider/
         package_name: qiskit-ibmq-provider
