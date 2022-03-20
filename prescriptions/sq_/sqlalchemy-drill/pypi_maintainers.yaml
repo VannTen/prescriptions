@@ -13,7 +13,7 @@ units:
       justification:
       - type: WARNING
         message: >-
-          Project sqlalchemy-drill is maintained by maintainers that maintain small
+          Project 'sqlalchemy-drill' is maintained by maintainers that maintain small
           number of projects on PyPI (less than 3)
         link: https://pypi.org/project/sqlalchemy-drill/
         package_name: sqlalchemy-drill
