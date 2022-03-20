@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project pytest-random-order has low number of maintainers on PyPI (less than 3)
+        message: Project 'pytest-random-order' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/pytest-random-order/
         package_name: pytest-random-order
