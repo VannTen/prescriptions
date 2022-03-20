@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: ZeoPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: zeo
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'zeo' has no recent release, last release dates back to 2021-08-09 12:22:42.996808
+        link: https://pypi.org/project/zeo/#history
+        package_name: zeo
