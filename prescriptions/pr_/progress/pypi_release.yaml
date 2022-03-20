@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: ProgressPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: progress
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'progress' has no recent release, last release dates back to 2021-07-28 06:52:43.671602
+        link: https://pypi.org/project/progress/#history
+        package_name: progress
