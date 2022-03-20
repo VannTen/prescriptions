@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project simple-ddl-parser has low number of maintainers on PyPI (less than 3)
+        message: Project 'simple-ddl-parser' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/simple-ddl-parser/
         package_name: simple-ddl-parser
