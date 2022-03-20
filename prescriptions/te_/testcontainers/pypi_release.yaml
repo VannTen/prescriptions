@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: TestcontainersPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: testcontainers
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'testcontainers' has no recent release, last release dates back to 2021-08-15 17:51:53.398960
+        link: https://pypi.org/project/testcontainers/#history
+        package_name: testcontainers
