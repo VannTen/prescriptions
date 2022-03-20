@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project sanic-cors has low number of maintainers on PyPI (less than 3)
+        message: Project 'sanic-cors' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/sanic-cors/
         package_name: sanic-cors
