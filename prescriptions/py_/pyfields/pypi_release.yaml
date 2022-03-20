@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: PyfieldsPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: pyfields
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'pyfields' has no recent release, last release dates back to 2021-06-21 09:33:17.154685
+        link: https://pypi.org/project/pyfields/#history
+        package_name: pyfields
