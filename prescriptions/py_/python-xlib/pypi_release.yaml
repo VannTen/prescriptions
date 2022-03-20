@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: PythonXlibPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: python-xlib
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'python-xlib' has no recent release, last release dates back to 2021-07-02 10:32:52.130246
+        link: https://pypi.org/project/python-xlib/#history
+        package_name: python-xlib
