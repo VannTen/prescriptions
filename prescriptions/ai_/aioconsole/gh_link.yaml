@@ -1,0 +1,16 @@
+units:
+  wraps:
+  - name: AioconsoleGitHubURLWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: aioconsole
+    run:
+      justification:
+      - type: INFO
+        message: Package 'aioconsole' is hosted on GitHub
+        link: https://github.com/vxgmichel/aioconsole
+        package_name: aioconsole
