@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project sphinxcontrib-bibtex has low number of maintainers on PyPI (less than 3)
+        message: Project 'sphinxcontrib-bibtex' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/sphinxcontrib-bibtex/
         package_name: sphinxcontrib-bibtex
