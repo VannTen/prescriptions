@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project pytest-spark has low number of maintainers on PyPI (less than 3)
+        message: Project 'pytest-spark' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/pytest-spark/
         package_name: pytest-spark
