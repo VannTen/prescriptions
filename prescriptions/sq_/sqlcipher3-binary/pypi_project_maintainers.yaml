@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project sqlcipher3-binary has low number of maintainers on PyPI (less than 3)
+        message: Project 'sqlcipher3-binary' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/sqlcipher3-binary/
         package_name: sqlcipher3-binary
