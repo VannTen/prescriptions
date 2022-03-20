@@ -1,0 +1,16 @@
+units:
+  wraps:
+  - name: AggdrawGitHubURLWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: aggdraw
+    run:
+      justification:
+      - type: INFO
+        message: Package 'aggdraw' is hosted on GitHub
+        link: https://github.com/pytroll/aggdraw
+        package_name: aggdraw
