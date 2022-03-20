@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project pytaglib has low number of maintainers on PyPI (less than 3)
+        message: Project 'pytaglib' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/pytaglib/
         package_name: pytaglib
