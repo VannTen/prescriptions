@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: Py2packPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: py2pack
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'py2pack' has no recent release, last release dates back to 2021-07-08 10:13:49.320279
+        link: https://pypi.org/project/py2pack/#history
+        package_name: py2pack
