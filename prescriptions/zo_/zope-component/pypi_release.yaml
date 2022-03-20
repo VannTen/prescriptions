@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: ZopeComponentPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: zope-component
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'zope-component' has no recent release, last release dates back to 2021-07-09 11:53:06.120980
+        link: https://pypi.org/project/zope-component/#history
+        package_name: zope-component
