@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project sk-video has low number of maintainers on PyPI (less than 3)
+        message: Project 'sk-video' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/sk-video/
         package_name: sk-video
