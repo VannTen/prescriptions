@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project supersmoother has low number of maintainers on PyPI (less than 3)
+        message: Project 'supersmoother' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/supersmoother/
         package_name: supersmoother
