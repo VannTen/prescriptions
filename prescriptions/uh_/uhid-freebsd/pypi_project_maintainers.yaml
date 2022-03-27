@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project uhid-freebsd has low number of maintainers on PyPI (less than 3)
+        message: Project 'uhid-freebsd' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/uhid-freebsd/
         package_name: uhid-freebsd
