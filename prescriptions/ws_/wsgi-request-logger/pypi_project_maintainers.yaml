@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project wsgi-request-logger has low number of maintainers on PyPI (less than 3)
+        message: Project 'wsgi-request-logger' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/wsgi-request-logger/
         package_name: wsgi-request-logger
