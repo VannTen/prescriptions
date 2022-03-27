@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: RollbarPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: rollbar
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'rollbar' has no recent release, last release dates back to 2021-09-22 17:38:02.328013
+        link: https://pypi.org/project/rollbar/#history
+        package_name: rollbar
