@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project types-typing-extensions has low number of maintainers on PyPI (less than 3)
+        message: Project 'types-typing-extensions' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/types-typing-extensions/
         package_name: types-typing-extensions
