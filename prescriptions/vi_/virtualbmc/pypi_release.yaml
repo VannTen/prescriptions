@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: VirtualbmcPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: virtualbmc
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'virtualbmc' has no recent release, last release dates back to 2021-09-23 09:05:51.727201
+        link: https://pypi.org/project/virtualbmc/#history
+        package_name: virtualbmc
