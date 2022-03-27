@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project text-unidecode has low number of maintainers on PyPI (less than 3)
+        message: Project 'text-unidecode' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/text-unidecode/
         package_name: text-unidecode
