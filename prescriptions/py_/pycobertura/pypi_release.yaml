@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: PycoberturaPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: pycobertura
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'pycobertura' has no recent release, last release dates back to 2021-09-23 17:51:58.122434
+        link: https://pypi.org/project/pycobertura/#history
+        package_name: pycobertura
