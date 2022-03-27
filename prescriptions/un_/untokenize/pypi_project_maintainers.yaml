@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project untokenize has low number of maintainers on PyPI (less than 3)
+        message: Project 'untokenize' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/untokenize/
         package_name: untokenize
