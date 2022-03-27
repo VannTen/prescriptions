@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project viivakoodi has low number of maintainers on PyPI (less than 3)
+        message: Project 'viivakoodi' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/viivakoodi/
         package_name: viivakoodi
