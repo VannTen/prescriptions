@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project xdg has low number of maintainers on PyPI (less than 3)
+        message: Project 'xdg' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/xdg/
         package_name: xdg
