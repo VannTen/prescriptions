@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project tox-gh-actions has low number of maintainers on PyPI (less than 3)
+        message: Project 'tox-gh-actions' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/tox-gh-actions/
         package_name: tox-gh-actions
