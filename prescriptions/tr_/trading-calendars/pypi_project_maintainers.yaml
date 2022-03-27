@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project trading-calendars has low number of maintainers on PyPI (less than 3)
+        message: Project 'trading-calendars' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/trading-calendars/
         package_name: trading-calendars
