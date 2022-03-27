@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project tensorflow-tensorboard has low number of maintainers on PyPI (less than 3)
+        message: Project 'tensorflow-tensorboard' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/tensorflow-tensorboard/
         package_name: tensorflow-tensorboard
