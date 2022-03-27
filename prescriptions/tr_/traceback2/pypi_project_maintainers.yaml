@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project traceback2 has low number of maintainers on PyPI (less than 3)
+        message: Project 'traceback2' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/traceback2/
         package_name: traceback2
