@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: SphinxcontribHttpdomainPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: sphinxcontrib-httpdomain
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'sphinxcontrib-httpdomain' has no recent release, last release dates back to 2021-09-23 13:46:48.275716
+        link: https://pypi.org/project/sphinxcontrib-httpdomain/#history
+        package_name: sphinxcontrib-httpdomain
