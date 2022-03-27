@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project win32-setctime has low number of maintainers on PyPI (less than 3)
+        message: Project 'win32-setctime' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/win32-setctime/
         package_name: win32-setctime
