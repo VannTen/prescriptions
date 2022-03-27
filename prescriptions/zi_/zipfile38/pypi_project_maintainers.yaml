@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project zipfile38 has low number of maintainers on PyPI (less than 3)
+        message: Project 'zipfile38' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/zipfile38/
         package_name: zipfile38
