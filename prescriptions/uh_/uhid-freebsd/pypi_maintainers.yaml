@@ -13,7 +13,7 @@ units:
       justification:
       - type: WARNING
         message: >-
-          Project uhid-freebsd is maintained by maintainers that maintain small
+          Project 'uhid-freebsd' is maintained by maintainers that maintain small
           number of projects on PyPI (less than 3)
         link: https://pypi.org/project/uhid-freebsd/
         package_name: uhid-freebsd
