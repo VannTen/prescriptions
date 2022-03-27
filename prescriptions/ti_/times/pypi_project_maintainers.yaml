@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project times has low number of maintainers on PyPI (less than 3)
+        message: Project 'times' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/times/
         package_name: times
