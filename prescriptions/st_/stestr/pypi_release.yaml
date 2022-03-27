@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: StestrPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: stestr
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'stestr' has no recent release, last release dates back to 2021-09-21 22:04:57.210703
+        link: https://pypi.org/project/stestr/#history
+        package_name: stestr
