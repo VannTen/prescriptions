@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project sword has low number of maintainers on PyPI (less than 3)
+        message: Project 'sword' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/sword/
         package_name: sword
