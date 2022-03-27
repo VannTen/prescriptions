@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project zbase32 has low number of maintainers on PyPI (less than 3)
+        message: Project 'zbase32' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/zbase32/
         package_name: zbase32
