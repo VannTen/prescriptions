@@ -13,7 +13,7 @@ units:
       justification:
       - type: WARNING
         message: >-
-          Project word2number is maintained by maintainers that maintain small
+          Project 'word2number' is maintained by maintainers that maintain small
           number of projects on PyPI (less than 3)
         link: https://pypi.org/project/word2number/
         package_name: word2number
