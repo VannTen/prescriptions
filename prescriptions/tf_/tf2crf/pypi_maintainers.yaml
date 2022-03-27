@@ -13,7 +13,7 @@ units:
       justification:
       - type: WARNING
         message: >-
-          Project tf2crf is maintained by maintainers that maintain small
+          Project 'tf2crf' is maintained by maintainers that maintain small
           number of projects on PyPI (less than 3)
         link: https://pypi.org/project/tf2crf/
         package_name: tf2crf
