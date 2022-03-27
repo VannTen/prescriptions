@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project us has low number of maintainers on PyPI (less than 3)
+        message: Project 'us' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/us/
         package_name: us
