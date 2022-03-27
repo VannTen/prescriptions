@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project win-unicode-console has low number of maintainers on PyPI (less than 3)
+        message: Project 'win-unicode-console' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/win-unicode-console/
         package_name: win-unicode-console
