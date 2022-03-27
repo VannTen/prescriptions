@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: SseclientPyPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: sseclient-py
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'sseclient-py' has no recent release, last release dates back to 2021-09-20 19:56:25.668988
+        link: https://pypi.org/project/sseclient-py/#history
+        package_name: sseclient-py
