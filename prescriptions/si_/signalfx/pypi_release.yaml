@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: SignalfxPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: signalfx
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'signalfx' has no recent release, last release dates back to 2021-09-20 12:30:39.554783
+        link: https://pypi.org/project/signalfx/#history
+        package_name: signalfx
