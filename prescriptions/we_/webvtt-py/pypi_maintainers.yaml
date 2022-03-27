@@ -13,7 +13,7 @@ units:
       justification:
       - type: WARNING
         message: >-
-          Project webvtt-py is maintained by maintainers that maintain small
+          Project 'webvtt-py' is maintained by maintainers that maintain small
           number of projects on PyPI (less than 3)
         link: https://pypi.org/project/webvtt-py/
         package_name: webvtt-py
