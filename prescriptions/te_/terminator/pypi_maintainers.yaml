@@ -13,7 +13,7 @@ units:
       justification:
       - type: WARNING
         message: >-
-          Project terminator is maintained by maintainers that maintain small
+          Project 'terminator' is maintained by maintainers that maintain small
           number of projects on PyPI (less than 3)
         link: https://pypi.org/project/terminator/
         package_name: terminator
