@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project timm has low number of maintainers on PyPI (less than 3)
+        message: Project 'timm' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/timm/
         package_name: timm
