@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project webtest-aiohttp has low number of maintainers on PyPI (less than 3)
+        message: Project 'webtest-aiohttp' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/webtest-aiohttp/
         package_name: webtest-aiohttp
