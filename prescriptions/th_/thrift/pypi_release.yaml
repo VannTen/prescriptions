@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: ThriftPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: thrift
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'thrift' has no recent release, last release dates back to 2021-09-25 20:23:08.977051
+        link: https://pypi.org/project/thrift/#history
+        package_name: thrift
