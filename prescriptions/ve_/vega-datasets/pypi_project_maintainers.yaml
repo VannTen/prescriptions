@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project vega-datasets has low number of maintainers on PyPI (less than 3)
+        message: Project 'vega-datasets' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/vega-datasets/
         package_name: vega-datasets
