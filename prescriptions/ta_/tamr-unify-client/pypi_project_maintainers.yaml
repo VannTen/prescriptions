@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project tamr-unify-client has low number of maintainers on PyPI (less than 3)
+        message: Project 'tamr-unify-client' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/tamr-unify-client/
         package_name: tamr-unify-client
