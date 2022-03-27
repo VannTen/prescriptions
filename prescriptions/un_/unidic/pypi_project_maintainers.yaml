@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project unidic has low number of maintainers on PyPI (less than 3)
+        message: Project 'unidic' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/unidic/
         package_name: unidic
