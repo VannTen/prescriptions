@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: SuodPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: suod
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'suod' has no recent release, last release dates back to 2021-10-01 18:05:35.958313
+        link: https://pypi.org/project/suod/#history
+        package_name: suod
