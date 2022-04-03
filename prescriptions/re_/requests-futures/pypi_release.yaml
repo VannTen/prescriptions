@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: RequestsFuturesPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: requests-futures
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'requests-futures' has no recent release, last release dates back to 2021-09-29 00:23:32.148050
+        link: https://pypi.org/project/requests-futures/#history
+        package_name: requests-futures
