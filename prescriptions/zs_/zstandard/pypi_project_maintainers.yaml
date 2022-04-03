@@ -12,6 +12,6 @@ units:
     run:
       justification:
       - type: WARNING
-        message: Project zstandard has low number of maintainers on PyPI (less than 3)
+        message: Project 'zstandard' has low number of maintainers on PyPI (less than 3)
         link: https://pypi.org/project/zstandard/
         package_name: zstandard
