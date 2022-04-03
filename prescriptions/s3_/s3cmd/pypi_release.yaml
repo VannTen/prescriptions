@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: S3cmdPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: s3cmd
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 's3cmd' has no recent release, last release dates back to 2021-09-27 02:19:54.708846
+        link: https://pypi.org/project/s3cmd/#history
+        package_name: s3cmd
