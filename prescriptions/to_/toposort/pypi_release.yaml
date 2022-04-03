@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: ToposortPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: toposort
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'toposort' has no recent release, last release dates back to 2021-09-28 17:03:31.644880
+        link: https://pypi.org/project/toposort/#history
+        package_name: toposort
