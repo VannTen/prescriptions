@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: PyserialAsyncioPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: pyserial-asyncio
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'pyserial-asyncio' has no recent release, last release dates back to 2021-09-30 22:29:02.174582
+        link: https://pypi.org/project/pyserial-asyncio/#history
+        package_name: pyserial-asyncio
