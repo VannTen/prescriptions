@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: RebasehelperPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: rebasehelper
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'rebasehelper' has no recent release, last release dates back to 2021-09-27 09:14:28.322681
+        link: https://pypi.org/project/rebasehelper/#history
+        package_name: rebasehelper
