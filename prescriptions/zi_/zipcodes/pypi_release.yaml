@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: ZipcodesPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: zipcodes
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'zipcodes' has no recent release, last release dates back to 2021-10-03 07:32:45.695307
+        link: https://pypi.org/project/zipcodes/#history
+        package_name: zipcodes
