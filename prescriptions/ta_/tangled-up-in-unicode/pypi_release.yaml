@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: TangledUpInUnicodePyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: tangled-up-in-unicode
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'tangled-up-in-unicode' has no recent release, last release dates back to 2021-09-27 22:01:35.847753
+        link: https://pypi.org/project/tangled-up-in-unicode/#history
+        package_name: tangled-up-in-unicode
