@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: PythonStdnumPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: python-stdnum
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'python-stdnum' has no recent release, last release dates back to 2021-10-03 15:22:18.941566
+        link: https://pypi.org/project/python-stdnum/#history
+        package_name: python-stdnum
