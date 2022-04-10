@@ -108,6 +108,24 @@ units:
           '0.10.3' can have up to 23.12MiB
         link: https://pypi.org/project/qiskit-aer/0.10.3/#files
         package_name: qiskit-aer
+  - name: QiskitAer0x10x4PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: qiskit-aer
+          version: ==0.10.4
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'qiskit-aer' in version
+          '0.10.4' can have up to 23.12MiB
+        link: https://pypi.org/project/qiskit-aer/0.10.4/#files
+        package_name: qiskit-aer
   - name: QiskitAer0x2x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
