@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: RenoPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: reno
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'reno' has no recent release, last release dates back to 2021-10-07 10:28:46.755439
+        link: https://pypi.org/project/reno/#history
+        package_name: reno
