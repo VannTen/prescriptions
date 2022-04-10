@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: UtidylibPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: utidylib
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'utidylib' has no recent release, last release dates back to 2021-10-06 11:00:29.975993
+        link: https://pypi.org/project/utidylib/#history
+        package_name: utidylib
