@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: WxnatpyPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: wxnatpy
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'wxnatpy' has no recent release, last release dates back to 2021-10-07 10:43:28.710801
+        link: https://pypi.org/project/wxnatpy/#history
+        package_name: wxnatpy
