@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: PykkaPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: pykka
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'pykka' has no recent release, last release dates back to 2021-10-08 11:28:42.672888
+        link: https://pypi.org/project/pykka/#history
+        package_name: pykka
