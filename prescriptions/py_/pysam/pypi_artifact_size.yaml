@@ -342,3 +342,21 @@ units:
           '0.18.0' can have up to 15.44MiB
         link: https://pypi.org/project/pysam/0.18.0/#files
         package_name: pysam
+  - name: Pysam0x19x0PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: pysam
+          version: ==0.19.0
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'pysam' in version
+          '0.19.0' can have up to 16.23MiB
+        link: https://pypi.org/project/pysam/0.19.0/#files
+        package_name: pysam
