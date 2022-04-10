@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: PydepsPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: pydeps
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'pydeps' has no recent release, last release dates back to 2021-10-06 14:50:07.609809
+        link: https://pypi.org/project/pydeps/#history
+        package_name: pydeps
