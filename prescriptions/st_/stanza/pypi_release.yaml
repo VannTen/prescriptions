@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: StanzaPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: stanza
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'stanza' has no recent release, last release dates back to 2021-10-05 06:37:59.156326
+        link: https://pypi.org/project/stanza/#history
+        package_name: stanza
