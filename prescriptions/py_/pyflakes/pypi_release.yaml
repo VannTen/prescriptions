@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: PyflakesPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: pyflakes
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'pyflakes' has no recent release, last release dates back to 2021-10-06 20:39:50.936131
+        link: https://pypi.org/project/pyflakes/#history
+        package_name: pyflakes
