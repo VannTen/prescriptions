@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: StreamzPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: streamz
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'streamz' has no recent release, last release dates back to 2021-10-04 14:47:41.156983
+        link: https://pypi.org/project/streamz/#history
+        package_name: streamz
