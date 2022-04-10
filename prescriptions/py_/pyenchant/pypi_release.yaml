@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: PyenchantPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: pyenchant
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'pyenchant' has no recent release, last release dates back to 2021-10-05 17:25:25.553412
+        link: https://pypi.org/project/pyenchant/#history
+        package_name: pyenchant
