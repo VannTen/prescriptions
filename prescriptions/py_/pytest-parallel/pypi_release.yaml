@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: PytestParallelPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: pytest-parallel
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'pytest-parallel' has no recent release, last release dates back to 2021-10-10 15:39:20.209315
+        link: https://pypi.org/project/pytest-parallel/#history
+        package_name: pytest-parallel
