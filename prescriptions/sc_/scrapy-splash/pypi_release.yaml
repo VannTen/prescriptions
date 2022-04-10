@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: ScrapySplashPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: scrapy-splash
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'scrapy-splash' has no recent release, last release dates back to 2021-10-05 10:09:48.762662
+        link: https://pypi.org/project/scrapy-splash/#history
+        package_name: scrapy-splash
