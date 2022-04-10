@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: UnidicPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: unidic
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'unidic' has no recent release, last release dates back to 2021-10-10 08:56:44.301942
+        link: https://pypi.org/project/unidic/#history
+        package_name: unidic
