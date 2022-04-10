@@ -1,0 +1,16 @@
+units:
+  wraps:
+  - name: Pypdf2GitHubURLWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: pypdf2
+    run:
+      justification:
+      - type: INFO
+        message: Package 'pypdf2' is hosted on GitHub
+        link: https://github.com/py-pdf/PyPDF2
+        package_name: pypdf2
