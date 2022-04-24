@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: SphinxemojiPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: sphinxemoji
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'sphinxemoji' has no recent release, last release dates back to 2021-10-06 11:55:37.672233
+        link: https://pypi.org/project/sphinxemoji/#history
+        package_name: sphinxemoji
