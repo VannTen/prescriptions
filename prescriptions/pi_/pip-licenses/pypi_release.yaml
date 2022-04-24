@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: PipLicensesPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: pip-licenses
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'pip-licenses' has no recent release, last release dates back to 2021-10-12 10:02:55.572881
+        link: https://pypi.org/project/pip-licenses/#history
+        package_name: pip-licenses
