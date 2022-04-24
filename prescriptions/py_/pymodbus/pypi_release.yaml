@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: PymodbusPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: pymodbus
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'pymodbus' has no recent release, last release dates back to 2021-10-17 07:17:24.752866
+        link: https://pypi.org/project/pymodbus/#history
+        package_name: pymodbus
