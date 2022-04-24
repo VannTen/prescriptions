@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: PycaresPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: pycares
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'pycares' has no recent release, last release dates back to 2021-10-18 15:18:13.312103
+        link: https://pypi.org/project/pycares/#history
+        package_name: pycares
