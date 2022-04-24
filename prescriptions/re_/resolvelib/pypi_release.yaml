@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: ResolvelibPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: resolvelib
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'resolvelib' has no recent release, last release dates back to 2021-10-11 21:08:11.457075
+        link: https://pypi.org/project/resolvelib/#history
+        package_name: resolvelib
