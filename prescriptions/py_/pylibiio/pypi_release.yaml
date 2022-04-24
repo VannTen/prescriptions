@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: PylibiioPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: pylibiio
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'pylibiio' has no recent release, last release dates back to 2021-09-09 20:32:54.718724
+        link: https://pypi.org/project/pylibiio/#history
+        package_name: pylibiio
