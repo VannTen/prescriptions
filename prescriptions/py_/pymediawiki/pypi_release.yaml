@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: PymediawikiPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: pymediawiki
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'pymediawiki' has no recent release, last release dates back to 2021-10-19 03:47:37.613149
+        link: https://pypi.org/project/pymediawiki/#history
+        package_name: pymediawiki
