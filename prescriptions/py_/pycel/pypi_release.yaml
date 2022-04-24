@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: PycelPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: pycel
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'pycel' has no recent release, last release dates back to 2021-10-13 18:37:09.612299
+        link: https://pypi.org/project/pycel/#history
+        package_name: pycel
