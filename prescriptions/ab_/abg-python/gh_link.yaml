@@ -1,0 +1,16 @@
+units:
+  wraps:
+  - name: AbgPythonGitHubURLWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: abg-python
+    run:
+      justification:
+      - type: INFO
+        message: Package 'abg-python' is hosted on GitHub
+        link: https://github.com/agurvich/abg_python
+        package_name: abg-python
