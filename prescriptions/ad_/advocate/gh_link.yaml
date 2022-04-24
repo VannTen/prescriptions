@@ -1,0 +1,16 @@
+units:
+  wraps:
+  - name: AdvocateGitHubURLWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: advocate
+    run:
+      justification:
+      - type: INFO
+        message: Package 'advocate' is hosted on GitHub
+        link: https://github.com/JordanMilne/Advocate
+        package_name: advocate
