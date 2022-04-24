@@ -12,5 +12,5 @@ units:
       justification:
       - type: INFO
         message: Package 'grpc-google-iam-v1' is hosted on GitHub
-        link: https://github.com/googleapis/googleapis
+        link: https://github.com/googleapis/python-grpc-google-iam-v1
         package_name: grpc-google-iam-v1
