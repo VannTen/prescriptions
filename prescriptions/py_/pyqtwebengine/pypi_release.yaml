@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: PyqtwebenginePyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: pyqtwebengine
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'pyqtwebengine' has no recent release, last release dates back to 2021-10-18 09:14:42.929051
+        link: https://pypi.org/project/pyqtwebengine/#history
+        package_name: pyqtwebengine
