@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: SimplelinePyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: simpleline
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'simpleline' has no recent release, last release dates back to 2021-10-11 09:38:50.572294
+        link: https://pypi.org/project/simpleline/#history
+        package_name: simpleline
