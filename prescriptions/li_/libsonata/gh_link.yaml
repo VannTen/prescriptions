@@ -1,0 +1,16 @@
+units:
+  wraps:
+  - name: LibsonataGitHubURLWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: libsonata
+    run:
+      justification:
+      - type: INFO
+        message: Package 'libsonata' is hosted on GitHub
+        link: https://github.com/BlueBrain/libsonata
+        package_name: libsonata
