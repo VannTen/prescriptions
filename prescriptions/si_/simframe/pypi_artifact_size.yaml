@@ -1,0 +1,434 @@
+units:
+  wraps:
+  - name: Simframe0x3x0PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: simframe
+          version: ==0.3.0
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'simframe' in version
+          '0.3.0' can have up to 3.45MiB
+        link: https://pypi.org/project/simframe/0.3.0/#files
+        package_name: simframe
+  - name: Simframe0x4x0PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: simframe
+          version: ==0.4.0
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'simframe' in version
+          '0.4.0' can have up to 3.46MiB
+        link: https://pypi.org/project/simframe/0.4.0/#files
+        package_name: simframe
+  - name: Simframe0x4x1PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: simframe
+          version: ==0.4.1
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'simframe' in version
+          '0.4.1' can have up to 3.46MiB
+        link: https://pypi.org/project/simframe/0.4.1/#files
+        package_name: simframe
+  - name: Simframe0x4x10PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: simframe
+          version: ==0.4.10
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'simframe' in version
+          '0.4.10' can have up to 4.96MiB
+        link: https://pypi.org/project/simframe/0.4.10/#files
+        package_name: simframe
+  - name: Simframe0x4x11PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: simframe
+          version: ==0.4.11
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'simframe' in version
+          '0.4.11' can have up to 4.96MiB
+        link: https://pypi.org/project/simframe/0.4.11/#files
+        package_name: simframe
+  - name: Simframe0x4x12PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: simframe
+          version: ==0.4.12
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'simframe' in version
+          '0.4.12' can have up to 4.96MiB
+        link: https://pypi.org/project/simframe/0.4.12/#files
+        package_name: simframe
+  - name: Simframe0x4x13PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: simframe
+          version: ==0.4.13
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'simframe' in version
+          '0.4.13' can have up to 4.96MiB
+        link: https://pypi.org/project/simframe/0.4.13/#files
+        package_name: simframe
+  - name: Simframe0x4x14PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: simframe
+          version: ==0.4.14
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'simframe' in version
+          '0.4.14' can have up to 4.96MiB
+        link: https://pypi.org/project/simframe/0.4.14/#files
+        package_name: simframe
+  - name: Simframe0x4x15PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: simframe
+          version: ==0.4.15
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'simframe' in version
+          '0.4.15' can have up to 4.96MiB
+        link: https://pypi.org/project/simframe/0.4.15/#files
+        package_name: simframe
+  - name: Simframe0x4x16PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: simframe
+          version: ==0.4.16
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'simframe' in version
+          '0.4.16' can have up to 4.96MiB
+        link: https://pypi.org/project/simframe/0.4.16/#files
+        package_name: simframe
+  - name: Simframe0x4x17PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: simframe
+          version: ==0.4.17
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'simframe' in version
+          '0.4.17' can have up to 4.96MiB
+        link: https://pypi.org/project/simframe/0.4.17/#files
+        package_name: simframe
+  - name: Simframe0x4x18PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: simframe
+          version: ==0.4.18
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'simframe' in version
+          '0.4.18' can have up to 4.96MiB
+        link: https://pypi.org/project/simframe/0.4.18/#files
+        package_name: simframe
+  - name: Simframe0x4x19PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: simframe
+          version: ==0.4.19
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'simframe' in version
+          '0.4.19' can have up to 4.93MiB
+        link: https://pypi.org/project/simframe/0.4.19/#files
+        package_name: simframe
+  - name: Simframe0x4x2PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: simframe
+          version: ==0.4.2
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'simframe' in version
+          '0.4.2' can have up to 3.46MiB
+        link: https://pypi.org/project/simframe/0.4.2/#files
+        package_name: simframe
+  - name: Simframe0x4x3PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: simframe
+          version: ==0.4.3
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'simframe' in version
+          '0.4.3' can have up to 4.77MiB
+        link: https://pypi.org/project/simframe/0.4.3/#files
+        package_name: simframe
+  - name: Simframe0x4x4PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: simframe
+          version: ==0.4.4
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'simframe' in version
+          '0.4.4' can have up to 4.95MiB
+        link: https://pypi.org/project/simframe/0.4.4/#files
+        package_name: simframe
+  - name: Simframe0x4x5PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: simframe
+          version: ==0.4.5
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'simframe' in version
+          '0.4.5' can have up to 4.95MiB
+        link: https://pypi.org/project/simframe/0.4.5/#files
+        package_name: simframe
+  - name: Simframe0x4x6PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: simframe
+          version: ==0.4.6
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'simframe' in version
+          '0.4.6' can have up to 4.95MiB
+        link: https://pypi.org/project/simframe/0.4.6/#files
+        package_name: simframe
+  - name: Simframe0x4x7PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: simframe
+          version: ==0.4.7
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'simframe' in version
+          '0.4.7' can have up to 4.95MiB
+        link: https://pypi.org/project/simframe/0.4.7/#files
+        package_name: simframe
+  - name: Simframe0x4x8PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: simframe
+          version: ==0.4.8
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'simframe' in version
+          '0.4.8' can have up to 4.96MiB
+        link: https://pypi.org/project/simframe/0.4.8/#files
+        package_name: simframe
+  - name: Simframe0x4x9PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: simframe
+          version: ==0.4.9
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'simframe' in version
+          '0.4.9' can have up to 4.96MiB
+        link: https://pypi.org/project/simframe/0.4.9/#files
+        package_name: simframe
+  - name: Simframe0x5x2PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: simframe
+          version: ==0.5.2
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'simframe' in version
+          '0.5.2' can have up to 5.01MiB
+        link: https://pypi.org/project/simframe/0.5.2/#files
+        package_name: simframe
+  - name: Simframe1x0x0xpost2PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: simframe
+          version: ==1.0.0.post2
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'simframe' in version
+          '1.0.0.post2' can have up to 5.13MiB
+        link: https://pypi.org/project/simframe/1.0.0.post2/#files
+        package_name: simframe
+  - name: Simframe1x0x2PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: simframe
+          version: ==1.0.2
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'simframe' in version
+          '1.0.2' can have up to 4.13MiB
+        link: https://pypi.org/project/simframe/1.0.2/#files
+        package_name: simframe
