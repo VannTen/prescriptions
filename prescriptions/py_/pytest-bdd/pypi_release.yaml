@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: PytestBddPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: pytest-bdd
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'pytest-bdd' has no recent release, last release dates back to 2021-10-25 16:25:51.055778
+        link: https://pypi.org/project/pytest-bdd/#history
+        package_name: pytest-bdd
