@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: Sqlcipher3BinaryPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: sqlcipher3-binary
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'sqlcipher3-binary' has no recent release, last release dates back to 2021-10-27 13:39:30.267780
+        link: https://pypi.org/project/sqlcipher3-binary/#history
+        package_name: sqlcipher3-binary
