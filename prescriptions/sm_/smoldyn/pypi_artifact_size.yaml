@@ -1,0 +1,1964 @@
+units:
+  wraps:
+  - name: Smoldyn2x64x3PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.64.3
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.64.3' can have up to 3.13MiB
+        link: https://pypi.org/project/smoldyn/2.64.3/#files
+        package_name: smoldyn
+  - name: Smoldyn2x64xdev20210302PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.64.dev20210302
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.64.dev20210302' can have up to 3.12MiB
+        link: https://pypi.org/project/smoldyn/2.64.dev20210302/#files
+        package_name: smoldyn
+  - name: Smoldyn2x64xdev20210307PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.64.dev20210307
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.64.dev20210307' can have up to 3.12MiB
+        link: https://pypi.org/project/smoldyn/2.64.dev20210307/#files
+        package_name: smoldyn
+  - name: Smoldyn2x64xdev20210310PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.64.dev20210310
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.64.dev20210310' can have up to 3.12MiB
+        link: https://pypi.org/project/smoldyn/2.64.dev20210310/#files
+        package_name: smoldyn
+  - name: Smoldyn2x64xdev20210318PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.64.dev20210318
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.64.dev20210318' can have up to 3.12MiB
+        link: https://pypi.org/project/smoldyn/2.64.dev20210318/#files
+        package_name: smoldyn
+  - name: Smoldyn2x64xdev20210319PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.64.dev20210319
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.64.dev20210319' can have up to 3.12MiB
+        link: https://pypi.org/project/smoldyn/2.64.dev20210319/#files
+        package_name: smoldyn
+  - name: Smoldyn2x64xdev20210320PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.64.dev20210320
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.64.dev20210320' can have up to 3.12MiB
+        link: https://pypi.org/project/smoldyn/2.64.dev20210320/#files
+        package_name: smoldyn
+  - name: Smoldyn2x64xdev20210325PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.64.dev20210325
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.64.dev20210325' can have up to 3.12MiB
+        link: https://pypi.org/project/smoldyn/2.64.dev20210325/#files
+        package_name: smoldyn
+  - name: Smoldyn2x64xdev20210326PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.64.dev20210326
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.64.dev20210326' can have up to 3.12MiB
+        link: https://pypi.org/project/smoldyn/2.64.dev20210326/#files
+        package_name: smoldyn
+  - name: Smoldyn2x64xdev20210401PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.64.dev20210401
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.64.dev20210401' can have up to 3.12MiB
+        link: https://pypi.org/project/smoldyn/2.64.dev20210401/#files
+        package_name: smoldyn
+  - name: Smoldyn2x64xdev20210402PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.64.dev20210402
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.64.dev20210402' can have up to 3.12MiB
+        link: https://pypi.org/project/smoldyn/2.64.dev20210402/#files
+        package_name: smoldyn
+  - name: Smoldyn2x64xdev20210403PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.64.dev20210403
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.64.dev20210403' can have up to 3.12MiB
+        link: https://pypi.org/project/smoldyn/2.64.dev20210403/#files
+        package_name: smoldyn
+  - name: Smoldyn2x65PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.65
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.65' can have up to 3.18MiB
+        link: https://pypi.org/project/smoldyn/2.65/#files
+        package_name: smoldyn
+  - name: Smoldyn2x65xdev20210403PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.65.dev20210403
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.65.dev20210403' can have up to 3.12MiB
+        link: https://pypi.org/project/smoldyn/2.65.dev20210403/#files
+        package_name: smoldyn
+  - name: Smoldyn2x65xdev20210405PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.65.dev20210405
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.65.dev20210405' can have up to 3.13MiB
+        link: https://pypi.org/project/smoldyn/2.65.dev20210405/#files
+        package_name: smoldyn
+  - name: Smoldyn2x65xdev20210407PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.65.dev20210407
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.65.dev20210407' can have up to 3.13MiB
+        link: https://pypi.org/project/smoldyn/2.65.dev20210407/#files
+        package_name: smoldyn
+  - name: Smoldyn2x65xdev20210408PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.65.dev20210408
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.65.dev20210408' can have up to 3.15MiB
+        link: https://pypi.org/project/smoldyn/2.65.dev20210408/#files
+        package_name: smoldyn
+  - name: Smoldyn2x65xdev20210409PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.65.dev20210409
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.65.dev20210409' can have up to 3.15MiB
+        link: https://pypi.org/project/smoldyn/2.65.dev20210409/#files
+        package_name: smoldyn
+  - name: Smoldyn2x65xdev20210412PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.65.dev20210412
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.65.dev20210412' can have up to 3.15MiB
+        link: https://pypi.org/project/smoldyn/2.65.dev20210412/#files
+        package_name: smoldyn
+  - name: Smoldyn2x65xdev20210420PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.65.dev20210420
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.65.dev20210420' can have up to 3.15MiB
+        link: https://pypi.org/project/smoldyn/2.65.dev20210420/#files
+        package_name: smoldyn
+  - name: Smoldyn2x65xdev20210421PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.65.dev20210421
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.65.dev20210421' can have up to 3.15MiB
+        link: https://pypi.org/project/smoldyn/2.65.dev20210421/#files
+        package_name: smoldyn
+  - name: Smoldyn2x65xdev20210422PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.65.dev20210422
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.65.dev20210422' can have up to 3.15MiB
+        link: https://pypi.org/project/smoldyn/2.65.dev20210422/#files
+        package_name: smoldyn
+  - name: Smoldyn2x65xdev20210424PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.65.dev20210424
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.65.dev20210424' can have up to 3.15MiB
+        link: https://pypi.org/project/smoldyn/2.65.dev20210424/#files
+        package_name: smoldyn
+  - name: Smoldyn2x65xdev20210425PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.65.dev20210425
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.65.dev20210425' can have up to 3.15MiB
+        link: https://pypi.org/project/smoldyn/2.65.dev20210425/#files
+        package_name: smoldyn
+  - name: Smoldyn2x65xdev20210428PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.65.dev20210428
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.65.dev20210428' can have up to 3.15MiB
+        link: https://pypi.org/project/smoldyn/2.65.dev20210428/#files
+        package_name: smoldyn
+  - name: Smoldyn2x65xdev20210430PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.65.dev20210430
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.65.dev20210430' can have up to 3.15MiB
+        link: https://pypi.org/project/smoldyn/2.65.dev20210430/#files
+        package_name: smoldyn
+  - name: Smoldyn2x65xdev20210511PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.65.dev20210511
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.65.dev20210511' can have up to 3.15MiB
+        link: https://pypi.org/project/smoldyn/2.65.dev20210511/#files
+        package_name: smoldyn
+  - name: Smoldyn2x65xdev20210514PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.65.dev20210514
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.65.dev20210514' can have up to 3.16MiB
+        link: https://pypi.org/project/smoldyn/2.65.dev20210514/#files
+        package_name: smoldyn
+  - name: Smoldyn2x65xdev20210518PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.65.dev20210518
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.65.dev20210518' can have up to 3.17MiB
+        link: https://pypi.org/project/smoldyn/2.65.dev20210518/#files
+        package_name: smoldyn
+  - name: Smoldyn2x65xdev20210519PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.65.dev20210519
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.65.dev20210519' can have up to 3.17MiB
+        link: https://pypi.org/project/smoldyn/2.65.dev20210519/#files
+        package_name: smoldyn
+  - name: Smoldyn2x65xdev20210520PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.65.dev20210520
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.65.dev20210520' can have up to 3.18MiB
+        link: https://pypi.org/project/smoldyn/2.65.dev20210520/#files
+        package_name: smoldyn
+  - name: Smoldyn2x65xdev20210521PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.65.dev20210521
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.65.dev20210521' can have up to 3.18MiB
+        link: https://pypi.org/project/smoldyn/2.65.dev20210521/#files
+        package_name: smoldyn
+  - name: Smoldyn2x65xdev20210526PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.65.dev20210526
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.65.dev20210526' can have up to 3.18MiB
+        link: https://pypi.org/project/smoldyn/2.65.dev20210526/#files
+        package_name: smoldyn
+  - name: Smoldyn2x65xdev20210527PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.65.dev20210527
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.65.dev20210527' can have up to 3.18MiB
+        link: https://pypi.org/project/smoldyn/2.65.dev20210527/#files
+        package_name: smoldyn
+  - name: Smoldyn2x65xdev20210528PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.65.dev20210528
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.65.dev20210528' can have up to 3.15MiB
+        link: https://pypi.org/project/smoldyn/2.65.dev20210528/#files
+        package_name: smoldyn
+  - name: Smoldyn2x66PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.66
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.66' can have up to 3.19MiB
+        link: https://pypi.org/project/smoldyn/2.66/#files
+        package_name: smoldyn
+  - name: Smoldyn2x66x1PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.66.1
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.66.1' can have up to 3.97MiB
+        link: https://pypi.org/project/smoldyn/2.66.1/#files
+        package_name: smoldyn
+  - name: Smoldyn2x66xdev20210528PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.66.dev20210528
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.66.dev20210528' can have up to 3.15MiB
+        link: https://pypi.org/project/smoldyn/2.66.dev20210528/#files
+        package_name: smoldyn
+  - name: Smoldyn2x66xdev20210529PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.66.dev20210529
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.66.dev20210529' can have up to 3.15MiB
+        link: https://pypi.org/project/smoldyn/2.66.dev20210529/#files
+        package_name: smoldyn
+  - name: Smoldyn2x66xdev20210601PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.66.dev20210601
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.66.dev20210601' can have up to 3.15MiB
+        link: https://pypi.org/project/smoldyn/2.66.dev20210601/#files
+        package_name: smoldyn
+  - name: Smoldyn2x66xdev20210602PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.66.dev20210602
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.66.dev20210602' can have up to 3.15MiB
+        link: https://pypi.org/project/smoldyn/2.66.dev20210602/#files
+        package_name: smoldyn
+  - name: Smoldyn2x66xdev20210603PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.66.dev20210603
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.66.dev20210603' can have up to 3.15MiB
+        link: https://pypi.org/project/smoldyn/2.66.dev20210603/#files
+        package_name: smoldyn
+  - name: Smoldyn2x66xdev20210605PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.66.dev20210605
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.66.dev20210605' can have up to 3.15MiB
+        link: https://pypi.org/project/smoldyn/2.66.dev20210605/#files
+        package_name: smoldyn
+  - name: Smoldyn2x66xdev20210609PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.66.dev20210609
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.66.dev20210609' can have up to 3.16MiB
+        link: https://pypi.org/project/smoldyn/2.66.dev20210609/#files
+        package_name: smoldyn
+  - name: Smoldyn2x66xdev20210610PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.66.dev20210610
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.66.dev20210610' can have up to 3.17MiB
+        link: https://pypi.org/project/smoldyn/2.66.dev20210610/#files
+        package_name: smoldyn
+  - name: Smoldyn2x66xdev20210615PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.66.dev20210615
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.66.dev20210615' can have up to 3.18MiB
+        link: https://pypi.org/project/smoldyn/2.66.dev20210615/#files
+        package_name: smoldyn
+  - name: Smoldyn2x66xdev20210617PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.66.dev20210617
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.66.dev20210617' can have up to 3.18MiB
+        link: https://pypi.org/project/smoldyn/2.66.dev20210617/#files
+        package_name: smoldyn
+  - name: Smoldyn2x66xdev20210618PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.66.dev20210618
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.66.dev20210618' can have up to 3.19MiB
+        link: https://pypi.org/project/smoldyn/2.66.dev20210618/#files
+        package_name: smoldyn
+  - name: Smoldyn2x67PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.67
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.67' can have up to 3.97MiB
+        link: https://pypi.org/project/smoldyn/2.67/#files
+        package_name: smoldyn
+  - name: Smoldyn2x67x1PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.67.1
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.67.1' can have up to 3.97MiB
+        link: https://pypi.org/project/smoldyn/2.67.1/#files
+        package_name: smoldyn
+  - name: Smoldyn2x67x2PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.67.2
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.67.2' can have up to 3.97MiB
+        link: https://pypi.org/project/smoldyn/2.67.2/#files
+        package_name: smoldyn
+  - name: Smoldyn2x67x3PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.67.3
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.67.3' can have up to 3.98MiB
+        link: https://pypi.org/project/smoldyn/2.67.3/#files
+        package_name: smoldyn
+  - name: Smoldyn2x67xdev20210619PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.67.dev20210619
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.67.dev20210619' can have up to 3.19MiB
+        link: https://pypi.org/project/smoldyn/2.67.dev20210619/#files
+        package_name: smoldyn
+  - name: Smoldyn2x67xdev20210621PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.67.dev20210621
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.67.dev20210621' can have up to 3.19MiB
+        link: https://pypi.org/project/smoldyn/2.67.dev20210621/#files
+        package_name: smoldyn
+  - name: Smoldyn2x67xdev20210622PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.67.dev20210622
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.67.dev20210622' can have up to 3.19MiB
+        link: https://pypi.org/project/smoldyn/2.67.dev20210622/#files
+        package_name: smoldyn
+  - name: Smoldyn2x67xdev20210720PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.67.dev20210720
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.67.dev20210720' can have up to 3.19MiB
+        link: https://pypi.org/project/smoldyn/2.67.dev20210720/#files
+        package_name: smoldyn
+  - name: Smoldyn2x67xdev20210723PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.67.dev20210723
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.67.dev20210723' can have up to 3.19MiB
+        link: https://pypi.org/project/smoldyn/2.67.dev20210723/#files
+        package_name: smoldyn
+  - name: Smoldyn2x67xdev20210727PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.67.dev20210727
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.67.dev20210727' can have up to 3.19MiB
+        link: https://pypi.org/project/smoldyn/2.67.dev20210727/#files
+        package_name: smoldyn
+  - name: Smoldyn2x67xdev20210812PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.67.dev20210812
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.67.dev20210812' can have up to 3.19MiB
+        link: https://pypi.org/project/smoldyn/2.67.dev20210812/#files
+        package_name: smoldyn
+  - name: Smoldyn2x67xdev20210818PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.67.dev20210818
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.67.dev20210818' can have up to 3.19MiB
+        link: https://pypi.org/project/smoldyn/2.67.dev20210818/#files
+        package_name: smoldyn
+  - name: Smoldyn2x67xdev20210819PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.67.dev20210819
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.67.dev20210819' can have up to 3.19MiB
+        link: https://pypi.org/project/smoldyn/2.67.dev20210819/#files
+        package_name: smoldyn
+  - name: Smoldyn2x67xdev20210901PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.67.dev20210901
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.67.dev20210901' can have up to 3.19MiB
+        link: https://pypi.org/project/smoldyn/2.67.dev20210901/#files
+        package_name: smoldyn
+  - name: Smoldyn2x67xdev20210923PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.67.dev20210923
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.67.dev20210923' can have up to 3.15MiB
+        link: https://pypi.org/project/smoldyn/2.67.dev20210923/#files
+        package_name: smoldyn
+  - name: Smoldyn2x67xdev202109232148PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.67.dev202109232148
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.67.dev202109232148' can have up to 3.15MiB
+        link: https://pypi.org/project/smoldyn/2.67.dev202109232148/#files
+        package_name: smoldyn
+  - name: Smoldyn2x67xdev202109232158PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.67.dev202109232158
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.67.dev202109232158' can have up to 3.15MiB
+        link: https://pypi.org/project/smoldyn/2.67.dev202109232158/#files
+        package_name: smoldyn
+  - name: Smoldyn2x67xdev202109232202PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.67.dev202109232202
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.67.dev202109232202' can have up to 3.15MiB
+        link: https://pypi.org/project/smoldyn/2.67.dev202109232202/#files
+        package_name: smoldyn
+  - name: Smoldyn2x67xdev202109270400PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.67.dev202109270400
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.67.dev202109270400' can have up to 3.15MiB
+        link: https://pypi.org/project/smoldyn/2.67.dev202109270400/#files
+        package_name: smoldyn
+  - name: Smoldyn2x67xdev202110211116PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.67.dev202110211116
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.67.dev202110211116' can have up to 3.14MiB
+        link: https://pypi.org/project/smoldyn/2.67.dev202110211116/#files
+        package_name: smoldyn
+  - name: Smoldyn2x67xdev202110211117PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.67.dev202110211117
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.67.dev202110211117' can have up to 3.93MiB
+        link: https://pypi.org/project/smoldyn/2.67.dev202110211117/#files
+        package_name: smoldyn
+  - name: Smoldyn2x67xdev202110211142PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.67.dev202110211142
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.67.dev202110211142' can have up to 3.18MiB
+        link: https://pypi.org/project/smoldyn/2.67.dev202110211142/#files
+        package_name: smoldyn
+  - name: Smoldyn2x67xdev202110211143PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.67.dev202110211143
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.67.dev202110211143' can have up to 3.97MiB
+        link: https://pypi.org/project/smoldyn/2.67.dev202110211143/#files
+        package_name: smoldyn
+  - name: Smoldyn2x67xdev202110211556PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.67.dev202110211556
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.67.dev202110211556' can have up to 3.18MiB
+        link: https://pypi.org/project/smoldyn/2.67.dev202110211556/#files
+        package_name: smoldyn
+  - name: Smoldyn2x67xdev202110211558PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.67.dev202110211558
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.67.dev202110211558' can have up to 3.97MiB
+        link: https://pypi.org/project/smoldyn/2.67.dev202110211558/#files
+        package_name: smoldyn
+  - name: Smoldyn2x67xdev202110232020PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.67.dev202110232020
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.67.dev202110232020' can have up to 3.18MiB
+        link: https://pypi.org/project/smoldyn/2.67.dev202110232020/#files
+        package_name: smoldyn
+  - name: Smoldyn2x67xdev202110232022PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.67.dev202110232022
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.67.dev202110232022' can have up to 3.97MiB
+        link: https://pypi.org/project/smoldyn/2.67.dev202110232022/#files
+        package_name: smoldyn
+  - name: Smoldyn2x67xdev202110232030PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.67.dev202110232030
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.67.dev202110232030' can have up to 3.18MiB
+        link: https://pypi.org/project/smoldyn/2.67.dev202110232030/#files
+        package_name: smoldyn
+  - name: Smoldyn2x67xdev202110232031PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.67.dev202110232031
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.67.dev202110232031' can have up to 3.97MiB
+        link: https://pypi.org/project/smoldyn/2.67.dev202110232031/#files
+        package_name: smoldyn
+  - name: Smoldyn2x67xdev202110280744PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.67.dev202110280744
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.67.dev202110280744' can have up to 3.18MiB
+        link: https://pypi.org/project/smoldyn/2.67.dev202110280744/#files
+        package_name: smoldyn
+  - name: Smoldyn2x67xdev202110280745PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.67.dev202110280745
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.67.dev202110280745' can have up to 3.97MiB
+        link: https://pypi.org/project/smoldyn/2.67.dev202110280745/#files
+        package_name: smoldyn
+  - name: Smoldyn2x67xdev202110290430PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.67.dev202110290430
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.67.dev202110290430' can have up to 3.18MiB
+        link: https://pypi.org/project/smoldyn/2.67.dev202110290430/#files
+        package_name: smoldyn
+  - name: Smoldyn2x67xdev202110290432PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.67.dev202110290432
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.67.dev202110290432' can have up to 3.97MiB
+        link: https://pypi.org/project/smoldyn/2.67.dev202110290432/#files
+        package_name: smoldyn
+  - name: Smoldyn2x68xdev202111021529PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.68.dev202111021529
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.68.dev202111021529' can have up to 3.18MiB
+        link: https://pypi.org/project/smoldyn/2.68.dev202111021529/#files
+        package_name: smoldyn
+  - name: Smoldyn2x68xdev202111021530PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.68.dev202111021530
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.68.dev202111021530' can have up to 3.97MiB
+        link: https://pypi.org/project/smoldyn/2.68.dev202111021530/#files
+        package_name: smoldyn
+  - name: Smoldyn2x68xdev202111101502PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.68.dev202111101502
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.68.dev202111101502' can have up to 3.18MiB
+        link: https://pypi.org/project/smoldyn/2.68.dev202111101502/#files
+        package_name: smoldyn
+  - name: Smoldyn2x68xdev202111101504PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.68.dev202111101504
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.68.dev202111101504' can have up to 3.97MiB
+        link: https://pypi.org/project/smoldyn/2.68.dev202111101504/#files
+        package_name: smoldyn
+  - name: Smoldyn2x68xdev202111101548PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.68.dev202111101548
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.68.dev202111101548' can have up to 3.18MiB
+        link: https://pypi.org/project/smoldyn/2.68.dev202111101548/#files
+        package_name: smoldyn
+  - name: Smoldyn2x68xdev202111101550PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.68.dev202111101550
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.68.dev202111101550' can have up to 3.97MiB
+        link: https://pypi.org/project/smoldyn/2.68.dev202111101550/#files
+        package_name: smoldyn
+  - name: Smoldyn2x68xdev202111110515PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.68.dev202111110515
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.68.dev202111110515' can have up to 3.18MiB
+        link: https://pypi.org/project/smoldyn/2.68.dev202111110515/#files
+        package_name: smoldyn
+  - name: Smoldyn2x68xdev202111110516PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.68.dev202111110516
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.68.dev202111110516' can have up to 3.97MiB
+        link: https://pypi.org/project/smoldyn/2.68.dev202111110516/#files
+        package_name: smoldyn
+  - name: Smoldyn2x68xdev202112142246PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.68.dev202112142246
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.68.dev202112142246' can have up to 3.18MiB
+        link: https://pypi.org/project/smoldyn/2.68.dev202112142246/#files
+        package_name: smoldyn
+  - name: Smoldyn2x68xdev202112142247PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.68.dev202112142247
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.68.dev202112142247' can have up to 3.97MiB
+        link: https://pypi.org/project/smoldyn/2.68.dev202112142247/#files
+        package_name: smoldyn
+  - name: Smoldyn2x68xdev202201110841PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.68.dev202201110841
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.68.dev202201110841' can have up to 3.18MiB
+        link: https://pypi.org/project/smoldyn/2.68.dev202201110841/#files
+        package_name: smoldyn
+  - name: Smoldyn2x68xdev202201110842PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.68.dev202201110842
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.68.dev202201110842' can have up to 3.97MiB
+        link: https://pypi.org/project/smoldyn/2.68.dev202201110842/#files
+        package_name: smoldyn
+  - name: Smoldyn2x68xdev202201110845PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.68.dev202201110845
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.68.dev202201110845' can have up to 3.18MiB
+        link: https://pypi.org/project/smoldyn/2.68.dev202201110845/#files
+        package_name: smoldyn
+  - name: Smoldyn2x68xdev202201110846PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.68.dev202201110846
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.68.dev202201110846' can have up to 3.97MiB
+        link: https://pypi.org/project/smoldyn/2.68.dev202201110846/#files
+        package_name: smoldyn
+  - name: Smoldyn2x68xdev202201120520PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.68.dev202201120520
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.68.dev202201120520' can have up to 3.18MiB
+        link: https://pypi.org/project/smoldyn/2.68.dev202201120520/#files
+        package_name: smoldyn
+  - name: Smoldyn2x68xdev202201120522PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.68.dev202201120522
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.68.dev202201120522' can have up to 3.97MiB
+        link: https://pypi.org/project/smoldyn/2.68.dev202201120522/#files
+        package_name: smoldyn
+  - name: Smoldyn2x68xdev202203161926PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.68.dev202203161926
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.68.dev202203161926' can have up to 3.18MiB
+        link: https://pypi.org/project/smoldyn/2.68.dev202203161926/#files
+        package_name: smoldyn
+  - name: Smoldyn2x68xdev202203161927PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.68.dev202203161927
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.68.dev202203161927' can have up to 3.98MiB
+        link: https://pypi.org/project/smoldyn/2.68.dev202203161927/#files
+        package_name: smoldyn
+  - name: Smoldyn2x68xdev202203161931PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.68.dev202203161931
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.68.dev202203161931' can have up to 3.18MiB
+        link: https://pypi.org/project/smoldyn/2.68.dev202203161931/#files
+        package_name: smoldyn
+  - name: Smoldyn2x68xdev202203161932PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.68.dev202203161932
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.68.dev202203161932' can have up to 3.98MiB
+        link: https://pypi.org/project/smoldyn/2.68.dev202203161932/#files
+        package_name: smoldyn
+  - name: Smoldyn2x68xdev202203162224PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.68.dev202203162224
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.68.dev202203162224' can have up to 3.18MiB
+        link: https://pypi.org/project/smoldyn/2.68.dev202203162224/#files
+        package_name: smoldyn
+  - name: Smoldyn2x68xdev202203162225PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.68.dev202203162225
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.68.dev202203162225' can have up to 3.98MiB
+        link: https://pypi.org/project/smoldyn/2.68.dev202203162225/#files
+        package_name: smoldyn
+  - name: Smoldyn2x68xdev202203170637PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.68.dev202203170637
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.68.dev202203170637' can have up to 3.19MiB
+        link: https://pypi.org/project/smoldyn/2.68.dev202203170637/#files
+        package_name: smoldyn
+  - name: Smoldyn2x68xdev202203170638PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.68.dev202203170638
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.68.dev202203170638' can have up to 3.98MiB
+        link: https://pypi.org/project/smoldyn/2.68.dev202203170638/#files
+        package_name: smoldyn
+  - name: Smoldyn2x68xdev202203191657PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.68.dev202203191657
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.68.dev202203191657' can have up to 3.19MiB
+        link: https://pypi.org/project/smoldyn/2.68.dev202203191657/#files
+        package_name: smoldyn
+  - name: Smoldyn2x68xdev202203191659PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.68.dev202203191659
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.68.dev202203191659' can have up to 3.98MiB
+        link: https://pypi.org/project/smoldyn/2.68.dev202203191659/#files
+        package_name: smoldyn
+  - name: Smoldyn2x68xdev202203191748PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.68.dev202203191748
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.68.dev202203191748' can have up to 3.19MiB
+        link: https://pypi.org/project/smoldyn/2.68.dev202203191748/#files
+        package_name: smoldyn
+  - name: Smoldyn2x68xdev202203191749PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: smoldyn
+          version: ==2.68.dev202203191749
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'smoldyn' in version
+          '2.68.dev202203191749' can have up to 3.98MiB
+        link: https://pypi.org/project/smoldyn/2.68.dev202203191749/#files
+        package_name: smoldyn
