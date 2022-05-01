@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: SkorchPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: skorch
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'skorch' has no recent release, last release dates back to 2021-10-31 15:48:53.575246
+        link: https://pypi.org/project/skorch/#history
+        package_name: skorch
