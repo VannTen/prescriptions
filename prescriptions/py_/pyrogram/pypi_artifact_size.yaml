@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: Pyrogram129PyPIArtifactSizeWrap
+  - name: Pyrogram2x0x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -8,13 +8,301 @@ units:
       state:
         resolved_dependencies:
         - name: pyrogram
-          version: ==1.2.9
+          version: ==2.0.0
           index_url: https://pypi.org/simple
     run:
       justification:
       - type: INFO
         message: >-
           Installed artifact size for package 'pyrogram' in version
-          '1.2.9' can have up to 2.71MiB
-        link: https://pypi.org/project/pyrogram/1.2.9/#files
+          '2.0.0' can have up to 3.04MiB
+        link: https://pypi.org/project/pyrogram/2.0.0/#files
+        package_name: pyrogram
+  - name: Pyrogram2x0x1PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: pyrogram
+          version: ==2.0.1
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'pyrogram' in version
+          '2.0.1' can have up to 3.04MiB
+        link: https://pypi.org/project/pyrogram/2.0.1/#files
+        package_name: pyrogram
+  - name: Pyrogram2x0x10PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: pyrogram
+          version: ==2.0.10
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'pyrogram' in version
+          '2.0.10' can have up to 3.04MiB
+        link: https://pypi.org/project/pyrogram/2.0.10/#files
+        package_name: pyrogram
+  - name: Pyrogram2x0x11PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: pyrogram
+          version: ==2.0.11
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'pyrogram' in version
+          '2.0.11' can have up to 3.04MiB
+        link: https://pypi.org/project/pyrogram/2.0.11/#files
+        package_name: pyrogram
+  - name: Pyrogram2x0x12PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: pyrogram
+          version: ==2.0.12
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'pyrogram' in version
+          '2.0.12' can have up to 3.04MiB
+        link: https://pypi.org/project/pyrogram/2.0.12/#files
+        package_name: pyrogram
+  - name: Pyrogram2x0x13PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: pyrogram
+          version: ==2.0.13
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'pyrogram' in version
+          '2.0.13' can have up to 3.04MiB
+        link: https://pypi.org/project/pyrogram/2.0.13/#files
+        package_name: pyrogram
+  - name: Pyrogram2x0x14PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: pyrogram
+          version: ==2.0.14
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'pyrogram' in version
+          '2.0.14' can have up to 3.04MiB
+        link: https://pypi.org/project/pyrogram/2.0.14/#files
+        package_name: pyrogram
+  - name: Pyrogram2x0x15PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: pyrogram
+          version: ==2.0.15
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'pyrogram' in version
+          '2.0.15' can have up to 3.04MiB
+        link: https://pypi.org/project/pyrogram/2.0.15/#files
+        package_name: pyrogram
+  - name: Pyrogram2x0x16PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: pyrogram
+          version: ==2.0.16
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'pyrogram' in version
+          '2.0.16' can have up to 3.04MiB
+        link: https://pypi.org/project/pyrogram/2.0.16/#files
+        package_name: pyrogram
+  - name: Pyrogram2x0x2PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: pyrogram
+          version: ==2.0.2
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'pyrogram' in version
+          '2.0.2' can have up to 3.04MiB
+        link: https://pypi.org/project/pyrogram/2.0.2/#files
+        package_name: pyrogram
+  - name: Pyrogram2x0x3PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: pyrogram
+          version: ==2.0.3
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'pyrogram' in version
+          '2.0.3' can have up to 3.04MiB
+        link: https://pypi.org/project/pyrogram/2.0.3/#files
+        package_name: pyrogram
+  - name: Pyrogram2x0x4PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: pyrogram
+          version: ==2.0.4
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'pyrogram' in version
+          '2.0.4' can have up to 3.04MiB
+        link: https://pypi.org/project/pyrogram/2.0.4/#files
+        package_name: pyrogram
+  - name: Pyrogram2x0x5PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: pyrogram
+          version: ==2.0.5
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'pyrogram' in version
+          '2.0.5' can have up to 3.04MiB
+        link: https://pypi.org/project/pyrogram/2.0.5/#files
+        package_name: pyrogram
+  - name: Pyrogram2x0x6PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: pyrogram
+          version: ==2.0.6
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'pyrogram' in version
+          '2.0.6' can have up to 3.04MiB
+        link: https://pypi.org/project/pyrogram/2.0.6/#files
+        package_name: pyrogram
+  - name: Pyrogram2x0x7PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: pyrogram
+          version: ==2.0.7
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'pyrogram' in version
+          '2.0.7' can have up to 3.04MiB
+        link: https://pypi.org/project/pyrogram/2.0.7/#files
+        package_name: pyrogram
+  - name: Pyrogram2x0x8PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: pyrogram
+          version: ==2.0.8
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'pyrogram' in version
+          '2.0.8' can have up to 3.04MiB
+        link: https://pypi.org/project/pyrogram/2.0.8/#files
+        package_name: pyrogram
+  - name: Pyrogram2x0x9PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: pyrogram
+          version: ==2.0.9
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'pyrogram' in version
+          '2.0.9' can have up to 3.04MiB
+        link: https://pypi.org/project/pyrogram/2.0.9/#files
         package_name: pyrogram
