@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: SnakevizPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: snakeviz
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'snakeviz' has no recent release, last release dates back to 2021-10-25 00:52:22.878608
+        link: https://pypi.org/project/snakeviz/#history
+        package_name: snakeviz
