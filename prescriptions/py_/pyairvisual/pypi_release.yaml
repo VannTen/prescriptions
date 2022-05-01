@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: PyairvisualPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: pyairvisual
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'pyairvisual' has no recent release, last release dates back to 2021-10-26 20:05:57.828884
+        link: https://pypi.org/project/pyairvisual/#history
+        package_name: pyairvisual
