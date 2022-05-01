@@ -72,6 +72,24 @@ units:
           '4.1.2' can have up to 29.82MiB
         link: https://pypi.org/project/pyshtools/4.1.2/#files
         package_name: pyshtools
+  - name: Pyshtools4x10PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: pyshtools
+          version: ==4.10
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'pyshtools' in version
+          '4.10' can have up to 35.92MiB
+        link: https://pypi.org/project/pyshtools/4.10/#files
+        package_name: pyshtools
   - name: Pyshtools4x2PyPIArtifactSizeWrap
     type: wrap
     should_include:
