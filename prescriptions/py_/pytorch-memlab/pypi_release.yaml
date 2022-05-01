@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: PytorchMemlabPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: pytorch-memlab
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'pytorch-memlab' has no recent release, last release dates back to 2021-10-28 05:58:54.033494
+        link: https://pypi.org/project/pytorch-memlab/#history
+        package_name: pytorch-memlab
