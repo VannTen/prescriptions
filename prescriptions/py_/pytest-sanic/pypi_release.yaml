@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: PytestSanicPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: pytest-sanic
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'pytest-sanic' has no recent release, last release dates back to 2021-10-25 17:02:45.082390
+        link: https://pypi.org/project/pytest-sanic/#history
+        package_name: pytest-sanic
