@@ -54,3 +54,21 @@ units:
           '4.2.2' can have up to 3.73MiB
         link: https://pypi.org/project/pyamg/4.2.2/#files
         package_name: pyamg
+  - name: Pyamg4x2x3PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: pyamg
+          version: ==4.2.3
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'pyamg' in version
+          '4.2.3' can have up to 3.92MiB
+        link: https://pypi.org/project/pyamg/4.2.3/#files
+        package_name: pyamg
