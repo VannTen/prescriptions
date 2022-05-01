@@ -36,3 +36,21 @@ units:
           '6.7.1.31' can have up to 5.42MiB
         link: https://pypi.org/project/pyvex/6.7.1.31/#files
         package_name: pyvex
+  - name: Pyvex9x2x1PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: pyvex
+          version: ==9.2.1
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'pyvex' in version
+          '9.2.1' can have up to 3.42MiB
+        link: https://pypi.org/project/pyvex/9.2.1/#files
+        package_name: pyvex
