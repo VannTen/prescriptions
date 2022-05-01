@@ -972,6 +972,60 @@ units:
           '0.9.10' can have up to 18.67MiB
         link: https://pypi.org/project/pyre-check/0.9.10/#files
         package_name: pyre-check
+  - name: PyreCheck0x9x11PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: pyre-check
+          version: ==0.9.11
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'pyre-check' in version
+          '0.9.11' can have up to 19.61MiB
+        link: https://pypi.org/project/pyre-check/0.9.11/#files
+        package_name: pyre-check
+  - name: PyreCheck0x9x12PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: pyre-check
+          version: ==0.9.12
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'pyre-check' in version
+          '0.9.12' can have up to 19.62MiB
+        link: https://pypi.org/project/pyre-check/0.9.12/#files
+        package_name: pyre-check
+  - name: PyreCheck0x9x13PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: pyre-check
+          version: ==0.9.13
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'pyre-check' in version
+          '0.9.13' can have up to 19.62MiB
+        link: https://pypi.org/project/pyre-check/0.9.13/#files
+        package_name: pyre-check
   - name: PyreCheck0x9x2PyPIArtifactSizeWrap
     type: wrap
     should_include:
