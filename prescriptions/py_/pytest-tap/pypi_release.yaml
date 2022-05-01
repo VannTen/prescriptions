@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: PytestTapPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: pytest-tap
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'pytest-tap' has no recent release, last release dates back to 2021-10-27 04:06:50.474157
+        link: https://pypi.org/project/pytest-tap/#history
+        package_name: pytest-tap
