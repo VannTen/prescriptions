@@ -594,3 +594,21 @@ units:
           '2.9.0rc1' can have up to 244.46MiB
         link: https://pypi.org/project/tensorflow-cpu/2.9.0rc1/#files
         package_name: tensorflow-cpu
+  - name: TensorflowCpu2x9x0rc2PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: tensorflow-cpu
+          version: ==2.9.0rc2
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'tensorflow-cpu' in version
+          '2.9.0rc2' can have up to 244.47MiB
+        link: https://pypi.org/project/tensorflow-cpu/2.9.0rc2/#files
+        package_name: tensorflow-cpu
