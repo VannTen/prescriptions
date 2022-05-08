@@ -5994,6 +5994,96 @@ units:
           '2.1.0a20191206' can have up to 3.66MiB
         link: https://pypi.org/project/tb-nightly/2.1.0a20191206/#files
         package_name: tb-nightly
+  - name: TbNightly2x10x0a20220503PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: tb-nightly
+          version: ==2.10.0a20220503
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'tb-nightly' in version
+          '2.10.0a20220503' can have up to 5.53MiB
+        link: https://pypi.org/project/tb-nightly/2.10.0a20220503/#files
+        package_name: tb-nightly
+  - name: TbNightly2x10x0a20220504PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: tb-nightly
+          version: ==2.10.0a20220504
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'tb-nightly' in version
+          '2.10.0a20220504' can have up to 5.53MiB
+        link: https://pypi.org/project/tb-nightly/2.10.0a20220504/#files
+        package_name: tb-nightly
+  - name: TbNightly2x10x0a20220505PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: tb-nightly
+          version: ==2.10.0a20220505
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'tb-nightly' in version
+          '2.10.0a20220505' can have up to 5.53MiB
+        link: https://pypi.org/project/tb-nightly/2.10.0a20220505/#files
+        package_name: tb-nightly
+  - name: TbNightly2x10x0a20220506PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: tb-nightly
+          version: ==2.10.0a20220506
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'tb-nightly' in version
+          '2.10.0a20220506' can have up to 5.53MiB
+        link: https://pypi.org/project/tb-nightly/2.10.0a20220506/#files
+        package_name: tb-nightly
+  - name: TbNightly2x10x0a20220507PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: tb-nightly
+          version: ==2.10.0a20220507
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'tb-nightly' in version
+          '2.10.0a20220507' can have up to 5.53MiB
+        link: https://pypi.org/project/tb-nightly/2.10.0a20220507/#files
+        package_name: tb-nightly
   - name: TbNightly2x2x0a20191207PyPIArtifactSizeWrap
     type: wrap
     should_include:
@@ -16145,4 +16235,562 @@ units:
           Installed artifact size for package 'tb-nightly' in version
           '2.9.0a20220318' can have up to 5.52MiB
         link: https://pypi.org/project/tb-nightly/2.9.0a20220318/#files
+        package_name: tb-nightly
+  - name: TbNightly2x9x0a20220320PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: tb-nightly
+          version: ==2.9.0a20220320
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'tb-nightly' in version
+          '2.9.0a20220320' can have up to 5.52MiB
+        link: https://pypi.org/project/tb-nightly/2.9.0a20220320/#files
+        package_name: tb-nightly
+  - name: TbNightly2x9x0a20220321PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: tb-nightly
+          version: ==2.9.0a20220321
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'tb-nightly' in version
+          '2.9.0a20220321' can have up to 5.52MiB
+        link: https://pypi.org/project/tb-nightly/2.9.0a20220321/#files
+        package_name: tb-nightly
+  - name: TbNightly2x9x0a20220322PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: tb-nightly
+          version: ==2.9.0a20220322
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'tb-nightly' in version
+          '2.9.0a20220322' can have up to 5.52MiB
+        link: https://pypi.org/project/tb-nightly/2.9.0a20220322/#files
+        package_name: tb-nightly
+  - name: TbNightly2x9x0a20220323PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: tb-nightly
+          version: ==2.9.0a20220323
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'tb-nightly' in version
+          '2.9.0a20220323' can have up to 5.52MiB
+        link: https://pypi.org/project/tb-nightly/2.9.0a20220323/#files
+        package_name: tb-nightly
+  - name: TbNightly2x9x0a20220325PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: tb-nightly
+          version: ==2.9.0a20220325
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'tb-nightly' in version
+          '2.9.0a20220325' can have up to 5.52MiB
+        link: https://pypi.org/project/tb-nightly/2.9.0a20220325/#files
+        package_name: tb-nightly
+  - name: TbNightly2x9x0a20220326PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: tb-nightly
+          version: ==2.9.0a20220326
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'tb-nightly' in version
+          '2.9.0a20220326' can have up to 5.53MiB
+        link: https://pypi.org/project/tb-nightly/2.9.0a20220326/#files
+        package_name: tb-nightly
+  - name: TbNightly2x9x0a20220330PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: tb-nightly
+          version: ==2.9.0a20220330
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'tb-nightly' in version
+          '2.9.0a20220330' can have up to 5.53MiB
+        link: https://pypi.org/project/tb-nightly/2.9.0a20220330/#files
+        package_name: tb-nightly
+  - name: TbNightly2x9x0a20220331PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: tb-nightly
+          version: ==2.9.0a20220331
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'tb-nightly' in version
+          '2.9.0a20220331' can have up to 5.53MiB
+        link: https://pypi.org/project/tb-nightly/2.9.0a20220331/#files
+        package_name: tb-nightly
+  - name: TbNightly2x9x0a20220401PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: tb-nightly
+          version: ==2.9.0a20220401
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'tb-nightly' in version
+          '2.9.0a20220401' can have up to 5.53MiB
+        link: https://pypi.org/project/tb-nightly/2.9.0a20220401/#files
+        package_name: tb-nightly
+  - name: TbNightly2x9x0a20220402PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: tb-nightly
+          version: ==2.9.0a20220402
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'tb-nightly' in version
+          '2.9.0a20220402' can have up to 5.52MiB
+        link: https://pypi.org/project/tb-nightly/2.9.0a20220402/#files
+        package_name: tb-nightly
+  - name: TbNightly2x9x0a20220403PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: tb-nightly
+          version: ==2.9.0a20220403
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'tb-nightly' in version
+          '2.9.0a20220403' can have up to 5.52MiB
+        link: https://pypi.org/project/tb-nightly/2.9.0a20220403/#files
+        package_name: tb-nightly
+  - name: TbNightly2x9x0a20220405PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: tb-nightly
+          version: ==2.9.0a20220405
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'tb-nightly' in version
+          '2.9.0a20220405' can have up to 5.53MiB
+        link: https://pypi.org/project/tb-nightly/2.9.0a20220405/#files
+        package_name: tb-nightly
+  - name: TbNightly2x9x0a20220406PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: tb-nightly
+          version: ==2.9.0a20220406
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'tb-nightly' in version
+          '2.9.0a20220406' can have up to 5.53MiB
+        link: https://pypi.org/project/tb-nightly/2.9.0a20220406/#files
+        package_name: tb-nightly
+  - name: TbNightly2x9x0a20220408PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: tb-nightly
+          version: ==2.9.0a20220408
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'tb-nightly' in version
+          '2.9.0a20220408' can have up to 5.53MiB
+        link: https://pypi.org/project/tb-nightly/2.9.0a20220408/#files
+        package_name: tb-nightly
+  - name: TbNightly2x9x0a20220416PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: tb-nightly
+          version: ==2.9.0a20220416
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'tb-nightly' in version
+          '2.9.0a20220416' can have up to 5.53MiB
+        link: https://pypi.org/project/tb-nightly/2.9.0a20220416/#files
+        package_name: tb-nightly
+  - name: TbNightly2x9x0a20220417PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: tb-nightly
+          version: ==2.9.0a20220417
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'tb-nightly' in version
+          '2.9.0a20220417' can have up to 5.53MiB
+        link: https://pypi.org/project/tb-nightly/2.9.0a20220417/#files
+        package_name: tb-nightly
+  - name: TbNightly2x9x0a20220418PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: tb-nightly
+          version: ==2.9.0a20220418
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'tb-nightly' in version
+          '2.9.0a20220418' can have up to 5.53MiB
+        link: https://pypi.org/project/tb-nightly/2.9.0a20220418/#files
+        package_name: tb-nightly
+  - name: TbNightly2x9x0a20220419PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: tb-nightly
+          version: ==2.9.0a20220419
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'tb-nightly' in version
+          '2.9.0a20220419' can have up to 5.53MiB
+        link: https://pypi.org/project/tb-nightly/2.9.0a20220419/#files
+        package_name: tb-nightly
+  - name: TbNightly2x9x0a20220420PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: tb-nightly
+          version: ==2.9.0a20220420
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'tb-nightly' in version
+          '2.9.0a20220420' can have up to 5.53MiB
+        link: https://pypi.org/project/tb-nightly/2.9.0a20220420/#files
+        package_name: tb-nightly
+  - name: TbNightly2x9x0a20220421PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: tb-nightly
+          version: ==2.9.0a20220421
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'tb-nightly' in version
+          '2.9.0a20220421' can have up to 5.53MiB
+        link: https://pypi.org/project/tb-nightly/2.9.0a20220421/#files
+        package_name: tb-nightly
+  - name: TbNightly2x9x0a20220422PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: tb-nightly
+          version: ==2.9.0a20220422
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'tb-nightly' in version
+          '2.9.0a20220422' can have up to 5.53MiB
+        link: https://pypi.org/project/tb-nightly/2.9.0a20220422/#files
+        package_name: tb-nightly
+  - name: TbNightly2x9x0a20220423PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: tb-nightly
+          version: ==2.9.0a20220423
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'tb-nightly' in version
+          '2.9.0a20220423' can have up to 5.53MiB
+        link: https://pypi.org/project/tb-nightly/2.9.0a20220423/#files
+        package_name: tb-nightly
+  - name: TbNightly2x9x0a20220424PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: tb-nightly
+          version: ==2.9.0a20220424
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'tb-nightly' in version
+          '2.9.0a20220424' can have up to 5.53MiB
+        link: https://pypi.org/project/tb-nightly/2.9.0a20220424/#files
+        package_name: tb-nightly
+  - name: TbNightly2x9x0a20220425PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: tb-nightly
+          version: ==2.9.0a20220425
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'tb-nightly' in version
+          '2.9.0a20220425' can have up to 5.53MiB
+        link: https://pypi.org/project/tb-nightly/2.9.0a20220425/#files
+        package_name: tb-nightly
+  - name: TbNightly2x9x0a20220426PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: tb-nightly
+          version: ==2.9.0a20220426
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'tb-nightly' in version
+          '2.9.0a20220426' can have up to 5.53MiB
+        link: https://pypi.org/project/tb-nightly/2.9.0a20220426/#files
+        package_name: tb-nightly
+  - name: TbNightly2x9x0a20220427PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: tb-nightly
+          version: ==2.9.0a20220427
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'tb-nightly' in version
+          '2.9.0a20220427' can have up to 5.53MiB
+        link: https://pypi.org/project/tb-nightly/2.9.0a20220427/#files
+        package_name: tb-nightly
+  - name: TbNightly2x9x0a20220428PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: tb-nightly
+          version: ==2.9.0a20220428
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'tb-nightly' in version
+          '2.9.0a20220428' can have up to 5.53MiB
+        link: https://pypi.org/project/tb-nightly/2.9.0a20220428/#files
+        package_name: tb-nightly
+  - name: TbNightly2x9x0a20220429PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: tb-nightly
+          version: ==2.9.0a20220429
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'tb-nightly' in version
+          '2.9.0a20220429' can have up to 5.53MiB
+        link: https://pypi.org/project/tb-nightly/2.9.0a20220429/#files
+        package_name: tb-nightly
+  - name: TbNightly2x9x0a20220430PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: tb-nightly
+          version: ==2.9.0a20220430
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'tb-nightly' in version
+          '2.9.0a20220430' can have up to 5.53MiB
+        link: https://pypi.org/project/tb-nightly/2.9.0a20220430/#files
+        package_name: tb-nightly
+  - name: TbNightly2x9x0a20220501PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: tb-nightly
+          version: ==2.9.0a20220501
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'tb-nightly' in version
+          '2.9.0a20220501' can have up to 5.53MiB
+        link: https://pypi.org/project/tb-nightly/2.9.0a20220501/#files
+        package_name: tb-nightly
+  - name: TbNightly2x9x0a20220502PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: tb-nightly
+          version: ==2.9.0a20220502
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'tb-nightly' in version
+          '2.9.0a20220502' can have up to 5.53MiB
+        link: https://pypi.org/project/tb-nightly/2.9.0a20220502/#files
         package_name: tb-nightly
