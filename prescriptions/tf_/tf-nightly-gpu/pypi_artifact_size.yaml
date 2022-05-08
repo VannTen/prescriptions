@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: TfNightlyGpu2x8x0xdev20211101PyPIArtifactSizeWrap
+  - name: TfNightlyGpu2x10x0xdev20220402PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -8,17 +8,17 @@ units:
       state:
         resolved_dependencies:
         - name: tf-nightly-gpu
-          version: ==2.8.0.dev20211101
+          version: ==2.10.0.dev20220402
           index_url: https://pypi.org/simple
     run:
       justification:
       - type: INFO
         message: >-
           Installed artifact size for package 'tf-nightly-gpu' in version
-          '2.8.0.dev20211101' can have up to 466.82MiB
-        link: https://pypi.org/project/tf-nightly-gpu/2.8.0.dev20211101/#files
+          '2.10.0.dev20220402' can have up to 486.97MiB
+        link: https://pypi.org/project/tf-nightly-gpu/2.10.0.dev20220402/#files
         package_name: tf-nightly-gpu
-  - name: TfNightlyGpu2x8x0xdev20211102PyPIArtifactSizeWrap
+  - name: TfNightlyGpu2x10x0xdev20220403PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -26,17 +26,17 @@ units:
       state:
         resolved_dependencies:
         - name: tf-nightly-gpu
-          version: ==2.8.0.dev20211102
+          version: ==2.10.0.dev20220403
           index_url: https://pypi.org/simple
     run:
       justification:
       - type: INFO
         message: >-
           Installed artifact size for package 'tf-nightly-gpu' in version
-          '2.8.0.dev20211102' can have up to 466.84MiB
-        link: https://pypi.org/project/tf-nightly-gpu/2.8.0.dev20211102/#files
+          '2.10.0.dev20220403' can have up to 486.97MiB
+        link: https://pypi.org/project/tf-nightly-gpu/2.10.0.dev20220403/#files
         package_name: tf-nightly-gpu
-  - name: TfNightlyGpu2x8x0xdev20211103PyPIArtifactSizeWrap
+  - name: TfNightlyGpu2x10x0xdev20220404PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -44,17 +44,17 @@ units:
       state:
         resolved_dependencies:
         - name: tf-nightly-gpu
-          version: ==2.8.0.dev20211103
+          version: ==2.10.0.dev20220404
           index_url: https://pypi.org/simple
     run:
       justification:
       - type: INFO
         message: >-
           Installed artifact size for package 'tf-nightly-gpu' in version
-          '2.8.0.dev20211103' can have up to 466.99MiB
-        link: https://pypi.org/project/tf-nightly-gpu/2.8.0.dev20211103/#files
+          '2.10.0.dev20220404' can have up to 486.97MiB
+        link: https://pypi.org/project/tf-nightly-gpu/2.10.0.dev20220404/#files
         package_name: tf-nightly-gpu
-  - name: TfNightlyGpu2x8x0xdev20211104PyPIArtifactSizeWrap
+  - name: TfNightlyGpu2x10x0xdev20220405PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -62,17 +62,17 @@ units:
       state:
         resolved_dependencies:
         - name: tf-nightly-gpu
-          version: ==2.8.0.dev20211104
+          version: ==2.10.0.dev20220405
           index_url: https://pypi.org/simple
     run:
       justification:
       - type: INFO
         message: >-
           Installed artifact size for package 'tf-nightly-gpu' in version
-          '2.8.0.dev20211104' can have up to 469.97MiB
-        link: https://pypi.org/project/tf-nightly-gpu/2.8.0.dev20211104/#files
+          '2.10.0.dev20220405' can have up to 340.91MiB
+        link: https://pypi.org/project/tf-nightly-gpu/2.10.0.dev20220405/#files
         package_name: tf-nightly-gpu
-  - name: TfNightlyGpu2x8x0xdev20211105PyPIArtifactSizeWrap
+  - name: TfNightlyGpu2x10x0xdev20220406PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -80,17 +80,17 @@ units:
       state:
         resolved_dependencies:
         - name: tf-nightly-gpu
-          version: ==2.8.0.dev20211105
+          version: ==2.10.0.dev20220406
           index_url: https://pypi.org/simple
     run:
       justification:
       - type: INFO
         message: >-
           Installed artifact size for package 'tf-nightly-gpu' in version
-          '2.8.0.dev20211105' can have up to 470.05MiB
-        link: https://pypi.org/project/tf-nightly-gpu/2.8.0.dev20211105/#files
+          '2.10.0.dev20220406' can have up to 487.63MiB
+        link: https://pypi.org/project/tf-nightly-gpu/2.10.0.dev20220406/#files
         package_name: tf-nightly-gpu
-  - name: TfNightlyGpu2x8x0xdev20211106PyPIArtifactSizeWrap
+  - name: TfNightlyGpu2x10x0xdev20220407PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -98,17 +98,17 @@ units:
       state:
         resolved_dependencies:
         - name: tf-nightly-gpu
-          version: ==2.8.0.dev20211106
+          version: ==2.10.0.dev20220407
           index_url: https://pypi.org/simple
     run:
       justification:
       - type: INFO
         message: >-
           Installed artifact size for package 'tf-nightly-gpu' in version
-          '2.8.0.dev20211106' can have up to 469.84MiB
-        link: https://pypi.org/project/tf-nightly-gpu/2.8.0.dev20211106/#files
+          '2.10.0.dev20220407' can have up to 487.73MiB
+        link: https://pypi.org/project/tf-nightly-gpu/2.10.0.dev20220407/#files
         package_name: tf-nightly-gpu
-  - name: TfNightlyGpu2x8x0xdev20211107PyPIArtifactSizeWrap
+  - name: TfNightlyGpu2x10x0xdev20220409PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -116,17 +116,17 @@ units:
       state:
         resolved_dependencies:
         - name: tf-nightly-gpu
-          version: ==2.8.0.dev20211107
+          version: ==2.10.0.dev20220409
           index_url: https://pypi.org/simple
     run:
       justification:
       - type: INFO
         message: >-
           Installed artifact size for package 'tf-nightly-gpu' in version
-          '2.8.0.dev20211107' can have up to 469.86MiB
-        link: https://pypi.org/project/tf-nightly-gpu/2.8.0.dev20211107/#files
+          '2.10.0.dev20220409' can have up to 488.06MiB
+        link: https://pypi.org/project/tf-nightly-gpu/2.10.0.dev20220409/#files
         package_name: tf-nightly-gpu
-  - name: TfNightlyGpu2x8x0xdev20211108PyPIArtifactSizeWrap
+  - name: TfNightlyGpu2x10x0xdev20220412PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -134,17 +134,17 @@ units:
       state:
         resolved_dependencies:
         - name: tf-nightly-gpu
-          version: ==2.8.0.dev20211108
+          version: ==2.10.0.dev20220412
           index_url: https://pypi.org/simple
     run:
       justification:
       - type: INFO
         message: >-
           Installed artifact size for package 'tf-nightly-gpu' in version
-          '2.8.0.dev20211108' can have up to 469.88MiB
-        link: https://pypi.org/project/tf-nightly-gpu/2.8.0.dev20211108/#files
+          '2.10.0.dev20220412' can have up to 341.45MiB
+        link: https://pypi.org/project/tf-nightly-gpu/2.10.0.dev20220412/#files
         package_name: tf-nightly-gpu
-  - name: TfNightlyGpu2x8x0xdev20211109PyPIArtifactSizeWrap
+  - name: TfNightlyGpu2x10x0xdev20220413PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -152,17 +152,17 @@ units:
       state:
         resolved_dependencies:
         - name: tf-nightly-gpu
-          version: ==2.8.0.dev20211109
+          version: ==2.10.0.dev20220413
           index_url: https://pypi.org/simple
     run:
       justification:
       - type: INFO
         message: >-
           Installed artifact size for package 'tf-nightly-gpu' in version
-          '2.8.0.dev20211109' can have up to 469.92MiB
-        link: https://pypi.org/project/tf-nightly-gpu/2.8.0.dev20211109/#files
+          '2.10.0.dev20220413' can have up to 489.46MiB
+        link: https://pypi.org/project/tf-nightly-gpu/2.10.0.dev20220413/#files
         package_name: tf-nightly-gpu
-  - name: TfNightlyGpu2x8x0xdev20211110PyPIArtifactSizeWrap
+  - name: TfNightlyGpu2x10x0xdev20220414PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -170,17 +170,17 @@ units:
       state:
         resolved_dependencies:
         - name: tf-nightly-gpu
-          version: ==2.8.0.dev20211110
+          version: ==2.10.0.dev20220414
           index_url: https://pypi.org/simple
     run:
       justification:
       - type: INFO
         message: >-
           Installed artifact size for package 'tf-nightly-gpu' in version
-          '2.8.0.dev20211110' can have up to 469.91MiB
-        link: https://pypi.org/project/tf-nightly-gpu/2.8.0.dev20211110/#files
+          '2.10.0.dev20220414' can have up to 489.54MiB
+        link: https://pypi.org/project/tf-nightly-gpu/2.10.0.dev20220414/#files
         package_name: tf-nightly-gpu
-  - name: TfNightlyGpu2x8x0xdev20211111PyPIArtifactSizeWrap
+  - name: TfNightlyGpu2x10x0xdev20220415PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -188,17 +188,17 @@ units:
       state:
         resolved_dependencies:
         - name: tf-nightly-gpu
-          version: ==2.8.0.dev20211111
+          version: ==2.10.0.dev20220415
           index_url: https://pypi.org/simple
     run:
       justification:
       - type: INFO
         message: >-
           Installed artifact size for package 'tf-nightly-gpu' in version
-          '2.8.0.dev20211111' can have up to 469.96MiB
-        link: https://pypi.org/project/tf-nightly-gpu/2.8.0.dev20211111/#files
+          '2.10.0.dev20220415' can have up to 489.60MiB
+        link: https://pypi.org/project/tf-nightly-gpu/2.10.0.dev20220415/#files
         package_name: tf-nightly-gpu
-  - name: TfNightlyGpu2x8x0xdev20211112PyPIArtifactSizeWrap
+  - name: TfNightlyGpu2x10x0xdev20220416PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -206,17 +206,17 @@ units:
       state:
         resolved_dependencies:
         - name: tf-nightly-gpu
-          version: ==2.8.0.dev20211112
+          version: ==2.10.0.dev20220416
           index_url: https://pypi.org/simple
     run:
       justification:
       - type: INFO
         message: >-
           Installed artifact size for package 'tf-nightly-gpu' in version
-          '2.8.0.dev20211112' can have up to 469.90MiB
-        link: https://pypi.org/project/tf-nightly-gpu/2.8.0.dev20211112/#files
+          '2.10.0.dev20220416' can have up to 489.91MiB
+        link: https://pypi.org/project/tf-nightly-gpu/2.10.0.dev20220416/#files
         package_name: tf-nightly-gpu
-  - name: TfNightlyGpu2x8x0xdev20211113PyPIArtifactSizeWrap
+  - name: TfNightlyGpu2x10x0xdev20220417PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -224,17 +224,17 @@ units:
       state:
         resolved_dependencies:
         - name: tf-nightly-gpu
-          version: ==2.8.0.dev20211113
+          version: ==2.10.0.dev20220417
           index_url: https://pypi.org/simple
     run:
       justification:
       - type: INFO
         message: >-
           Installed artifact size for package 'tf-nightly-gpu' in version
-          '2.8.0.dev20211113' can have up to 469.85MiB
-        link: https://pypi.org/project/tf-nightly-gpu/2.8.0.dev20211113/#files
+          '2.10.0.dev20220417' can have up to 489.91MiB
+        link: https://pypi.org/project/tf-nightly-gpu/2.10.0.dev20220417/#files
         package_name: tf-nightly-gpu
-  - name: TfNightlyGpu2x8x0xdev20211114PyPIArtifactSizeWrap
+  - name: TfNightlyGpu2x10x0xdev20220418PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -242,17 +242,17 @@ units:
       state:
         resolved_dependencies:
         - name: tf-nightly-gpu
-          version: ==2.8.0.dev20211114
+          version: ==2.10.0.dev20220418
           index_url: https://pypi.org/simple
     run:
       justification:
       - type: INFO
         message: >-
           Installed artifact size for package 'tf-nightly-gpu' in version
-          '2.8.0.dev20211114' can have up to 469.86MiB
-        link: https://pypi.org/project/tf-nightly-gpu/2.8.0.dev20211114/#files
+          '2.10.0.dev20220418' can have up to 489.91MiB
+        link: https://pypi.org/project/tf-nightly-gpu/2.10.0.dev20220418/#files
         package_name: tf-nightly-gpu
-  - name: TfNightlyGpu2x8x0xdev20211115PyPIArtifactSizeWrap
+  - name: TfNightlyGpu2x10x0xdev20220419PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -260,17 +260,17 @@ units:
       state:
         resolved_dependencies:
         - name: tf-nightly-gpu
-          version: ==2.8.0.dev20211115
+          version: ==2.10.0.dev20220419
           index_url: https://pypi.org/simple
     run:
       justification:
       - type: INFO
         message: >-
           Installed artifact size for package 'tf-nightly-gpu' in version
-          '2.8.0.dev20211115' can have up to 469.88MiB
-        link: https://pypi.org/project/tf-nightly-gpu/2.8.0.dev20211115/#files
+          '2.10.0.dev20220419' can have up to 490.77MiB
+        link: https://pypi.org/project/tf-nightly-gpu/2.10.0.dev20220419/#files
         package_name: tf-nightly-gpu
-  - name: TfNightlyGpu2x8x0xdev20211116PyPIArtifactSizeWrap
+  - name: TfNightlyGpu2x10x0xdev20220420PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -278,17 +278,17 @@ units:
       state:
         resolved_dependencies:
         - name: tf-nightly-gpu
-          version: ==2.8.0.dev20211116
+          version: ==2.10.0.dev20220420
           index_url: https://pypi.org/simple
     run:
       justification:
       - type: INFO
         message: >-
           Installed artifact size for package 'tf-nightly-gpu' in version
-          '2.8.0.dev20211116' can have up to 470.48MiB
-        link: https://pypi.org/project/tf-nightly-gpu/2.8.0.dev20211116/#files
+          '2.10.0.dev20220420' can have up to 490.83MiB
+        link: https://pypi.org/project/tf-nightly-gpu/2.10.0.dev20220420/#files
         package_name: tf-nightly-gpu
-  - name: TfNightlyGpu2x8x0xdev20211117PyPIArtifactSizeWrap
+  - name: TfNightlyGpu2x10x0xdev20220421PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -296,17 +296,17 @@ units:
       state:
         resolved_dependencies:
         - name: tf-nightly-gpu
-          version: ==2.8.0.dev20211117
+          version: ==2.10.0.dev20220421
           index_url: https://pypi.org/simple
     run:
       justification:
       - type: INFO
         message: >-
           Installed artifact size for package 'tf-nightly-gpu' in version
-          '2.8.0.dev20211117' can have up to 470.65MiB
-        link: https://pypi.org/project/tf-nightly-gpu/2.8.0.dev20211117/#files
+          '2.10.0.dev20220421' can have up to 490.33MiB
+        link: https://pypi.org/project/tf-nightly-gpu/2.10.0.dev20220421/#files
         package_name: tf-nightly-gpu
-  - name: TfNightlyGpu2x8x0xdev20211118PyPIArtifactSizeWrap
+  - name: TfNightlyGpu2x10x0xdev20220422PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -314,17 +314,17 @@ units:
       state:
         resolved_dependencies:
         - name: tf-nightly-gpu
-          version: ==2.8.0.dev20211118
+          version: ==2.10.0.dev20220422
           index_url: https://pypi.org/simple
     run:
       justification:
       - type: INFO
         message: >-
           Installed artifact size for package 'tf-nightly-gpu' in version
-          '2.8.0.dev20211118' can have up to 470.77MiB
-        link: https://pypi.org/project/tf-nightly-gpu/2.8.0.dev20211118/#files
+          '2.10.0.dev20220422' can have up to 479.03MiB
+        link: https://pypi.org/project/tf-nightly-gpu/2.10.0.dev20220422/#files
         package_name: tf-nightly-gpu
-  - name: TfNightlyGpu2x8x0xdev20211119PyPIArtifactSizeWrap
+  - name: TfNightlyGpu2x10x0xdev20220423PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -332,17 +332,17 @@ units:
       state:
         resolved_dependencies:
         - name: tf-nightly-gpu
-          version: ==2.8.0.dev20211119
+          version: ==2.10.0.dev20220423
           index_url: https://pypi.org/simple
     run:
       justification:
       - type: INFO
         message: >-
           Installed artifact size for package 'tf-nightly-gpu' in version
-          '2.8.0.dev20211119' can have up to 470.77MiB
-        link: https://pypi.org/project/tf-nightly-gpu/2.8.0.dev20211119/#files
+          '2.10.0.dev20220423' can have up to 479.64MiB
+        link: https://pypi.org/project/tf-nightly-gpu/2.10.0.dev20220423/#files
         package_name: tf-nightly-gpu
-  - name: TfNightlyGpu2x8x0xdev20211120PyPIArtifactSizeWrap
+  - name: TfNightlyGpu2x10x0xdev20220424PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -350,17 +350,17 @@ units:
       state:
         resolved_dependencies:
         - name: tf-nightly-gpu
-          version: ==2.8.0.dev20211120
+          version: ==2.10.0.dev20220424
           index_url: https://pypi.org/simple
     run:
       justification:
       - type: INFO
         message: >-
           Installed artifact size for package 'tf-nightly-gpu' in version
-          '2.8.0.dev20211120' can have up to 471.36MiB
-        link: https://pypi.org/project/tf-nightly-gpu/2.8.0.dev20211120/#files
+          '2.10.0.dev20220424' can have up to 479.60MiB
+        link: https://pypi.org/project/tf-nightly-gpu/2.10.0.dev20220424/#files
         package_name: tf-nightly-gpu
-  - name: TfNightlyGpu2x8x0xdev20211123PyPIArtifactSizeWrap
+  - name: TfNightlyGpu2x10x0xdev20220425PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -368,17 +368,17 @@ units:
       state:
         resolved_dependencies:
         - name: tf-nightly-gpu
-          version: ==2.8.0.dev20211123
+          version: ==2.10.0.dev20220425
           index_url: https://pypi.org/simple
     run:
       justification:
       - type: INFO
         message: >-
           Installed artifact size for package 'tf-nightly-gpu' in version
-          '2.8.0.dev20211123' can have up to 471.66MiB
-        link: https://pypi.org/project/tf-nightly-gpu/2.8.0.dev20211123/#files
+          '2.10.0.dev20220425' can have up to 479.62MiB
+        link: https://pypi.org/project/tf-nightly-gpu/2.10.0.dev20220425/#files
         package_name: tf-nightly-gpu
-  - name: TfNightlyGpu2x8x0xdev20211124PyPIArtifactSizeWrap
+  - name: TfNightlyGpu2x10x0xdev20220426PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -386,17 +386,17 @@ units:
       state:
         resolved_dependencies:
         - name: tf-nightly-gpu
-          version: ==2.8.0.dev20211124
+          version: ==2.10.0.dev20220426
           index_url: https://pypi.org/simple
     run:
       justification:
       - type: INFO
         message: >-
           Installed artifact size for package 'tf-nightly-gpu' in version
-          '2.8.0.dev20211124' can have up to 464.65MiB
-        link: https://pypi.org/project/tf-nightly-gpu/2.8.0.dev20211124/#files
+          '2.10.0.dev20220426' can have up to 479.77MiB
+        link: https://pypi.org/project/tf-nightly-gpu/2.10.0.dev20220426/#files
         package_name: tf-nightly-gpu
-  - name: TfNightlyGpu2x8x0xdev20211125PyPIArtifactSizeWrap
+  - name: TfNightlyGpu2x10x0xdev20220427PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -404,17 +404,17 @@ units:
       state:
         resolved_dependencies:
         - name: tf-nightly-gpu
-          version: ==2.8.0.dev20211125
+          version: ==2.10.0.dev20220427
           index_url: https://pypi.org/simple
     run:
       justification:
       - type: INFO
         message: >-
           Installed artifact size for package 'tf-nightly-gpu' in version
-          '2.8.0.dev20211125' can have up to 464.75MiB
-        link: https://pypi.org/project/tf-nightly-gpu/2.8.0.dev20211125/#files
+          '2.10.0.dev20220427' can have up to 479.93MiB
+        link: https://pypi.org/project/tf-nightly-gpu/2.10.0.dev20220427/#files
         package_name: tf-nightly-gpu
-  - name: TfNightlyGpu2x8x0xdev20211126PyPIArtifactSizeWrap
+  - name: TfNightlyGpu2x10x0xdev20220428PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -422,17 +422,17 @@ units:
       state:
         resolved_dependencies:
         - name: tf-nightly-gpu
-          version: ==2.8.0.dev20211126
+          version: ==2.10.0.dev20220428
           index_url: https://pypi.org/simple
     run:
       justification:
       - type: INFO
         message: >-
           Installed artifact size for package 'tf-nightly-gpu' in version
-          '2.8.0.dev20211126' can have up to 463.30MiB
-        link: https://pypi.org/project/tf-nightly-gpu/2.8.0.dev20211126/#files
+          '2.10.0.dev20220428' can have up to 342.27MiB
+        link: https://pypi.org/project/tf-nightly-gpu/2.10.0.dev20220428/#files
         package_name: tf-nightly-gpu
-  - name: TfNightlyGpu2x8x0xdev20211127PyPIArtifactSizeWrap
+  - name: TfNightlyGpu2x10x0xdev20220430PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -440,17 +440,17 @@ units:
       state:
         resolved_dependencies:
         - name: tf-nightly-gpu
-          version: ==2.8.0.dev20211127
+          version: ==2.10.0.dev20220430
           index_url: https://pypi.org/simple
     run:
       justification:
       - type: INFO
         message: >-
           Installed artifact size for package 'tf-nightly-gpu' in version
-          '2.8.0.dev20211127' can have up to 463.38MiB
-        link: https://pypi.org/project/tf-nightly-gpu/2.8.0.dev20211127/#files
+          '2.10.0.dev20220430' can have up to 342.32MiB
+        link: https://pypi.org/project/tf-nightly-gpu/2.10.0.dev20220430/#files
         package_name: tf-nightly-gpu
-  - name: TfNightlyGpu2x8x0xdev20211128PyPIArtifactSizeWrap
+  - name: TfNightlyGpu2x10x0xdev20220501PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -458,17 +458,17 @@ units:
       state:
         resolved_dependencies:
         - name: tf-nightly-gpu
-          version: ==2.8.0.dev20211128
+          version: ==2.10.0.dev20220501
           index_url: https://pypi.org/simple
     run:
       justification:
       - type: INFO
         message: >-
           Installed artifact size for package 'tf-nightly-gpu' in version
-          '2.8.0.dev20211128' can have up to 463.38MiB
-        link: https://pypi.org/project/tf-nightly-gpu/2.8.0.dev20211128/#files
+          '2.10.0.dev20220501' can have up to 342.32MiB
+        link: https://pypi.org/project/tf-nightly-gpu/2.10.0.dev20220501/#files
         package_name: tf-nightly-gpu
-  - name: TfNightlyGpu2x8x0xdev20211129PyPIArtifactSizeWrap
+  - name: TfNightlyGpu2x10x0xdev20220502PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -476,17 +476,17 @@ units:
       state:
         resolved_dependencies:
         - name: tf-nightly-gpu
-          version: ==2.8.0.dev20211129
+          version: ==2.10.0.dev20220502
           index_url: https://pypi.org/simple
     run:
       justification:
       - type: INFO
         message: >-
           Installed artifact size for package 'tf-nightly-gpu' in version
-          '2.8.0.dev20211129' can have up to 463.38MiB
-        link: https://pypi.org/project/tf-nightly-gpu/2.8.0.dev20211129/#files
+          '2.10.0.dev20220502' can have up to 342.32MiB
+        link: https://pypi.org/project/tf-nightly-gpu/2.10.0.dev20220502/#files
         package_name: tf-nightly-gpu
-  - name: TfNightlyGpu2x8x0xdev20211130PyPIArtifactSizeWrap
+  - name: TfNightlyGpu2x10x0xdev20220503PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -494,17 +494,17 @@ units:
       state:
         resolved_dependencies:
         - name: tf-nightly-gpu
-          version: ==2.8.0.dev20211130
+          version: ==2.10.0.dev20220503
           index_url: https://pypi.org/simple
     run:
       justification:
       - type: INFO
         message: >-
           Installed artifact size for package 'tf-nightly-gpu' in version
-          '2.8.0.dev20211130' can have up to 464.03MiB
-        link: https://pypi.org/project/tf-nightly-gpu/2.8.0.dev20211130/#files
+          '2.10.0.dev20220503' can have up to 342.29MiB
+        link: https://pypi.org/project/tf-nightly-gpu/2.10.0.dev20220503/#files
         package_name: tf-nightly-gpu
-  - name: TfNightlyGpu2x8x0xdev20211201PyPIArtifactSizeWrap
+  - name: TfNightlyGpu2x10x0xdev20220504PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -512,17 +512,17 @@ units:
       state:
         resolved_dependencies:
         - name: tf-nightly-gpu
-          version: ==2.8.0.dev20211201
+          version: ==2.10.0.dev20220504
           index_url: https://pypi.org/simple
     run:
       justification:
       - type: INFO
         message: >-
           Installed artifact size for package 'tf-nightly-gpu' in version
-          '2.8.0.dev20211201' can have up to 464.87MiB
-        link: https://pypi.org/project/tf-nightly-gpu/2.8.0.dev20211201/#files
+          '2.10.0.dev20220504' can have up to 342.36MiB
+        link: https://pypi.org/project/tf-nightly-gpu/2.10.0.dev20220504/#files
         package_name: tf-nightly-gpu
-  - name: TfNightlyGpu2x8x0xdev20211202PyPIArtifactSizeWrap
+  - name: TfNightlyGpu2x10x0xdev20220505PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -530,17 +530,17 @@ units:
       state:
         resolved_dependencies:
         - name: tf-nightly-gpu
-          version: ==2.8.0.dev20211202
+          version: ==2.10.0.dev20220505
           index_url: https://pypi.org/simple
     run:
       justification:
       - type: INFO
         message: >-
           Installed artifact size for package 'tf-nightly-gpu' in version
-          '2.8.0.dev20211202' can have up to 464.89MiB
-        link: https://pypi.org/project/tf-nightly-gpu/2.8.0.dev20211202/#files
+          '2.10.0.dev20220505' can have up to 342.28MiB
+        link: https://pypi.org/project/tf-nightly-gpu/2.10.0.dev20220505/#files
         package_name: tf-nightly-gpu
-  - name: TfNightlyGpu2x8x0xdev20211203PyPIArtifactSizeWrap
+  - name: TfNightlyGpu2x10x0xdev20220506PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -548,17 +548,17 @@ units:
       state:
         resolved_dependencies:
         - name: tf-nightly-gpu
-          version: ==2.8.0.dev20211203
+          version: ==2.10.0.dev20220506
           index_url: https://pypi.org/simple
     run:
       justification:
       - type: INFO
         message: >-
           Installed artifact size for package 'tf-nightly-gpu' in version
-          '2.8.0.dev20211203' can have up to 465.26MiB
-        link: https://pypi.org/project/tf-nightly-gpu/2.8.0.dev20211203/#files
+          '2.10.0.dev20220506' can have up to 342.31MiB
+        link: https://pypi.org/project/tf-nightly-gpu/2.10.0.dev20220506/#files
         package_name: tf-nightly-gpu
-  - name: TfNightlyGpu2x8x0xdev20211206PyPIArtifactSizeWrap
+  - name: TfNightlyGpu2x10x0xdev20220507PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -566,303 +566,15 @@ units:
       state:
         resolved_dependencies:
         - name: tf-nightly-gpu
-          version: ==2.8.0.dev20211206
+          version: ==2.10.0.dev20220507
           index_url: https://pypi.org/simple
     run:
       justification:
       - type: INFO
         message: >-
           Installed artifact size for package 'tf-nightly-gpu' in version
-          '2.8.0.dev20211206' can have up to 465.28MiB
-        link: https://pypi.org/project/tf-nightly-gpu/2.8.0.dev20211206/#files
-        package_name: tf-nightly-gpu
-  - name: TfNightlyGpu2x8x0xdev20211207PyPIArtifactSizeWrap
-    type: wrap
-    should_include:
-      adviser_pipeline: true
-    match:
-      state:
-        resolved_dependencies:
-        - name: tf-nightly-gpu
-          version: ==2.8.0.dev20211207
-          index_url: https://pypi.org/simple
-    run:
-      justification:
-      - type: INFO
-        message: >-
-          Installed artifact size for package 'tf-nightly-gpu' in version
-          '2.8.0.dev20211207' can have up to 465.32MiB
-        link: https://pypi.org/project/tf-nightly-gpu/2.8.0.dev20211207/#files
-        package_name: tf-nightly-gpu
-  - name: TfNightlyGpu2x8x0xdev20211208PyPIArtifactSizeWrap
-    type: wrap
-    should_include:
-      adviser_pipeline: true
-    match:
-      state:
-        resolved_dependencies:
-        - name: tf-nightly-gpu
-          version: ==2.8.0.dev20211208
-          index_url: https://pypi.org/simple
-    run:
-      justification:
-      - type: INFO
-        message: >-
-          Installed artifact size for package 'tf-nightly-gpu' in version
-          '2.8.0.dev20211208' can have up to 465.36MiB
-        link: https://pypi.org/project/tf-nightly-gpu/2.8.0.dev20211208/#files
-        package_name: tf-nightly-gpu
-  - name: TfNightlyGpu2x8x0xdev20211209PyPIArtifactSizeWrap
-    type: wrap
-    should_include:
-      adviser_pipeline: true
-    match:
-      state:
-        resolved_dependencies:
-        - name: tf-nightly-gpu
-          version: ==2.8.0.dev20211209
-          index_url: https://pypi.org/simple
-    run:
-      justification:
-      - type: INFO
-        message: >-
-          Installed artifact size for package 'tf-nightly-gpu' in version
-          '2.8.0.dev20211209' can have up to 465.56MiB
-        link: https://pypi.org/project/tf-nightly-gpu/2.8.0.dev20211209/#files
-        package_name: tf-nightly-gpu
-  - name: TfNightlyGpu2x8x0xdev20211210PyPIArtifactSizeWrap
-    type: wrap
-    should_include:
-      adviser_pipeline: true
-    match:
-      state:
-        resolved_dependencies:
-        - name: tf-nightly-gpu
-          version: ==2.8.0.dev20211210
-          index_url: https://pypi.org/simple
-    run:
-      justification:
-      - type: INFO
-        message: >-
-          Installed artifact size for package 'tf-nightly-gpu' in version
-          '2.8.0.dev20211210' can have up to 465.56MiB
-        link: https://pypi.org/project/tf-nightly-gpu/2.8.0.dev20211210/#files
-        package_name: tf-nightly-gpu
-  - name: TfNightlyGpu2x8x0xdev20211211PyPIArtifactSizeWrap
-    type: wrap
-    should_include:
-      adviser_pipeline: true
-    match:
-      state:
-        resolved_dependencies:
-        - name: tf-nightly-gpu
-          version: ==2.8.0.dev20211211
-          index_url: https://pypi.org/simple
-    run:
-      justification:
-      - type: INFO
-        message: >-
-          Installed artifact size for package 'tf-nightly-gpu' in version
-          '2.8.0.dev20211211' can have up to 465.58MiB
-        link: https://pypi.org/project/tf-nightly-gpu/2.8.0.dev20211211/#files
-        package_name: tf-nightly-gpu
-  - name: TfNightlyGpu2x8x0xdev20211212PyPIArtifactSizeWrap
-    type: wrap
-    should_include:
-      adviser_pipeline: true
-    match:
-      state:
-        resolved_dependencies:
-        - name: tf-nightly-gpu
-          version: ==2.8.0.dev20211212
-          index_url: https://pypi.org/simple
-    run:
-      justification:
-      - type: INFO
-        message: >-
-          Installed artifact size for package 'tf-nightly-gpu' in version
-          '2.8.0.dev20211212' can have up to 465.69MiB
-        link: https://pypi.org/project/tf-nightly-gpu/2.8.0.dev20211212/#files
-        package_name: tf-nightly-gpu
-  - name: TfNightlyGpu2x8x0xdev20211213PyPIArtifactSizeWrap
-    type: wrap
-    should_include:
-      adviser_pipeline: true
-    match:
-      state:
-        resolved_dependencies:
-        - name: tf-nightly-gpu
-          version: ==2.8.0.dev20211213
-          index_url: https://pypi.org/simple
-    run:
-      justification:
-      - type: INFO
-        message: >-
-          Installed artifact size for package 'tf-nightly-gpu' in version
-          '2.8.0.dev20211213' can have up to 465.69MiB
-        link: https://pypi.org/project/tf-nightly-gpu/2.8.0.dev20211213/#files
-        package_name: tf-nightly-gpu
-  - name: TfNightlyGpu2x8x0xdev20211214PyPIArtifactSizeWrap
-    type: wrap
-    should_include:
-      adviser_pipeline: true
-    match:
-      state:
-        resolved_dependencies:
-        - name: tf-nightly-gpu
-          version: ==2.8.0.dev20211214
-          index_url: https://pypi.org/simple
-    run:
-      justification:
-      - type: INFO
-        message: >-
-          Installed artifact size for package 'tf-nightly-gpu' in version
-          '2.8.0.dev20211214' can have up to 465.70MiB
-        link: https://pypi.org/project/tf-nightly-gpu/2.8.0.dev20211214/#files
-        package_name: tf-nightly-gpu
-  - name: TfNightlyGpu2x8x0xdev20211215PyPIArtifactSizeWrap
-    type: wrap
-    should_include:
-      adviser_pipeline: true
-    match:
-      state:
-        resolved_dependencies:
-        - name: tf-nightly-gpu
-          version: ==2.8.0.dev20211215
-          index_url: https://pypi.org/simple
-    run:
-      justification:
-      - type: INFO
-        message: >-
-          Installed artifact size for package 'tf-nightly-gpu' in version
-          '2.8.0.dev20211215' can have up to 464.41MiB
-        link: https://pypi.org/project/tf-nightly-gpu/2.8.0.dev20211215/#files
-        package_name: tf-nightly-gpu
-  - name: TfNightlyGpu2x8x0xdev20211216PyPIArtifactSizeWrap
-    type: wrap
-    should_include:
-      adviser_pipeline: true
-    match:
-      state:
-        resolved_dependencies:
-        - name: tf-nightly-gpu
-          version: ==2.8.0.dev20211216
-          index_url: https://pypi.org/simple
-    run:
-      justification:
-      - type: INFO
-        message: >-
-          Installed artifact size for package 'tf-nightly-gpu' in version
-          '2.8.0.dev20211216' can have up to 464.39MiB
-        link: https://pypi.org/project/tf-nightly-gpu/2.8.0.dev20211216/#files
-        package_name: tf-nightly-gpu
-  - name: TfNightlyGpu2x8x0xdev20211217PyPIArtifactSizeWrap
-    type: wrap
-    should_include:
-      adviser_pipeline: true
-    match:
-      state:
-        resolved_dependencies:
-        - name: tf-nightly-gpu
-          version: ==2.8.0.dev20211217
-          index_url: https://pypi.org/simple
-    run:
-      justification:
-      - type: INFO
-        message: >-
-          Installed artifact size for package 'tf-nightly-gpu' in version
-          '2.8.0.dev20211217' can have up to 464.48MiB
-        link: https://pypi.org/project/tf-nightly-gpu/2.8.0.dev20211217/#files
-        package_name: tf-nightly-gpu
-  - name: TfNightlyGpu2x8x0xdev20211218PyPIArtifactSizeWrap
-    type: wrap
-    should_include:
-      adviser_pipeline: true
-    match:
-      state:
-        resolved_dependencies:
-        - name: tf-nightly-gpu
-          version: ==2.8.0.dev20211218
-          index_url: https://pypi.org/simple
-    run:
-      justification:
-      - type: INFO
-        message: >-
-          Installed artifact size for package 'tf-nightly-gpu' in version
-          '2.8.0.dev20211218' can have up to 464.48MiB
-        link: https://pypi.org/project/tf-nightly-gpu/2.8.0.dev20211218/#files
-        package_name: tf-nightly-gpu
-  - name: TfNightlyGpu2x8x0xdev20211219PyPIArtifactSizeWrap
-    type: wrap
-    should_include:
-      adviser_pipeline: true
-    match:
-      state:
-        resolved_dependencies:
-        - name: tf-nightly-gpu
-          version: ==2.8.0.dev20211219
-          index_url: https://pypi.org/simple
-    run:
-      justification:
-      - type: INFO
-        message: >-
-          Installed artifact size for package 'tf-nightly-gpu' in version
-          '2.8.0.dev20211219' can have up to 464.47MiB
-        link: https://pypi.org/project/tf-nightly-gpu/2.8.0.dev20211219/#files
-        package_name: tf-nightly-gpu
-  - name: TfNightlyGpu2x8x0xdev20211220PyPIArtifactSizeWrap
-    type: wrap
-    should_include:
-      adviser_pipeline: true
-    match:
-      state:
-        resolved_dependencies:
-        - name: tf-nightly-gpu
-          version: ==2.8.0.dev20211220
-          index_url: https://pypi.org/simple
-    run:
-      justification:
-      - type: INFO
-        message: >-
-          Installed artifact size for package 'tf-nightly-gpu' in version
-          '2.8.0.dev20211220' can have up to 464.83MiB
-        link: https://pypi.org/project/tf-nightly-gpu/2.8.0.dev20211220/#files
-        package_name: tf-nightly-gpu
-  - name: TfNightlyGpu2x8x0xdev20211221PyPIArtifactSizeWrap
-    type: wrap
-    should_include:
-      adviser_pipeline: true
-    match:
-      state:
-        resolved_dependencies:
-        - name: tf-nightly-gpu
-          version: ==2.8.0.dev20211221
-          index_url: https://pypi.org/simple
-    run:
-      justification:
-      - type: INFO
-        message: >-
-          Installed artifact size for package 'tf-nightly-gpu' in version
-          '2.8.0.dev20211221' can have up to 469.71MiB
-        link: https://pypi.org/project/tf-nightly-gpu/2.8.0.dev20211221/#files
-        package_name: tf-nightly-gpu
-  - name: TfNightlyGpu2x8x0xdev20211222PyPIArtifactSizeWrap
-    type: wrap
-    should_include:
-      adviser_pipeline: true
-    match:
-      state:
-        resolved_dependencies:
-        - name: tf-nightly-gpu
-          version: ==2.8.0.dev20211222
-          index_url: https://pypi.org/simple
-    run:
-      justification:
-      - type: INFO
-        message: >-
-          Installed artifact size for package 'tf-nightly-gpu' in version
-          '2.8.0.dev20211222' can have up to 469.74MiB
-        link: https://pypi.org/project/tf-nightly-gpu/2.8.0.dev20211222/#files
+          '2.10.0.dev20220507' can have up to 342.35MiB
+        link: https://pypi.org/project/tf-nightly-gpu/2.10.0.dev20220507/#files
         package_name: tf-nightly-gpu
   - name: TfNightlyGpu2x9x0xdev20211222PyPIArtifactSizeWrap
     type: wrap
@@ -2429,4 +2141,238 @@ units:
           Installed artifact size for package 'tf-nightly-gpu' in version
           '2.9.0.dev20220319' can have up to 476.58MiB
         link: https://pypi.org/project/tf-nightly-gpu/2.9.0.dev20220319/#files
+        package_name: tf-nightly-gpu
+  - name: TfNightlyGpu2x9x0xdev20220320PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: tf-nightly-gpu
+          version: ==2.9.0.dev20220320
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'tf-nightly-gpu' in version
+          '2.9.0.dev20220320' can have up to 476.58MiB
+        link: https://pypi.org/project/tf-nightly-gpu/2.9.0.dev20220320/#files
+        package_name: tf-nightly-gpu
+  - name: TfNightlyGpu2x9x0xdev20220321PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: tf-nightly-gpu
+          version: ==2.9.0.dev20220321
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'tf-nightly-gpu' in version
+          '2.9.0.dev20220321' can have up to 476.59MiB
+        link: https://pypi.org/project/tf-nightly-gpu/2.9.0.dev20220321/#files
+        package_name: tf-nightly-gpu
+  - name: TfNightlyGpu2x9x0xdev20220322PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: tf-nightly-gpu
+          version: ==2.9.0.dev20220322
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'tf-nightly-gpu' in version
+          '2.9.0.dev20220322' can have up to 486.01MiB
+        link: https://pypi.org/project/tf-nightly-gpu/2.9.0.dev20220322/#files
+        package_name: tf-nightly-gpu
+  - name: TfNightlyGpu2x9x0xdev20220323PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: tf-nightly-gpu
+          version: ==2.9.0.dev20220323
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'tf-nightly-gpu' in version
+          '2.9.0.dev20220323' can have up to 486.21MiB
+        link: https://pypi.org/project/tf-nightly-gpu/2.9.0.dev20220323/#files
+        package_name: tf-nightly-gpu
+  - name: TfNightlyGpu2x9x0xdev20220324PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: tf-nightly-gpu
+          version: ==2.9.0.dev20220324
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'tf-nightly-gpu' in version
+          '2.9.0.dev20220324' can have up to 486.24MiB
+        link: https://pypi.org/project/tf-nightly-gpu/2.9.0.dev20220324/#files
+        package_name: tf-nightly-gpu
+  - name: TfNightlyGpu2x9x0xdev20220325PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: tf-nightly-gpu
+          version: ==2.9.0.dev20220325
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'tf-nightly-gpu' in version
+          '2.9.0.dev20220325' can have up to 486.12MiB
+        link: https://pypi.org/project/tf-nightly-gpu/2.9.0.dev20220325/#files
+        package_name: tf-nightly-gpu
+  - name: TfNightlyGpu2x9x0xdev20220326PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: tf-nightly-gpu
+          version: ==2.9.0.dev20220326
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'tf-nightly-gpu' in version
+          '2.9.0.dev20220326' can have up to 486.22MiB
+        link: https://pypi.org/project/tf-nightly-gpu/2.9.0.dev20220326/#files
+        package_name: tf-nightly-gpu
+  - name: TfNightlyGpu2x9x0xdev20220327PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: tf-nightly-gpu
+          version: ==2.9.0.dev20220327
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'tf-nightly-gpu' in version
+          '2.9.0.dev20220327' can have up to 486.20MiB
+        link: https://pypi.org/project/tf-nightly-gpu/2.9.0.dev20220327/#files
+        package_name: tf-nightly-gpu
+  - name: TfNightlyGpu2x9x0xdev20220328PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: tf-nightly-gpu
+          version: ==2.9.0.dev20220328
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'tf-nightly-gpu' in version
+          '2.9.0.dev20220328' can have up to 486.20MiB
+        link: https://pypi.org/project/tf-nightly-gpu/2.9.0.dev20220328/#files
+        package_name: tf-nightly-gpu
+  - name: TfNightlyGpu2x9x0xdev20220329PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: tf-nightly-gpu
+          version: ==2.9.0.dev20220329
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'tf-nightly-gpu' in version
+          '2.9.0.dev20220329' can have up to 486.49MiB
+        link: https://pypi.org/project/tf-nightly-gpu/2.9.0.dev20220329/#files
+        package_name: tf-nightly-gpu
+  - name: TfNightlyGpu2x9x0xdev20220330PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: tf-nightly-gpu
+          version: ==2.9.0.dev20220330
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'tf-nightly-gpu' in version
+          '2.9.0.dev20220330' can have up to 340.81MiB
+        link: https://pypi.org/project/tf-nightly-gpu/2.9.0.dev20220330/#files
+        package_name: tf-nightly-gpu
+  - name: TfNightlyGpu2x9x0xdev20220331PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: tf-nightly-gpu
+          version: ==2.9.0.dev20220331
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'tf-nightly-gpu' in version
+          '2.9.0.dev20220331' can have up to 340.83MiB
+        link: https://pypi.org/project/tf-nightly-gpu/2.9.0.dev20220331/#files
+        package_name: tf-nightly-gpu
+  - name: TfNightlyGpu2x9x0xdev20220401PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: tf-nightly-gpu
+          version: ==2.9.0.dev20220401
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'tf-nightly-gpu' in version
+          '2.9.0.dev20220401' can have up to 486.94MiB
+        link: https://pypi.org/project/tf-nightly-gpu/2.9.0.dev20220401/#files
         package_name: tf-nightly-gpu
