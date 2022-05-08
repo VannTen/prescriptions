@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: ProselintPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: proselint
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'proselint' has no recent release, last release dates back to 2021-11-07 02:02:06.506853
+        link: https://pypi.org/project/proselint/#history
+        package_name: proselint
