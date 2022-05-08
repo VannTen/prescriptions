@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: PyPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: py
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'py' has no recent release, last release dates back to 2021-11-04 17:17:01.377437
+        link: https://pypi.org/project/py/#history
+        package_name: py
