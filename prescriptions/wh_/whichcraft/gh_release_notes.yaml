@@ -1,0 +1,14 @@
+units:
+  wraps:
+  - name: WhichcraftGitHubReleaseNotesWrap
+    type: wrap.GHReleaseNotes
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: whichcraft
+    run:
+      release_notes:
+        organization: cookiecutter
+        repository: whichcraft
