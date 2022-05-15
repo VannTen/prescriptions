@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: Redis410rc2PyPIArtifactSizeWrap
+  - name: Redis4x3x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -8,13 +8,31 @@ units:
       state:
         resolved_dependencies:
         - name: redis
-          version: ==4.1.0rc2
+          version: ==4.3.0
           index_url: https://pypi.org/simple
     run:
       justification:
       - type: INFO
         message: >-
           Installed artifact size for package 'redis' in version
-          '4.1.0rc2' can have up to 2.23MiB
-        link: https://pypi.org/project/redis/4.1.0rc2/#files
+          '4.3.0' can have up to 4.35MiB
+        link: https://pypi.org/project/redis/4.3.0/#files
+        package_name: redis
+  - name: Redis4x3x1PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: redis
+          version: ==4.3.1
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'redis' in version
+          '4.3.1' can have up to 4.35MiB
+        link: https://pypi.org/project/redis/4.3.1/#files
         package_name: redis
