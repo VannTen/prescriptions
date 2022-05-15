@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: PySpyPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: py-spy
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'py-spy' has no recent release, last release dates back to 2021-11-13 01:54:29.837644
+        link: https://pypi.org/project/py-spy/#history
+        package_name: py-spy
