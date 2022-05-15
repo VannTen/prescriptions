@@ -1,0 +1,16 @@
+units:
+  wraps:
+  - name: EmceeGitHubURLWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: emcee
+    run:
+      justification:
+      - type: INFO
+        message: Package 'emcee' is hosted on GitHub
+        link: https://github.com/dfm/emcee
+        package_name: emcee
