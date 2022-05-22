@@ -12,5 +12,5 @@ units:
       justification:
       - type: INFO
         message: Package 'fairseq' is hosted on GitHub
-        link: https://github.com/pytorch/fairseq
+        link: https://github.com/facebookresearch/fairseq
         package_name: fairseq
