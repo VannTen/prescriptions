@@ -12,5 +12,5 @@ units:
       justification:
       - type: INFO
         message: Package 'requests-cache' is hosted on GitHub
-        link: https://github.com/reclosedev/requests-cache
+        link: https://github.com/requests-cache/requests-cache
         package_name: requests-cache
