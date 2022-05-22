@@ -1242,3 +1242,39 @@ units:
           '3.0.5' can have up to 10.97MiB
         link: https://pypi.org/project/pythainlp/3.0.5/#files
         package_name: pythainlp
+  - name: Pythainlp3x0x7PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: pythainlp
+          version: ==3.0.7
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'pythainlp' in version
+          '3.0.7' can have up to 10.97MiB
+        link: https://pypi.org/project/pythainlp/3.0.7/#files
+        package_name: pythainlp
+  - name: Pythainlp3x0x8PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: pythainlp
+          version: ==3.0.8
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'pythainlp' in version
+          '3.0.8' can have up to 10.97MiB
+        link: https://pypi.org/project/pythainlp/3.0.8/#files
+        package_name: pythainlp
