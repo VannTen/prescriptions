@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: SwaggerSpecValidatorPyPIProjectMaintainersWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: swagger-spec-validator
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: WARNING
+        message: Project 'swagger-spec-validator' has low number of maintainers on PyPI (less than 3)
+        link: https://pypi.org/project/swagger-spec-validator/
+        package_name: swagger-spec-validator
