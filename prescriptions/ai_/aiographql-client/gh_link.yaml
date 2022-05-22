@@ -1,0 +1,16 @@
+units:
+  wraps:
+  - name: AiographqlClientGitHubURLWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: aiographql-client
+    run:
+      justification:
+      - type: INFO
+        message: Package 'aiographql-client' is hosted on GitHub
+        link: https://github.com/abn/aiographql-client
+        package_name: aiographql-client
