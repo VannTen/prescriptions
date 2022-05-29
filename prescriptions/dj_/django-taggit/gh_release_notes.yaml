@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: DjangoTaggitGitHubReleaseNotesWrap
+  - name: DjangoxTaggitGitHubReleaseNotesWrap
     type: wrap.GHReleaseNotes
     should_include:
       adviser_pipeline: true
