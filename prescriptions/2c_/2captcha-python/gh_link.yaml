@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: 2captchaPythonGitHubURLWrap
+  - name: 2captchaxPythonGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
