@@ -1,0 +1,15 @@
+units:
+  wraps:
+  - name: TcolorpyGitHubReleaseNotesWrap
+    type: wrap.GHReleaseNotes
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: tcolorpy
+    run:
+      release_notes:
+        organization: thombashi
+        repository: tcolorpy
+        tag_version_prefix: v
