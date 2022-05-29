@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: ModinSpreadsheetGitHubReleaseNotesWrap
+  - name: ModinxSpreadsheetGitHubReleaseNotesWrap
     type: wrap.GHReleaseNotes
     should_include:
       adviser_pipeline: true
