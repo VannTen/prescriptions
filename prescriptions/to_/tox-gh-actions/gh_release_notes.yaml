@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: ToxGhActionsGitHubReleaseNotesWrap
+  - name: ToxxGhxActionsGitHubReleaseNotesWrap
     type: wrap.GHReleaseNotes
     should_include:
       adviser_pipeline: true
