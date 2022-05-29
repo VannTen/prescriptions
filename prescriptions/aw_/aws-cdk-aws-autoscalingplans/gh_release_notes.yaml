@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: AwsCdkAwsAutoscalingplansGitHubReleaseNotesWrap
+  - name: AwsxCdkxAwsxAutoscalingplansGitHubReleaseNotesWrap
     type: wrap.GHReleaseNotes
     should_include:
       adviser_pipeline: true
