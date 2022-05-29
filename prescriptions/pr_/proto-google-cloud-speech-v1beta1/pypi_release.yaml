@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: ProtoGoogleCloudSpeechV1beta1PyPIReleaseWrap
+  - name: ProtoxGooglexCloudxSpeechxV1beta1PyPIReleaseWrap
     type: wrap
     should_include:
       adviser_pipeline: true
