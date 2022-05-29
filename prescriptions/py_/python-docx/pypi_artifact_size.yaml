@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: PythonDocx0x8x10PyPIArtifactSizeWrap
+  - name: PythonxDocxx0x8x10PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -18,7 +18,7 @@ units:
           '0.8.10' can have up to 5.28MiB
         link: https://pypi.org/project/python-docx/0.8.10/#files
         package_name: python-docx
-  - name: PythonDocx0x8x11PyPIArtifactSizeWrap
+  - name: PythonxDocxx0x8x11PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -36,7 +36,7 @@ units:
           '0.8.11' can have up to 5.30MiB
         link: https://pypi.org/project/python-docx/0.8.11/#files
         package_name: python-docx
-  - name: PythonDocx0x8x7PyPIArtifactSizeWrap
+  - name: PythonxDocxx0x8x7PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -54,7 +54,7 @@ units:
           '0.8.7' can have up to 5.19MiB
         link: https://pypi.org/project/python-docx/0.8.7/#files
         package_name: python-docx
-  - name: PythonDocx0x8x8PyPIArtifactSizeWrap
+  - name: PythonxDocxx0x8x8PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -72,7 +72,7 @@ units:
           '0.8.8' can have up to 5.21MiB
         link: https://pypi.org/project/python-docx/0.8.8/#files
         package_name: python-docx
-  - name: PythonDocx0x8x9PyPIArtifactSizeWrap
+  - name: PythonxDocxx0x8x9PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
