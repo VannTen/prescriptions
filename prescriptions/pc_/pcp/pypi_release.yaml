@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: PcpPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: pcp
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'pcp' has no recent release, last release dates back to 2021-11-23 05:38:59.038910
+        link: https://pypi.org/project/pcp/#history
+        package_name: pcp
