@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: DjangoTreebeardGitHubReleaseNotesWrap
+  - name: DjangoxTreebeardGitHubReleaseNotesWrap
     type: wrap.GHReleaseNotes
     should_include:
       adviser_pipeline: true
