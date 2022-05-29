@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: PydocMarkdownGitHubReleaseNotesWrap
+  - name: PydocxMarkdownGitHubReleaseNotesWrap
     type: wrap.GHReleaseNotes
     should_include:
       adviser_pipeline: true
@@ -12,3 +12,4 @@ units:
       release_notes:
         organization: NiklasRosenstein
         repository: pydoc-markdown
+        tag_version_prefix: v
