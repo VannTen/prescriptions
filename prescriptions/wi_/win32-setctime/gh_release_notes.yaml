@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: Win32SetctimeGitHubReleaseNotesWrap
+  - name: Win32xSetctimeGitHubReleaseNotesWrap
     type: wrap.GHReleaseNotes
     should_include:
       adviser_pipeline: true
