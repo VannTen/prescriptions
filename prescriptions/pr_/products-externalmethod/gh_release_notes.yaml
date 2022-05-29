@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: ProductsExternalmethodGitHubReleaseNotesWrap
+  - name: ProductsxExternalmethodGitHubReleaseNotesWrap
     type: wrap.GHReleaseNotes
     should_include:
       adviser_pipeline: true
