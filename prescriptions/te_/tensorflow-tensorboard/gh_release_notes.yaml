@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: TensorflowTensorboardGitHubReleaseNotesWrap
+  - name: TensorflowxTensorboardGitHubReleaseNotesWrap
     type: wrap.GHReleaseNotes
     should_include:
       adviser_pipeline: true
