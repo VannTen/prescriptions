@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: SwaggerUiBundle0x0x2PyPIArtifactSizeWrap
+  - name: SwaggerxUixBundlex0x0x2PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -18,7 +18,7 @@ units:
           '0.0.2' can have up to 3.65MiB
         link: https://pypi.org/project/swagger-ui-bundle/0.0.2/#files
         package_name: swagger-ui-bundle
-  - name: SwaggerUiBundle0x0x3PyPIArtifactSizeWrap
+  - name: SwaggerxUixBundlex0x0x3PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -36,7 +36,7 @@ units:
           '0.0.3' can have up to 3.22MiB
         link: https://pypi.org/project/swagger-ui-bundle/0.0.3/#files
         package_name: swagger-ui-bundle
-  - name: SwaggerUiBundle0x0x4PyPIArtifactSizeWrap
+  - name: SwaggerxUixBundlex0x0x4PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -54,7 +54,7 @@ units:
           '0.0.4' can have up to 11.23MiB
         link: https://pypi.org/project/swagger-ui-bundle/0.0.4/#files
         package_name: swagger-ui-bundle
-  - name: SwaggerUiBundle0x0x5PyPIArtifactSizeWrap
+  - name: SwaggerxUixBundlex0x0x5PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -72,7 +72,7 @@ units:
           '0.0.5' can have up to 3.24MiB
         link: https://pypi.org/project/swagger-ui-bundle/0.0.5/#files
         package_name: swagger-ui-bundle
-  - name: SwaggerUiBundle0x0x6PyPIArtifactSizeWrap
+  - name: SwaggerxUixBundlex0x0x6PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -90,7 +90,7 @@ units:
           '0.0.6' can have up to 3.35MiB
         link: https://pypi.org/project/swagger-ui-bundle/0.0.6/#files
         package_name: swagger-ui-bundle
-  - name: SwaggerUiBundle0x0x7PyPIArtifactSizeWrap
+  - name: SwaggerxUixBundlex0x0x7PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -108,7 +108,7 @@ units:
           '0.0.7' can have up to 3.60MiB
         link: https://pypi.org/project/swagger-ui-bundle/0.0.7/#files
         package_name: swagger-ui-bundle
-  - name: SwaggerUiBundle0x0x8PyPIArtifactSizeWrap
+  - name: SwaggerxUixBundlex0x0x8PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -126,7 +126,7 @@ units:
           '0.0.8' can have up to 3.60MiB
         link: https://pypi.org/project/swagger-ui-bundle/0.0.8/#files
         package_name: swagger-ui-bundle
-  - name: SwaggerUiBundle0x0x9PyPIArtifactSizeWrap
+  - name: SwaggerxUixBundlex0x0x9PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
