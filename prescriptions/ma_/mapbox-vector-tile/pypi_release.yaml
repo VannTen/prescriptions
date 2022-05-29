@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: MapboxVectorTilePyPIReleaseWrap
+  - name: MapboxxVectorxTilePyPIReleaseWrap
     type: wrap
     should_include:
       adviser_pipeline: true
