@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: EdxRbacGitHubReleaseNotesWrap
+  - name: EdxxRbacGitHubReleaseNotesWrap
     type: wrap.GHReleaseNotes
     should_include:
       adviser_pipeline: true
