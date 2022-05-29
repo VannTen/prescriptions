@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: Gmpy22x1x0PyPIArtifactSizeWrap
+  - name: Gmpy2x2x1x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -18,7 +18,7 @@ units:
           '2.1.0' can have up to 3.39MiB
         link: https://pypi.org/project/gmpy2/2.1.0/#files
         package_name: gmpy2
-  - name: Gmpy22x1x0rc1PyPIArtifactSizeWrap
+  - name: Gmpy2x2x1x0rc1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -36,7 +36,7 @@ units:
           '2.1.0rc1' can have up to 3.41MiB
         link: https://pypi.org/project/gmpy2/2.1.0rc1/#files
         package_name: gmpy2
-  - name: Gmpy22x1x0rc2PyPIArtifactSizeWrap
+  - name: Gmpy2x2x1x0rc2PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -54,7 +54,7 @@ units:
           '2.1.0rc2' can have up to 3.41MiB
         link: https://pypi.org/project/gmpy2/2.1.0rc2/#files
         package_name: gmpy2
-  - name: Gmpy22x1x1PyPIArtifactSizeWrap
+  - name: Gmpy2x2x1x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -72,7 +72,7 @@ units:
           '2.1.1' can have up to 3.39MiB
         link: https://pypi.org/project/gmpy2/2.1.1/#files
         package_name: gmpy2
-  - name: Gmpy22x1x2PyPIArtifactSizeWrap
+  - name: Gmpy2x2x1x2PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
