@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: ApacheAirflowProvidersNeo4jGitHubReleaseNotesWrap
+  - name: ApachexAirflowxProvidersxNeo4jGitHubReleaseNotesWrap
     type: wrap.GHReleaseNotes
     should_include:
       adviser_pipeline: true
