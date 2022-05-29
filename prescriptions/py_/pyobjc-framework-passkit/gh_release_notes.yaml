@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: PyobjcFrameworkPasskitGitHubReleaseNotesWrap
+  - name: PyobjcxFrameworkxPasskitGitHubReleaseNotesWrap
     type: wrap.GHReleaseNotes
     should_include:
       adviser_pipeline: true
