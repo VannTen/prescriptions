@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: Shapely1x6x0PyPIArtifactSizeWrap
+  - name: Shapelyx1x6x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -18,7 +18,7 @@ units:
           '1.6.0' can have up to 8.08MiB
         link: https://pypi.org/project/shapely/1.6.0/#files
         package_name: shapely
-  - name: Shapely1x6x1PyPIArtifactSizeWrap
+  - name: Shapelyx1x6x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -36,7 +36,7 @@ units:
           '1.6.1' can have up to 8.09MiB
         link: https://pypi.org/project/shapely/1.6.1/#files
         package_name: shapely
-  - name: Shapely1x6x2PyPIArtifactSizeWrap
+  - name: Shapelyx1x6x2PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -54,7 +54,7 @@ units:
           '1.6.2' can have up to 8.25MiB
         link: https://pypi.org/project/shapely/1.6.2/#files
         package_name: shapely
-  - name: Shapely1x6x2xpost1PyPIArtifactSizeWrap
+  - name: Shapelyx1x6x2xpost1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -72,7 +72,7 @@ units:
           '1.6.2.post1' can have up to 8.25MiB
         link: https://pypi.org/project/shapely/1.6.2.post1/#files
         package_name: shapely
-  - name: Shapely1x6b1PyPIArtifactSizeWrap
+  - name: Shapelyx1x6b1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -90,7 +90,7 @@ units:
           '1.6b1' can have up to 8.05MiB
         link: https://pypi.org/project/shapely/1.6b1/#files
         package_name: shapely
-  - name: Shapely1x6b2PyPIArtifactSizeWrap
+  - name: Shapelyx1x6b2PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -108,7 +108,7 @@ units:
           '1.6b2' can have up to 8.05MiB
         link: https://pypi.org/project/shapely/1.6b2/#files
         package_name: shapely
-  - name: Shapely1x6b3PyPIArtifactSizeWrap
+  - name: Shapelyx1x6b3PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -126,7 +126,7 @@ units:
           '1.6b3' can have up to 8.06MiB
         link: https://pypi.org/project/shapely/1.6b3/#files
         package_name: shapely
-  - name: Shapely1x6b4PyPIArtifactSizeWrap
+  - name: Shapelyx1x6b4PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -144,7 +144,7 @@ units:
           '1.6b4' can have up to 8.06MiB
         link: https://pypi.org/project/shapely/1.6b4/#files
         package_name: shapely
-  - name: Shapely1x6b5PyPIArtifactSizeWrap
+  - name: Shapelyx1x6b5PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -162,7 +162,7 @@ units:
           '1.6b5' can have up to 8.06MiB
         link: https://pypi.org/project/shapely/1.6b5/#files
         package_name: shapely
-  - name: Shapely1x7b1PyPIArtifactSizeWrap
+  - name: Shapelyx1x7b1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
