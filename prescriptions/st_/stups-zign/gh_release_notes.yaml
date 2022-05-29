@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: StupsZignGitHubReleaseNotesWrap
+  - name: StupsxZignGitHubReleaseNotesWrap
     type: wrap.GHReleaseNotes
     should_include:
       adviser_pipeline: true
