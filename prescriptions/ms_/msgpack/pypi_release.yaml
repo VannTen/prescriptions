@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: MsgpackPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: msgpack
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'msgpack' has no recent release, last release dates back to 2021-11-24 12:24:10.744761
+        link: https://pypi.org/project/msgpack/#history
+        package_name: msgpack
