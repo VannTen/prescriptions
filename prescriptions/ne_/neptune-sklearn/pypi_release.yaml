@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: NeptuneSklearnPyPIReleaseWrap
+  - name: NeptunexSklearnPyPIReleaseWrap
     type: wrap
     should_include:
       adviser_pipeline: true
