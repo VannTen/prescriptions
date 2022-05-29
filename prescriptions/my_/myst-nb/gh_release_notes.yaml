@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: MystNbGitHubReleaseNotesWrap
+  - name: MystxNbGitHubReleaseNotesWrap
     type: wrap.GHReleaseNotes
     should_include:
       adviser_pipeline: true
