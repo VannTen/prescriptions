@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: MkdocsMaterialExtensionsPyPIReleaseWrap
+  - name: MkdocsxMaterialxExtensionsPyPIReleaseWrap
     type: wrap
     should_include:
       adviser_pipeline: true
