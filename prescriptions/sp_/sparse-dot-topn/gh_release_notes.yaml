@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: SparseDotTopnGitHubReleaseNotesWrap
+  - name: SparsexDotxTopnGitHubReleaseNotesWrap
     type: wrap.GHReleaseNotes
     should_include:
       adviser_pipeline: true
