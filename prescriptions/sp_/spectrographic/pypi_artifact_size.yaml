@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: Spectrographic0x8x7PyPIArtifactSizeWrap
+  - name: Spectrographicx0x8x7PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -18,7 +18,7 @@ units:
           '0.8.7' can have up to 5.36MiB
         link: https://pypi.org/project/spectrographic/0.8.7/#files
         package_name: spectrographic
-  - name: Spectrographic0x9x1PyPIArtifactSizeWrap
+  - name: Spectrographicx0x9x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -36,7 +36,7 @@ units:
           '0.9.1' can have up to 5.36MiB
         link: https://pypi.org/project/spectrographic/0.9.1/#files
         package_name: spectrographic
-  - name: Spectrographic0x9x3PyPIArtifactSizeWrap
+  - name: Spectrographicx0x9x3PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
