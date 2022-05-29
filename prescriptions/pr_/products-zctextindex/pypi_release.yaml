@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: ProductsZctextindexPyPIReleaseWrap
+  - name: ProductsxZctextindexPyPIReleaseWrap
     type: wrap
     should_include:
       adviser_pipeline: true
