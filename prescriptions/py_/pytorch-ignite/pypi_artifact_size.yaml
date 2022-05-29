@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: PytorchIgnite0x5x0xdev20211117PyPIArtifactSizeWrap
+  - name: PytorchxIgnitex0x5x0xdev20211117PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -18,7 +18,7 @@ units:
           '0.5.0.dev20211117' can have up to 9.92MiB
         link: https://pypi.org/project/pytorch-ignite/0.5.0.dev20211117/#files
         package_name: pytorch-ignite
-  - name: PytorchIgnite0x5x0xdev20211118PyPIArtifactSizeWrap
+  - name: PytorchxIgnitex0x5x0xdev20211118PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -36,7 +36,7 @@ units:
           '0.5.0.dev20211118' can have up to 9.92MiB
         link: https://pypi.org/project/pytorch-ignite/0.5.0.dev20211118/#files
         package_name: pytorch-ignite
-  - name: PytorchIgnite0x5x0xdev20211119PyPIArtifactSizeWrap
+  - name: PytorchxIgnitex0x5x0xdev20211119PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -54,7 +54,7 @@ units:
           '0.5.0.dev20211119' can have up to 9.92MiB
         link: https://pypi.org/project/pytorch-ignite/0.5.0.dev20211119/#files
         package_name: pytorch-ignite
-  - name: PytorchIgnite0x5x0xdev20211120PyPIArtifactSizeWrap
+  - name: PytorchxIgnitex0x5x0xdev20211120PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -72,7 +72,7 @@ units:
           '0.5.0.dev20211120' can have up to 9.92MiB
         link: https://pypi.org/project/pytorch-ignite/0.5.0.dev20211120/#files
         package_name: pytorch-ignite
-  - name: PytorchIgnite0x5x0xdev20211121PyPIArtifactSizeWrap
+  - name: PytorchxIgnitex0x5x0xdev20211121PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -90,7 +90,7 @@ units:
           '0.5.0.dev20211121' can have up to 9.92MiB
         link: https://pypi.org/project/pytorch-ignite/0.5.0.dev20211121/#files
         package_name: pytorch-ignite
-  - name: PytorchIgnite0x5x0xdev20211122PyPIArtifactSizeWrap
+  - name: PytorchxIgnitex0x5x0xdev20211122PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -108,7 +108,7 @@ units:
           '0.5.0.dev20211122' can have up to 9.92MiB
         link: https://pypi.org/project/pytorch-ignite/0.5.0.dev20211122/#files
         package_name: pytorch-ignite
-  - name: PytorchIgnite0x5x0xdev20211123PyPIArtifactSizeWrap
+  - name: PytorchxIgnitex0x5x0xdev20211123PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -126,7 +126,7 @@ units:
           '0.5.0.dev20211123' can have up to 9.92MiB
         link: https://pypi.org/project/pytorch-ignite/0.5.0.dev20211123/#files
         package_name: pytorch-ignite
-  - name: PytorchIgnite0x5x0xdev20211124PyPIArtifactSizeWrap
+  - name: PytorchxIgnitex0x5x0xdev20211124PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -144,7 +144,7 @@ units:
           '0.5.0.dev20211124' can have up to 9.92MiB
         link: https://pypi.org/project/pytorch-ignite/0.5.0.dev20211124/#files
         package_name: pytorch-ignite
-  - name: PytorchIgnite0x5x0xdev20211125PyPIArtifactSizeWrap
+  - name: PytorchxIgnitex0x5x0xdev20211125PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -162,7 +162,7 @@ units:
           '0.5.0.dev20211125' can have up to 9.92MiB
         link: https://pypi.org/project/pytorch-ignite/0.5.0.dev20211125/#files
         package_name: pytorch-ignite
-  - name: PytorchIgnite0x5x0xdev20211126PyPIArtifactSizeWrap
+  - name: PytorchxIgnitex0x5x0xdev20211126PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -180,7 +180,7 @@ units:
           '0.5.0.dev20211126' can have up to 9.92MiB
         link: https://pypi.org/project/pytorch-ignite/0.5.0.dev20211126/#files
         package_name: pytorch-ignite
-  - name: PytorchIgnite0x5x0xdev20211127PyPIArtifactSizeWrap
+  - name: PytorchxIgnitex0x5x0xdev20211127PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -198,7 +198,7 @@ units:
           '0.5.0.dev20211127' can have up to 9.92MiB
         link: https://pypi.org/project/pytorch-ignite/0.5.0.dev20211127/#files
         package_name: pytorch-ignite
-  - name: PytorchIgnite0x5x0xdev20211128PyPIArtifactSizeWrap
+  - name: PytorchxIgnitex0x5x0xdev20211128PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -216,7 +216,7 @@ units:
           '0.5.0.dev20211128' can have up to 9.92MiB
         link: https://pypi.org/project/pytorch-ignite/0.5.0.dev20211128/#files
         package_name: pytorch-ignite
-  - name: PytorchIgnite0x5x0xdev20211129PyPIArtifactSizeWrap
+  - name: PytorchxIgnitex0x5x0xdev20211129PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -234,7 +234,7 @@ units:
           '0.5.0.dev20211129' can have up to 9.92MiB
         link: https://pypi.org/project/pytorch-ignite/0.5.0.dev20211129/#files
         package_name: pytorch-ignite
-  - name: PytorchIgnite0x5x0xdev20211130PyPIArtifactSizeWrap
+  - name: PytorchxIgnitex0x5x0xdev20211130PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -252,7 +252,7 @@ units:
           '0.5.0.dev20211130' can have up to 9.92MiB
         link: https://pypi.org/project/pytorch-ignite/0.5.0.dev20211130/#files
         package_name: pytorch-ignite
-  - name: PytorchIgnite0x5x0xdev20211201PyPIArtifactSizeWrap
+  - name: PytorchxIgnitex0x5x0xdev20211201PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
