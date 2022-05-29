@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: GoogleCloudStorage1x10x0PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex1x10x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -18,7 +18,7 @@ units:
           '1.10.0' can have up to 5.11MiB
         link: https://pypi.org/project/google-cloud-storage/1.10.0/#files
         package_name: google-cloud-storage
-  - name: GoogleCloudStorage1x11x0PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex1x11x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -36,7 +36,7 @@ units:
           '1.11.0' can have up to 5.11MiB
         link: https://pypi.org/project/google-cloud-storage/1.11.0/#files
         package_name: google-cloud-storage
-  - name: GoogleCloudStorage1x11x1PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex1x11x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -54,7 +54,7 @@ units:
           '1.11.1' can have up to 5.12MiB
         link: https://pypi.org/project/google-cloud-storage/1.11.1/#files
         package_name: google-cloud-storage
-  - name: GoogleCloudStorage1x12x0PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex1x12x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -72,7 +72,7 @@ units:
           '1.12.0' can have up to 5.12MiB
         link: https://pypi.org/project/google-cloud-storage/1.12.0/#files
         package_name: google-cloud-storage
-  - name: GoogleCloudStorage1x12x1PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex1x12x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -90,7 +90,7 @@ units:
           '1.12.1' can have up to 5.12MiB
         link: https://pypi.org/project/google-cloud-storage/1.12.1/#files
         package_name: google-cloud-storage
-  - name: GoogleCloudStorage1x13x0PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex1x13x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -108,7 +108,7 @@ units:
           '1.13.0' can have up to 5.12MiB
         link: https://pypi.org/project/google-cloud-storage/1.13.0/#files
         package_name: google-cloud-storage
-  - name: GoogleCloudStorage1x13x1PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex1x13x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -126,7 +126,7 @@ units:
           '1.13.1' can have up to 5.12MiB
         link: https://pypi.org/project/google-cloud-storage/1.13.1/#files
         package_name: google-cloud-storage
-  - name: GoogleCloudStorage1x13x2PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex1x13x2PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -144,7 +144,7 @@ units:
           '1.13.2' can have up to 5.12MiB
         link: https://pypi.org/project/google-cloud-storage/1.13.2/#files
         package_name: google-cloud-storage
-  - name: GoogleCloudStorage1x13x3PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex1x13x3PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -162,7 +162,7 @@ units:
           '1.13.3' can have up to 5.12MiB
         link: https://pypi.org/project/google-cloud-storage/1.13.3/#files
         package_name: google-cloud-storage
-  - name: GoogleCloudStorage1x14x0PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex1x14x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -180,7 +180,7 @@ units:
           '1.14.0' can have up to 5.12MiB
         link: https://pypi.org/project/google-cloud-storage/1.14.0/#files
         package_name: google-cloud-storage
-  - name: GoogleCloudStorage1x14x1PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex1x14x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -198,7 +198,7 @@ units:
           '1.14.1' can have up to 5.12MiB
         link: https://pypi.org/project/google-cloud-storage/1.14.1/#files
         package_name: google-cloud-storage
-  - name: GoogleCloudStorage1x15x0PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex1x15x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -216,7 +216,7 @@ units:
           '1.15.0' can have up to 5.14MiB
         link: https://pypi.org/project/google-cloud-storage/1.15.0/#files
         package_name: google-cloud-storage
-  - name: GoogleCloudStorage1x15x1PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex1x15x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -234,7 +234,7 @@ units:
           '1.15.1' can have up to 5.15MiB
         link: https://pypi.org/project/google-cloud-storage/1.15.1/#files
         package_name: google-cloud-storage
-  - name: GoogleCloudStorage1x15x2PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex1x15x2PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -252,7 +252,7 @@ units:
           '1.15.2' can have up to 5.14MiB
         link: https://pypi.org/project/google-cloud-storage/1.15.2/#files
         package_name: google-cloud-storage
-  - name: GoogleCloudStorage1x16x0PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex1x16x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -270,7 +270,7 @@ units:
           '1.16.0' can have up to 5.14MiB
         link: https://pypi.org/project/google-cloud-storage/1.16.0/#files
         package_name: google-cloud-storage
-  - name: GoogleCloudStorage1x16x1PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex1x16x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -288,7 +288,7 @@ units:
           '1.16.1' can have up to 5.14MiB
         link: https://pypi.org/project/google-cloud-storage/1.16.1/#files
         package_name: google-cloud-storage
-  - name: GoogleCloudStorage1x16x2PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex1x16x2PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -306,7 +306,7 @@ units:
           '1.16.2' can have up to 5.14MiB
         link: https://pypi.org/project/google-cloud-storage/1.16.2/#files
         package_name: google-cloud-storage
-  - name: GoogleCloudStorage1x17x0PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex1x17x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -324,7 +324,7 @@ units:
           '1.17.0' can have up to 5.14MiB
         link: https://pypi.org/project/google-cloud-storage/1.17.0/#files
         package_name: google-cloud-storage
-  - name: GoogleCloudStorage1x17x1PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex1x17x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -342,7 +342,7 @@ units:
           '1.17.1' can have up to 5.14MiB
         link: https://pypi.org/project/google-cloud-storage/1.17.1/#files
         package_name: google-cloud-storage
-  - name: GoogleCloudStorage1x18x0PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex1x18x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -360,7 +360,7 @@ units:
           '1.18.0' can have up to 5.15MiB
         link: https://pypi.org/project/google-cloud-storage/1.18.0/#files
         package_name: google-cloud-storage
-  - name: GoogleCloudStorage1x18x1PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex1x18x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -378,7 +378,7 @@ units:
           '1.18.1' can have up to 5.15MiB
         link: https://pypi.org/project/google-cloud-storage/1.18.1/#files
         package_name: google-cloud-storage
-  - name: GoogleCloudStorage1x19x0PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex1x19x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -396,7 +396,7 @@ units:
           '1.19.0' can have up to 5.15MiB
         link: https://pypi.org/project/google-cloud-storage/1.19.0/#files
         package_name: google-cloud-storage
-  - name: GoogleCloudStorage1x19x1PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex1x19x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -414,7 +414,7 @@ units:
           '1.19.1' can have up to 5.15MiB
         link: https://pypi.org/project/google-cloud-storage/1.19.1/#files
         package_name: google-cloud-storage
-  - name: GoogleCloudStorage1x20x0PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex1x20x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -432,7 +432,7 @@ units:
           '1.20.0' can have up to 5.15MiB
         link: https://pypi.org/project/google-cloud-storage/1.20.0/#files
         package_name: google-cloud-storage
-  - name: GoogleCloudStorage1x21x0PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex1x21x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -450,7 +450,7 @@ units:
           '1.21.0' can have up to 5.15MiB
         link: https://pypi.org/project/google-cloud-storage/1.21.0/#files
         package_name: google-cloud-storage
-  - name: GoogleCloudStorage1x22x0PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex1x22x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -468,7 +468,7 @@ units:
           '1.22.0' can have up to 5.15MiB
         link: https://pypi.org/project/google-cloud-storage/1.22.0/#files
         package_name: google-cloud-storage
-  - name: GoogleCloudStorage1x23x0PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex1x23x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -486,7 +486,7 @@ units:
           '1.23.0' can have up to 5.15MiB
         link: https://pypi.org/project/google-cloud-storage/1.23.0/#files
         package_name: google-cloud-storage
-  - name: GoogleCloudStorage1x24x0PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex1x24x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -504,7 +504,7 @@ units:
           '1.24.0' can have up to 5.15MiB
         link: https://pypi.org/project/google-cloud-storage/1.24.0/#files
         package_name: google-cloud-storage
-  - name: GoogleCloudStorage1x24x1PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex1x24x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -522,7 +522,7 @@ units:
           '1.24.1' can have up to 5.15MiB
         link: https://pypi.org/project/google-cloud-storage/1.24.1/#files
         package_name: google-cloud-storage
-  - name: GoogleCloudStorage1x25x0PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex1x25x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -540,7 +540,7 @@ units:
           '1.25.0' can have up to 5.16MiB
         link: https://pypi.org/project/google-cloud-storage/1.25.0/#files
         package_name: google-cloud-storage
-  - name: GoogleCloudStorage1x26x0PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex1x26x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -558,7 +558,7 @@ units:
           '1.26.0' can have up to 5.16MiB
         link: https://pypi.org/project/google-cloud-storage/1.26.0/#files
         package_name: google-cloud-storage
-  - name: GoogleCloudStorage1x27x0PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex1x27x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -576,7 +576,7 @@ units:
           '1.27.0' can have up to 5.17MiB
         link: https://pypi.org/project/google-cloud-storage/1.27.0/#files
         package_name: google-cloud-storage
-  - name: GoogleCloudStorage1x28x0PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex1x28x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -594,7 +594,7 @@ units:
           '1.28.0' can have up to 5.17MiB
         link: https://pypi.org/project/google-cloud-storage/1.28.0/#files
         package_name: google-cloud-storage
-  - name: GoogleCloudStorage1x28x1PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex1x28x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -612,7 +612,7 @@ units:
           '1.28.1' can have up to 5.17MiB
         link: https://pypi.org/project/google-cloud-storage/1.28.1/#files
         package_name: google-cloud-storage
-  - name: GoogleCloudStorage1x29x0PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex1x29x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -630,7 +630,7 @@ units:
           '1.29.0' can have up to 5.18MiB
         link: https://pypi.org/project/google-cloud-storage/1.29.0/#files
         package_name: google-cloud-storage
-  - name: GoogleCloudStorage1x3x0PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex1x3x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -648,7 +648,7 @@ units:
           '1.3.0' can have up to 5.10MiB
         link: https://pypi.org/project/google-cloud-storage/1.3.0/#files
         package_name: google-cloud-storage
-  - name: GoogleCloudStorage1x3x1PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex1x3x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -666,7 +666,7 @@ units:
           '1.3.1' can have up to 5.10MiB
         link: https://pypi.org/project/google-cloud-storage/1.3.1/#files
         package_name: google-cloud-storage
-  - name: GoogleCloudStorage1x3x2PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex1x3x2PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -684,7 +684,7 @@ units:
           '1.3.2' can have up to 5.10MiB
         link: https://pypi.org/project/google-cloud-storage/1.3.2/#files
         package_name: google-cloud-storage
-  - name: GoogleCloudStorage1x30x0PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex1x30x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -702,7 +702,7 @@ units:
           '1.30.0' can have up to 5.18MiB
         link: https://pypi.org/project/google-cloud-storage/1.30.0/#files
         package_name: google-cloud-storage
-  - name: GoogleCloudStorage1x31x0PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex1x31x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -720,7 +720,7 @@ units:
           '1.31.0' can have up to 5.19MiB
         link: https://pypi.org/project/google-cloud-storage/1.31.0/#files
         package_name: google-cloud-storage
-  - name: GoogleCloudStorage1x31x1PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex1x31x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -738,7 +738,7 @@ units:
           '1.31.1' can have up to 5.19MiB
         link: https://pypi.org/project/google-cloud-storage/1.31.1/#files
         package_name: google-cloud-storage
-  - name: GoogleCloudStorage1x31x2PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex1x31x2PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -756,7 +756,7 @@ units:
           '1.31.2' can have up to 5.19MiB
         link: https://pypi.org/project/google-cloud-storage/1.31.2/#files
         package_name: google-cloud-storage
-  - name: GoogleCloudStorage1x32x0PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex1x32x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -774,7 +774,7 @@ units:
           '1.32.0' can have up to 5.19MiB
         link: https://pypi.org/project/google-cloud-storage/1.32.0/#files
         package_name: google-cloud-storage
-  - name: GoogleCloudStorage1x33x0PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex1x33x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -792,7 +792,7 @@ units:
           '1.33.0' can have up to 5.19MiB
         link: https://pypi.org/project/google-cloud-storage/1.33.0/#files
         package_name: google-cloud-storage
-  - name: GoogleCloudStorage1x34x0PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex1x34x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -810,7 +810,7 @@ units:
           '1.34.0' can have up to 5.19MiB
         link: https://pypi.org/project/google-cloud-storage/1.34.0/#files
         package_name: google-cloud-storage
-  - name: GoogleCloudStorage1x35x0PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex1x35x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -828,7 +828,7 @@ units:
           '1.35.0' can have up to 5.19MiB
         link: https://pypi.org/project/google-cloud-storage/1.35.0/#files
         package_name: google-cloud-storage
-  - name: GoogleCloudStorage1x35x1PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex1x35x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -846,7 +846,7 @@ units:
           '1.35.1' can have up to 5.19MiB
         link: https://pypi.org/project/google-cloud-storage/1.35.1/#files
         package_name: google-cloud-storage
-  - name: GoogleCloudStorage1x36x0PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex1x36x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -864,7 +864,7 @@ units:
           '1.36.0' can have up to 5.20MiB
         link: https://pypi.org/project/google-cloud-storage/1.36.0/#files
         package_name: google-cloud-storage
-  - name: GoogleCloudStorage1x36x1PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex1x36x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -882,7 +882,7 @@ units:
           '1.36.1' can have up to 5.20MiB
         link: https://pypi.org/project/google-cloud-storage/1.36.1/#files
         package_name: google-cloud-storage
-  - name: GoogleCloudStorage1x36x2PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex1x36x2PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -900,7 +900,7 @@ units:
           '1.36.2' can have up to 5.20MiB
         link: https://pypi.org/project/google-cloud-storage/1.36.2/#files
         package_name: google-cloud-storage
-  - name: GoogleCloudStorage1x37x0PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex1x37x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -918,7 +918,7 @@ units:
           '1.37.0' can have up to 5.21MiB
         link: https://pypi.org/project/google-cloud-storage/1.37.0/#files
         package_name: google-cloud-storage
-  - name: GoogleCloudStorage1x37x1PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex1x37x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -936,7 +936,7 @@ units:
           '1.37.1' can have up to 5.21MiB
         link: https://pypi.org/project/google-cloud-storage/1.37.1/#files
         package_name: google-cloud-storage
-  - name: GoogleCloudStorage1x38x0PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex1x38x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -954,7 +954,7 @@ units:
           '1.38.0' can have up to 5.21MiB
         link: https://pypi.org/project/google-cloud-storage/1.38.0/#files
         package_name: google-cloud-storage
-  - name: GoogleCloudStorage1x39x0PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex1x39x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -972,7 +972,7 @@ units:
           '1.39.0' can have up to 5.21MiB
         link: https://pypi.org/project/google-cloud-storage/1.39.0/#files
         package_name: google-cloud-storage
-  - name: GoogleCloudStorage1x4x0PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex1x4x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -990,7 +990,7 @@ units:
           '1.4.0' can have up to 5.10MiB
         link: https://pypi.org/project/google-cloud-storage/1.4.0/#files
         package_name: google-cloud-storage
-  - name: GoogleCloudStorage1x40x0PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex1x40x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -1008,7 +1008,7 @@ units:
           '1.40.0' can have up to 5.21MiB
         link: https://pypi.org/project/google-cloud-storage/1.40.0/#files
         package_name: google-cloud-storage
-  - name: GoogleCloudStorage1x41x0PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex1x41x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -1026,7 +1026,7 @@ units:
           '1.41.0' can have up to 5.22MiB
         link: https://pypi.org/project/google-cloud-storage/1.41.0/#files
         package_name: google-cloud-storage
-  - name: GoogleCloudStorage1x41x1PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex1x41x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -1044,7 +1044,7 @@ units:
           '1.41.1' can have up to 5.22MiB
         link: https://pypi.org/project/google-cloud-storage/1.41.1/#files
         package_name: google-cloud-storage
-  - name: GoogleCloudStorage1x42x0PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex1x42x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -1062,7 +1062,7 @@ units:
           '1.42.0' can have up to 5.22MiB
         link: https://pypi.org/project/google-cloud-storage/1.42.0/#files
         package_name: google-cloud-storage
-  - name: GoogleCloudStorage1x42x1PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex1x42x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -1080,7 +1080,7 @@ units:
           '1.42.1' can have up to 5.22MiB
         link: https://pypi.org/project/google-cloud-storage/1.42.1/#files
         package_name: google-cloud-storage
-  - name: GoogleCloudStorage1x42x2PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex1x42x2PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -1098,7 +1098,7 @@ units:
           '1.42.2' can have up to 5.22MiB
         link: https://pypi.org/project/google-cloud-storage/1.42.2/#files
         package_name: google-cloud-storage
-  - name: GoogleCloudStorage1x42x3PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex1x42x3PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -1116,7 +1116,7 @@ units:
           '1.42.3' can have up to 5.23MiB
         link: https://pypi.org/project/google-cloud-storage/1.42.3/#files
         package_name: google-cloud-storage
-  - name: GoogleCloudStorage1x43x0PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex1x43x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -1134,7 +1134,7 @@ units:
           '1.43.0' can have up to 5.23MiB
         link: https://pypi.org/project/google-cloud-storage/1.43.0/#files
         package_name: google-cloud-storage
-  - name: GoogleCloudStorage1x44x0PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex1x44x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -1152,7 +1152,7 @@ units:
           '1.44.0' can have up to 5.23MiB
         link: https://pypi.org/project/google-cloud-storage/1.44.0/#files
         package_name: google-cloud-storage
-  - name: GoogleCloudStorage1x5x0PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex1x5x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -1170,7 +1170,7 @@ units:
           '1.5.0' can have up to 5.11MiB
         link: https://pypi.org/project/google-cloud-storage/1.5.0/#files
         package_name: google-cloud-storage
-  - name: GoogleCloudStorage1x6x0PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex1x6x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -1188,7 +1188,7 @@ units:
           '1.6.0' can have up to 5.11MiB
         link: https://pypi.org/project/google-cloud-storage/1.6.0/#files
         package_name: google-cloud-storage
-  - name: GoogleCloudStorage1x7x0PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex1x7x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -1206,7 +1206,7 @@ units:
           '1.7.0' can have up to 5.11MiB
         link: https://pypi.org/project/google-cloud-storage/1.7.0/#files
         package_name: google-cloud-storage
-  - name: GoogleCloudStorage1x8x0PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex1x8x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -1224,7 +1224,7 @@ units:
           '1.8.0' can have up to 5.11MiB
         link: https://pypi.org/project/google-cloud-storage/1.8.0/#files
         package_name: google-cloud-storage
-  - name: GoogleCloudStorage1x9x0PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex1x9x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -1242,7 +1242,7 @@ units:
           '1.9.0' can have up to 5.11MiB
         link: https://pypi.org/project/google-cloud-storage/1.9.0/#files
         package_name: google-cloud-storage
-  - name: GoogleCloudStorage2x0x0PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex2x0x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -1260,7 +1260,7 @@ units:
           '2.0.0' can have up to 5.23MiB
         link: https://pypi.org/project/google-cloud-storage/2.0.0/#files
         package_name: google-cloud-storage
-  - name: GoogleCloudStorage2x1x0PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex2x1x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -1278,7 +1278,7 @@ units:
           '2.1.0' can have up to 5.23MiB
         link: https://pypi.org/project/google-cloud-storage/2.1.0/#files
         package_name: google-cloud-storage
-  - name: GoogleCloudStorage2x2x0PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex2x2x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -1296,7 +1296,7 @@ units:
           '2.2.0' can have up to 5.23MiB
         link: https://pypi.org/project/google-cloud-storage/2.2.0/#files
         package_name: google-cloud-storage
-  - name: GoogleCloudStorage2x2x1PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex2x2x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -1314,7 +1314,7 @@ units:
           '2.2.1' can have up to 5.23MiB
         link: https://pypi.org/project/google-cloud-storage/2.2.1/#files
         package_name: google-cloud-storage
-  - name: GoogleCloudStorage2x3x0PyPIArtifactSizeWrap
+  - name: GooglexCloudxStoragex2x3x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
