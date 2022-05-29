@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: Gcld33x0x13PyPIArtifactSizeWrap
+  - name: Gcld3x3x0x13PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
