@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: PyCpuinfoPyPIReleaseWrap
+  - name: PyxCpuinfoPyPIReleaseWrap
     type: wrap
     should_include:
       adviser_pipeline: true
