@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: Pyspark2x1x2PyPIArtifactSizeWrap
+  - name: Pysparkx2x1x2PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -18,7 +18,7 @@ units:
           '2.1.2' can have up to 172.86MiB
         link: https://pypi.org/project/pyspark/2.1.2/#files
         package_name: pyspark
-  - name: Pyspark2x1x3PyPIArtifactSizeWrap
+  - name: Pysparkx2x1x3PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -36,7 +36,7 @@ units:
           '2.1.3' can have up to 172.91MiB
         link: https://pypi.org/project/pyspark/2.1.3/#files
         package_name: pyspark
-  - name: Pyspark2x2x0PyPIArtifactSizeWrap
+  - name: Pysparkx2x2x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -54,7 +54,7 @@ units:
           '2.2.0' can have up to 179.60MiB
         link: https://pypi.org/project/pyspark/2.2.0/#files
         package_name: pyspark
-  - name: Pyspark2x2x1PyPIArtifactSizeWrap
+  - name: Pysparkx2x2x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -72,7 +72,7 @@ units:
           '2.2.1' can have up to 179.48MiB
         link: https://pypi.org/project/pyspark/2.2.1/#files
         package_name: pyspark
-  - name: Pyspark2x2x2PyPIArtifactSizeWrap
+  - name: Pysparkx2x2x2PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -90,7 +90,7 @@ units:
           '2.2.2' can have up to 179.32MiB
         link: https://pypi.org/project/pyspark/2.2.2/#files
         package_name: pyspark
-  - name: Pyspark2x2x3PyPIArtifactSizeWrap
+  - name: Pysparkx2x2x3PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -108,7 +108,7 @@ units:
           '2.2.3' can have up to 179.76MiB
         link: https://pypi.org/project/pyspark/2.2.3/#files
         package_name: pyspark
-  - name: Pyspark2x3x0PyPIArtifactSizeWrap
+  - name: Pysparkx2x3x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -126,7 +126,7 @@ units:
           '2.3.0' can have up to 202.06MiB
         link: https://pypi.org/project/pyspark/2.3.0/#files
         package_name: pyspark
-  - name: Pyspark2x3x1PyPIArtifactSizeWrap
+  - name: Pysparkx2x3x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -144,7 +144,7 @@ units:
           '2.3.1' can have up to 202.08MiB
         link: https://pypi.org/project/pyspark/2.3.1/#files
         package_name: pyspark
-  - name: Pyspark2x3x2PyPIArtifactSizeWrap
+  - name: Pysparkx2x3x2PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -162,7 +162,7 @@ units:
           '2.3.2' can have up to 202.12MiB
         link: https://pypi.org/project/pyspark/2.3.2/#files
         package_name: pyspark
-  - name: Pyspark2x3x3PyPIArtifactSizeWrap
+  - name: Pysparkx2x3x3PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -180,7 +180,7 @@ units:
           '2.3.3' can have up to 202.10MiB
         link: https://pypi.org/project/pyspark/2.3.3/#files
         package_name: pyspark
-  - name: Pyspark2x3x4PyPIArtifactSizeWrap
+  - name: Pysparkx2x3x4PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -198,7 +198,7 @@ units:
           '2.3.4' can have up to 202.51MiB
         link: https://pypi.org/project/pyspark/2.3.4/#files
         package_name: pyspark
-  - name: Pyspark2x4x0PyPIArtifactSizeWrap
+  - name: Pysparkx2x4x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -216,7 +216,7 @@ units:
           '2.4.0' can have up to 203.52MiB
         link: https://pypi.org/project/pyspark/2.4.0/#files
         package_name: pyspark
-  - name: Pyspark2x4x1PyPIArtifactSizeWrap
+  - name: Pysparkx2x4x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -234,7 +234,7 @@ units:
           '2.4.1' can have up to 205.67MiB
         link: https://pypi.org/project/pyspark/2.4.1/#files
         package_name: pyspark
-  - name: Pyspark2x4x2PyPIArtifactSizeWrap
+  - name: Pysparkx2x4x2PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -252,7 +252,7 @@ units:
           '2.4.2' can have up to 184.93MiB
         link: https://pypi.org/project/pyspark/2.4.2/#files
         package_name: pyspark
-  - name: Pyspark2x4x3PyPIArtifactSizeWrap
+  - name: Pysparkx2x4x3PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -270,7 +270,7 @@ units:
           '2.4.3' can have up to 205.59MiB
         link: https://pypi.org/project/pyspark/2.4.3/#files
         package_name: pyspark
-  - name: Pyspark2x4x4PyPIArtifactSizeWrap
+  - name: Pysparkx2x4x4PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -288,7 +288,7 @@ units:
           '2.4.4' can have up to 205.70MiB
         link: https://pypi.org/project/pyspark/2.4.4/#files
         package_name: pyspark
-  - name: Pyspark2x4x5PyPIArtifactSizeWrap
+  - name: Pysparkx2x4x5PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -306,7 +306,7 @@ units:
           '2.4.5' can have up to 207.73MiB
         link: https://pypi.org/project/pyspark/2.4.5/#files
         package_name: pyspark
-  - name: Pyspark2x4x6PyPIArtifactSizeWrap
+  - name: Pysparkx2x4x6PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -324,7 +324,7 @@ units:
           '2.4.6' can have up to 208.31MiB
         link: https://pypi.org/project/pyspark/2.4.6/#files
         package_name: pyspark
-  - name: Pyspark2x4x7PyPIArtifactSizeWrap
+  - name: Pysparkx2x4x7PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -342,7 +342,7 @@ units:
           '2.4.7' can have up to 207.79MiB
         link: https://pypi.org/project/pyspark/2.4.7/#files
         package_name: pyspark
-  - name: Pyspark2x4x8PyPIArtifactSizeWrap
+  - name: Pysparkx2x4x8PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -360,7 +360,7 @@ units:
           '2.4.8' can have up to 210.25MiB
         link: https://pypi.org/project/pyspark/2.4.8/#files
         package_name: pyspark
-  - name: Pyspark3x0x0PyPIArtifactSizeWrap
+  - name: Pysparkx3x0x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -378,7 +378,7 @@ units:
           '3.0.0' can have up to 195.20MiB
         link: https://pypi.org/project/pyspark/3.0.0/#files
         package_name: pyspark
-  - name: Pyspark3x0x1PyPIArtifactSizeWrap
+  - name: Pysparkx3x0x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -396,7 +396,7 @@ units:
           '3.0.1' can have up to 194.78MiB
         link: https://pypi.org/project/pyspark/3.0.1/#files
         package_name: pyspark
-  - name: Pyspark3x0x2PyPIArtifactSizeWrap
+  - name: Pysparkx3x0x2PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -414,7 +414,7 @@ units:
           '3.0.2' can have up to 195.30MiB
         link: https://pypi.org/project/pyspark/3.0.2/#files
         package_name: pyspark
-  - name: Pyspark3x0x3PyPIArtifactSizeWrap
+  - name: Pysparkx3x0x3PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -432,7 +432,7 @@ units:
           '3.0.3' can have up to 199.37MiB
         link: https://pypi.org/project/pyspark/3.0.3/#files
         package_name: pyspark
-  - name: Pyspark3x1x1PyPIArtifactSizeWrap
+  - name: Pysparkx3x1x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -450,7 +450,7 @@ units:
           '3.1.1' can have up to 202.50MiB
         link: https://pypi.org/project/pyspark/3.1.1/#files
         package_name: pyspark
-  - name: Pyspark3x1x2PyPIArtifactSizeWrap
+  - name: Pysparkx3x1x2PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -468,7 +468,7 @@ units:
           '3.1.2' can have up to 202.61MiB
         link: https://pypi.org/project/pyspark/3.1.2/#files
         package_name: pyspark
-  - name: Pyspark3x1x3PyPIArtifactSizeWrap
+  - name: Pysparkx3x1x3PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -486,7 +486,7 @@ units:
           '3.1.3' can have up to 204.11MiB
         link: https://pypi.org/project/pyspark/3.1.3/#files
         package_name: pyspark
-  - name: Pyspark3x2x0PyPIArtifactSizeWrap
+  - name: Pysparkx3x2x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -504,7 +504,7 @@ units:
           '3.2.0' can have up to 268.28MiB
         link: https://pypi.org/project/pyspark/3.2.0/#files
         package_name: pyspark
-  - name: Pyspark3x2x1PyPIArtifactSizeWrap
+  - name: Pysparkx3x2x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
