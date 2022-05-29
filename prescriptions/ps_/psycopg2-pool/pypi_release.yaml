@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: Psycopg2PoolPyPIReleaseWrap
+  - name: Psycopg2xPoolPyPIReleaseWrap
     type: wrap
     should_include:
       adviser_pipeline: true
