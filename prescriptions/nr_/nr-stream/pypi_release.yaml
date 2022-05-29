@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: NrStreamPyPIReleaseWrap
+  - name: NrxStreamPyPIReleaseWrap
     type: wrap
     should_include:
       adviser_pipeline: true
