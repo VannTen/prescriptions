@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: FlaskJwtExtendedGitHubReleaseNotesWrap
+  - name: FlaskxJwtxExtendedGitHubReleaseNotesWrap
     type: wrap.GHReleaseNotes
     should_include:
       adviser_pipeline: true
