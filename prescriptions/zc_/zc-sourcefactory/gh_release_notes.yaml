@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: ZcSourcefactoryGitHubReleaseNotesWrap
+  - name: ZcxSourcefactoryGitHubReleaseNotesWrap
     type: wrap.GHReleaseNotes
     should_include:
       adviser_pipeline: true
