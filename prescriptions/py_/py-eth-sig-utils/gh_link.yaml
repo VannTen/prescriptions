@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: PyEthSigUtilsGitHubURLWrap
+  - name: PyxEthxSigxUtilsGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
