@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: ScikitImage0x13x0PyPIArtifactSizeWrap
+  - name: ScikitxImagex0x13x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -18,7 +18,7 @@ units:
           '0.13.0' can have up to 32.44MiB
         link: https://pypi.org/project/scikit-image/0.13.0/#files
         package_name: scikit-image
-  - name: ScikitImage0x13x1PyPIArtifactSizeWrap
+  - name: ScikitxImagex0x13x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -36,7 +36,7 @@ units:
           '0.13.1' can have up to 34.14MiB
         link: https://pypi.org/project/scikit-image/0.13.1/#files
         package_name: scikit-image
-  - name: ScikitImage0x14x0PyPIArtifactSizeWrap
+  - name: ScikitxImagex0x14x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -54,7 +54,7 @@ units:
           '0.14.0' can have up to 27.70MiB
         link: https://pypi.org/project/scikit-image/0.14.0/#files
         package_name: scikit-image
-  - name: ScikitImage0x14x1PyPIArtifactSizeWrap
+  - name: ScikitxImagex0x14x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -72,7 +72,7 @@ units:
           '0.14.1' can have up to 27.81MiB
         link: https://pypi.org/project/scikit-image/0.14.1/#files
         package_name: scikit-image
-  - name: ScikitImage0x14x2PyPIArtifactSizeWrap
+  - name: ScikitxImagex0x14x2PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -90,7 +90,7 @@ units:
           '0.14.2' can have up to 27.84MiB
         link: https://pypi.org/project/scikit-image/0.14.2/#files
         package_name: scikit-image
-  - name: ScikitImage0x14x3PyPIArtifactSizeWrap
+  - name: ScikitxImagex0x14x3PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -108,7 +108,7 @@ units:
           '0.14.3' can have up to 27.89MiB
         link: https://pypi.org/project/scikit-image/0.14.3/#files
         package_name: scikit-image
-  - name: ScikitImage0x14x4PyPIArtifactSizeWrap
+  - name: ScikitxImagex0x14x4PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -126,7 +126,7 @@ units:
           '0.14.4' can have up to 27.92MiB
         link: https://pypi.org/project/scikit-image/0.14.4/#files
         package_name: scikit-image
-  - name: ScikitImage0x14x5PyPIArtifactSizeWrap
+  - name: ScikitxImagex0x14x5PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -144,7 +144,7 @@ units:
           '0.14.5' can have up to 27.92MiB
         link: https://pypi.org/project/scikit-image/0.14.5/#files
         package_name: scikit-image
-  - name: ScikitImage0x15x0PyPIArtifactSizeWrap
+  - name: ScikitxImagex0x15x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -162,7 +162,7 @@ units:
           '0.15.0' can have up to 30.79MiB
         link: https://pypi.org/project/scikit-image/0.15.0/#files
         package_name: scikit-image
-  - name: ScikitImage0x16x1PyPIArtifactSizeWrap
+  - name: ScikitxImagex0x16x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -180,7 +180,7 @@ units:
           '0.16.1' can have up to 28.97MiB
         link: https://pypi.org/project/scikit-image/0.16.1/#files
         package_name: scikit-image
-  - name: ScikitImage0x16x2PyPIArtifactSizeWrap
+  - name: ScikitxImagex0x16x2PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -198,7 +198,7 @@ units:
           '0.16.2' can have up to 28.97MiB
         link: https://pypi.org/project/scikit-image/0.16.2/#files
         package_name: scikit-image
-  - name: ScikitImage0x17x1PyPIArtifactSizeWrap
+  - name: ScikitxImagex0x17x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -216,7 +216,7 @@ units:
           '0.17.1' can have up to 28.39MiB
         link: https://pypi.org/project/scikit-image/0.17.1/#files
         package_name: scikit-image
-  - name: ScikitImage0x17x2PyPIArtifactSizeWrap
+  - name: ScikitxImagex0x17x2PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -234,7 +234,7 @@ units:
           '0.17.2' can have up to 28.44MiB
         link: https://pypi.org/project/scikit-image/0.17.2/#files
         package_name: scikit-image
-  - name: ScikitImage0x18x0PyPIArtifactSizeWrap
+  - name: ScikitxImagex0x18x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -252,7 +252,7 @@ units:
           '0.18.0' can have up to 34.76MiB
         link: https://pypi.org/project/scikit-image/0.18.0/#files
         package_name: scikit-image
-  - name: ScikitImage0x18x1PyPIArtifactSizeWrap
+  - name: ScikitxImagex0x18x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -270,7 +270,7 @@ units:
           '0.18.1' can have up to 28.80MiB
         link: https://pypi.org/project/scikit-image/0.18.1/#files
         package_name: scikit-image
-  - name: ScikitImage0x18x2PyPIArtifactSizeWrap
+  - name: ScikitxImagex0x18x2PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -288,7 +288,7 @@ units:
           '0.18.2' can have up to 36.84MiB
         link: https://pypi.org/project/scikit-image/0.18.2/#files
         package_name: scikit-image
-  - name: ScikitImage0x18x3PyPIArtifactSizeWrap
+  - name: ScikitxImagex0x18x3PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -306,7 +306,7 @@ units:
           '0.18.3' can have up to 35.66MiB
         link: https://pypi.org/project/scikit-image/0.18.3/#files
         package_name: scikit-image
-  - name: ScikitImage0x19x0PyPIArtifactSizeWrap
+  - name: ScikitxImagex0x19x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -324,7 +324,7 @@ units:
           '0.19.0' can have up to 57.86MiB
         link: https://pypi.org/project/scikit-image/0.19.0/#files
         package_name: scikit-image
-  - name: ScikitImage0x19x0rc0PyPIArtifactSizeWrap
+  - name: ScikitxImagex0x19x0rc0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -342,7 +342,7 @@ units:
           '0.19.0rc0' can have up to 57.86MiB
         link: https://pypi.org/project/scikit-image/0.19.0rc0/#files
         package_name: scikit-image
-  - name: ScikitImage0x19x1PyPIArtifactSizeWrap
+  - name: ScikitxImagex0x19x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -360,7 +360,7 @@ units:
           '0.19.1' can have up to 21.20MiB
         link: https://pypi.org/project/scikit-image/0.19.1/#files
         package_name: scikit-image
-  - name: ScikitImage0x19x2PyPIArtifactSizeWrap
+  - name: ScikitxImagex0x19x2PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
