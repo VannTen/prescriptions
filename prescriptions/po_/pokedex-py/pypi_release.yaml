@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: PokedexPyPyPIReleaseWrap
+  - name: PokedexxPyPyPIReleaseWrap
     type: wrap
     should_include:
       adviser_pipeline: true
