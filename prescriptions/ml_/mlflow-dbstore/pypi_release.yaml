@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: MlflowDbstorePyPIReleaseWrap
+  - name: MlflowxDbstorePyPIReleaseWrap
     type: wrap
     should_include:
       adviser_pipeline: true
