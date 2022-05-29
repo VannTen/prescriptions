@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: Flake8BuiltinsGitHubReleaseNotesWrap
+  - name: Flake8xBuiltinsGitHubReleaseNotesWrap
     type: wrap.GHReleaseNotes
     should_include:
       adviser_pipeline: true
