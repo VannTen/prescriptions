@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: PortendPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: portend
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'portend' has no recent release, last release dates back to 2021-11-25 01:16:42.068325
+        link: https://pypi.org/project/portend/#history
+        package_name: portend
