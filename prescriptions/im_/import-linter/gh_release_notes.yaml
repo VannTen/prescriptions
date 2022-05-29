@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: ImportLinterGitHubReleaseNotesWrap
+  - name: ImportxLinterGitHubReleaseNotesWrap
     type: wrap.GHReleaseNotes
     should_include:
       adviser_pipeline: true
