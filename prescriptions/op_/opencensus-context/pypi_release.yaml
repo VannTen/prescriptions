@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: OpencensusContextPyPIReleaseWrap
+  - name: OpencensusxContextPyPIReleaseWrap
     type: wrap
     should_include:
       adviser_pipeline: true
