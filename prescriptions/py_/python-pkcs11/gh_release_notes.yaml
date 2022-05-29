@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: PythonPkcs11GitHubReleaseNotesWrap
+  - name: PythonxPkcs11GitHubReleaseNotesWrap
     type: wrap.GHReleaseNotes
     should_include:
       adviser_pipeline: true
