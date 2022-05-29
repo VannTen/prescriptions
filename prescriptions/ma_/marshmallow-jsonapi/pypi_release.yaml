@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: MarshmallowJsonapiPyPIReleaseWrap
+  - name: MarshmallowxJsonapiPyPIReleaseWrap
     type: wrap
     should_include:
       adviser_pipeline: true
