@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: Qiskit0x4x10PyPIArtifactSizeWrap
+  - name: Qiskitx0x4x10PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -18,7 +18,7 @@ units:
           '0.4.10' can have up to 4.25MiB
         link: https://pypi.org/project/qiskit/0.4.10/#files
         package_name: qiskit
-  - name: Qiskit0x4x11PyPIArtifactSizeWrap
+  - name: Qiskitx0x4x11PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -36,7 +36,7 @@ units:
           '0.4.11' can have up to 5.88MiB
         link: https://pypi.org/project/qiskit/0.4.11/#files
         package_name: qiskit
-  - name: Qiskit0x4x12PyPIArtifactSizeWrap
+  - name: Qiskitx0x4x12PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -54,7 +54,7 @@ units:
           '0.4.12' can have up to 5.90MiB
         link: https://pypi.org/project/qiskit/0.4.12/#files
         package_name: qiskit
-  - name: Qiskit0x4x13PyPIArtifactSizeWrap
+  - name: Qiskitx0x4x13PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -72,7 +72,7 @@ units:
           '0.4.13' can have up to 5.90MiB
         link: https://pypi.org/project/qiskit/0.4.13/#files
         package_name: qiskit
-  - name: Qiskit0x4x14PyPIArtifactSizeWrap
+  - name: Qiskitx0x4x14PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -90,7 +90,7 @@ units:
           '0.4.14' can have up to 5.90MiB
         link: https://pypi.org/project/qiskit/0.4.14/#files
         package_name: qiskit
-  - name: Qiskit0x4x15PyPIArtifactSizeWrap
+  - name: Qiskitx0x4x15PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -108,7 +108,7 @@ units:
           '0.4.15' can have up to 5.90MiB
         link: https://pypi.org/project/qiskit/0.4.15/#files
         package_name: qiskit
-  - name: Qiskit0x4x9PyPIArtifactSizeWrap
+  - name: Qiskitx0x4x9PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -126,7 +126,7 @@ units:
           '0.4.9' can have up to 5.88MiB
         link: https://pypi.org/project/qiskit/0.4.9/#files
         package_name: qiskit
-  - name: Qiskit0x5x0PyPIArtifactSizeWrap
+  - name: Qiskitx0x5x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -144,7 +144,7 @@ units:
           '0.5.0' can have up to 7.48MiB
         link: https://pypi.org/project/qiskit/0.5.0/#files
         package_name: qiskit
-  - name: Qiskit0x5x1PyPIArtifactSizeWrap
+  - name: Qiskitx0x5x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -162,7 +162,7 @@ units:
           '0.5.1' can have up to 7.48MiB
         link: https://pypi.org/project/qiskit/0.5.1/#files
         package_name: qiskit
-  - name: Qiskit0x6x0PyPIArtifactSizeWrap
+  - name: Qiskitx0x6x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -180,7 +180,7 @@ units:
           '0.6.0' can have up to 6.93MiB
         link: https://pypi.org/project/qiskit/0.6.0/#files
         package_name: qiskit
-  - name: Qiskit0x6x1PyPIArtifactSizeWrap
+  - name: Qiskitx0x6x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
