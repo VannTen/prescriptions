@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: Pybind11GlobalGitHubReleaseNotesWrap
+  - name: Pybind11xGlobalGitHubReleaseNotesWrap
     type: wrap.GHReleaseNotes
     should_include:
       adviser_pipeline: true
