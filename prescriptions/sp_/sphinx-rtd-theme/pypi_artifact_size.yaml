@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: SphinxRtdTheme0x4x0PyPIArtifactSizeWrap
+  - name: SphinxxRtdxThemex0x4x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -18,7 +18,7 @@ units:
           '0.4.0' can have up to 5.14MiB
         link: https://pypi.org/project/sphinx-rtd-theme/0.4.0/#files
         package_name: sphinx-rtd-theme
-  - name: SphinxRtdTheme0x4x1PyPIArtifactSizeWrap
+  - name: SphinxxRtdxThemex0x4x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -36,7 +36,7 @@ units:
           '0.4.1' can have up to 5.14MiB
         link: https://pypi.org/project/sphinx-rtd-theme/0.4.1/#files
         package_name: sphinx-rtd-theme
-  - name: SphinxRtdTheme0x4x2PyPIArtifactSizeWrap
+  - name: SphinxxRtdxThemex0x4x2PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -54,7 +54,7 @@ units:
           '0.4.2' can have up to 6.09MiB
         link: https://pypi.org/project/sphinx-rtd-theme/0.4.2/#files
         package_name: sphinx-rtd-theme
-  - name: SphinxRtdTheme0x4x3PyPIArtifactSizeWrap
+  - name: SphinxxRtdxThemex0x4x3PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -72,7 +72,7 @@ units:
           '0.4.3' can have up to 6.09MiB
         link: https://pypi.org/project/sphinx-rtd-theme/0.4.3/#files
         package_name: sphinx-rtd-theme
-  - name: SphinxRtdTheme0x5x0PyPIArtifactSizeWrap
+  - name: SphinxxRtdxThemex0x5x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -90,7 +90,7 @@ units:
           '0.5.0' can have up to 10.27MiB
         link: https://pypi.org/project/sphinx-rtd-theme/0.5.0/#files
         package_name: sphinx-rtd-theme
-  - name: SphinxRtdTheme0x5x0rc1PyPIArtifactSizeWrap
+  - name: SphinxxRtdxThemex0x5x0rc1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -108,7 +108,7 @@ units:
           '0.5.0rc1' can have up to 10.27MiB
         link: https://pypi.org/project/sphinx-rtd-theme/0.5.0rc1/#files
         package_name: sphinx-rtd-theme
-  - name: SphinxRtdTheme0x5x0rc2PyPIArtifactSizeWrap
+  - name: SphinxxRtdxThemex0x5x0rc2PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -126,7 +126,7 @@ units:
           '0.5.0rc2' can have up to 10.27MiB
         link: https://pypi.org/project/sphinx-rtd-theme/0.5.0rc2/#files
         package_name: sphinx-rtd-theme
-  - name: SphinxRtdTheme0x5x2PyPIArtifactSizeWrap
+  - name: SphinxxRtdxThemex0x5x2PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
