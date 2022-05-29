@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: Ruffus1x1x3aPyPIArtifactSizeWrap
+  - name: Ruffusx1x1x3aPyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -18,7 +18,7 @@ units:
           '1.1.3a' can have up to 3.02MiB
         link: https://pypi.org/project/ruffus/1.1.3a/#files
         package_name: ruffus
-  - name: Ruffus1x1x3bPyPIArtifactSizeWrap
+  - name: Ruffusx1x1x3bPyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -36,7 +36,7 @@ units:
           '1.1.3b' can have up to 3.02MiB
         link: https://pypi.org/project/ruffus/1.1.3b/#files
         package_name: ruffus
-  - name: Ruffus1x1x5bPyPIArtifactSizeWrap
+  - name: Ruffusx1x1x5bPyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -54,7 +54,7 @@ units:
           '1.1.5b' can have up to 3.58MiB
         link: https://pypi.org/project/ruffus/1.1.5b/#files
         package_name: ruffus
-  - name: Ruffus2x5rcPyPIArtifactSizeWrap
+  - name: Ruffusx2x5rcPyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -72,7 +72,7 @@ units:
           '2.5rc' can have up to 35.23MiB
         link: https://pypi.org/project/ruffus/2.5rc/#files
         package_name: ruffus
-  - name: Ruffus2x7x0PyPIArtifactSizeWrap
+  - name: Ruffusx2x7x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -90,7 +90,7 @@ units:
           '2.7.0' can have up to 11.62MiB
         link: https://pypi.org/project/ruffus/2.7.0/#files
         package_name: ruffus
-  - name: Ruffus2x8x0PyPIArtifactSizeWrap
+  - name: Ruffusx2x8x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -108,7 +108,7 @@ units:
           '2.8.0' can have up to 11.62MiB
         link: https://pypi.org/project/ruffus/2.8.0/#files
         package_name: ruffus
-  - name: Ruffus2x8x1PyPIArtifactSizeWrap
+  - name: Ruffusx2x8x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -126,7 +126,7 @@ units:
           '2.8.1' can have up to 11.62MiB
         link: https://pypi.org/project/ruffus/2.8.1/#files
         package_name: ruffus
-  - name: Ruffus2x8x2PyPIArtifactSizeWrap
+  - name: Ruffusx2x8x2PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -144,7 +144,7 @@ units:
           '2.8.2' can have up to 11.58MiB
         link: https://pypi.org/project/ruffus/2.8.2/#files
         package_name: ruffus
-  - name: Ruffus2x8x3PyPIArtifactSizeWrap
+  - name: Ruffusx2x8x3PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -162,7 +162,7 @@ units:
           '2.8.3' can have up to 11.62MiB
         link: https://pypi.org/project/ruffus/2.8.3/#files
         package_name: ruffus
-  - name: Ruffus2x8x4PyPIArtifactSizeWrap
+  - name: Ruffusx2x8x4PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
