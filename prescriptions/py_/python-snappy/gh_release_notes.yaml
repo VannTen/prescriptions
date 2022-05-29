@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: PythonSnappyGitHubReleaseNotesWrap
+  - name: PythonxSnappyGitHubReleaseNotesWrap
     type: wrap.GHReleaseNotes
     should_include:
       adviser_pipeline: true
