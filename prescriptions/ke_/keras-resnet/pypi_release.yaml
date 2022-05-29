@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: KerasResnetPyPIReleaseWrap
+  - name: KerasxResnetPyPIReleaseWrap
     type: wrap
     should_include:
       adviser_pipeline: true
