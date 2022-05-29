@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: PloneTestingPyPIReleaseWrap
+  - name: PlonexTestingPyPIReleaseWrap
     type: wrap
     should_include:
       adviser_pipeline: true
