@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: Mpi4pyPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: mpi4py
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'mpi4py' has no recent release, last release dates back to 2021-11-25 21:08:44.824683
+        link: https://pypi.org/project/mpi4py/#history
+        package_name: mpi4py
