@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: Sortedcontainers1x5x10PyPIArtifactSizeWrap
+  - name: Sortedcontainersx1x5x10PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -18,7 +18,7 @@ units:
           '1.5.10' can have up to 11.43MiB
         link: https://pypi.org/project/sortedcontainers/1.5.10/#files
         package_name: sortedcontainers
-  - name: Sortedcontainers1x5x5PyPIArtifactSizeWrap
+  - name: Sortedcontainersx1x5x5PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -36,7 +36,7 @@ units:
           '1.5.5' can have up to 11.42MiB
         link: https://pypi.org/project/sortedcontainers/1.5.5/#files
         package_name: sortedcontainers
-  - name: Sortedcontainers1x5x6PyPIArtifactSizeWrap
+  - name: Sortedcontainersx1x5x6PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -54,7 +54,7 @@ units:
           '1.5.6' can have up to 11.42MiB
         link: https://pypi.org/project/sortedcontainers/1.5.6/#files
         package_name: sortedcontainers
-  - name: Sortedcontainers1x5x7PyPIArtifactSizeWrap
+  - name: Sortedcontainersx1x5x7PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -72,7 +72,7 @@ units:
           '1.5.7' can have up to 11.42MiB
         link: https://pypi.org/project/sortedcontainers/1.5.7/#files
         package_name: sortedcontainers
-  - name: Sortedcontainers1x5x9PyPIArtifactSizeWrap
+  - name: Sortedcontainersx1x5x9PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -90,7 +90,7 @@ units:
           '1.5.9' can have up to 11.42MiB
         link: https://pypi.org/project/sortedcontainers/1.5.9/#files
         package_name: sortedcontainers
-  - name: Sortedcontainers2x0x0PyPIArtifactSizeWrap
+  - name: Sortedcontainersx2x0x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -108,7 +108,7 @@ units:
           '2.0.0' can have up to 8.80MiB
         link: https://pypi.org/project/sortedcontainers/2.0.0/#files
         package_name: sortedcontainers
-  - name: Sortedcontainers2x0x1PyPIArtifactSizeWrap
+  - name: Sortedcontainersx2x0x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -126,7 +126,7 @@ units:
           '2.0.1' can have up to 8.80MiB
         link: https://pypi.org/project/sortedcontainers/2.0.1/#files
         package_name: sortedcontainers
-  - name: Sortedcontainers2x0x2PyPIArtifactSizeWrap
+  - name: Sortedcontainersx2x0x2PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
