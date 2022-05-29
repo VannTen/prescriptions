@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: HubspotApiClientGitHubReleaseNotesWrap
+  - name: HubspotxApixClientGitHubReleaseNotesWrap
     type: wrap.GHReleaseNotes
     should_include:
       adviser_pipeline: true
