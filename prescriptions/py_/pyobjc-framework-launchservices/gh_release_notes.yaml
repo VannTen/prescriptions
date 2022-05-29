@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: PyobjcFrameworkLaunchservicesGitHubReleaseNotesWrap
+  - name: PyobjcxFrameworkxLaunchservicesGitHubReleaseNotesWrap
     type: wrap.GHReleaseNotes
     should_include:
       adviser_pipeline: true
