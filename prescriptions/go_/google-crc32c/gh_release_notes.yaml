@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: GoogleCrc32cGitHubReleaseNotesWrap
+  - name: GooglexCrc32cGitHubReleaseNotesWrap
     type: wrap.GHReleaseNotes
     should_include:
       adviser_pipeline: true
