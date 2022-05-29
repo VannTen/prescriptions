@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: Pyvisa1x10x0PyPIArtifactSizeWrap
+  - name: Pyvisax1x10x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -18,7 +18,7 @@ units:
           '1.10.0' can have up to 6.50MiB
         link: https://pypi.org/project/pyvisa/1.10.0/#files
         package_name: pyvisa
-  - name: Pyvisa1x10x1PyPIArtifactSizeWrap
+  - name: Pyvisax1x10x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -36,7 +36,7 @@ units:
           '1.10.1' can have up to 6.51MiB
         link: https://pypi.org/project/pyvisa/1.10.1/#files
         package_name: pyvisa
-  - name: Pyvisa1x11x0PyPIArtifactSizeWrap
+  - name: Pyvisax1x11x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -54,7 +54,7 @@ units:
           '1.11.0' can have up to 13.40MiB
         link: https://pypi.org/project/pyvisa/1.11.0/#files
         package_name: pyvisa
-  - name: Pyvisa1x11x1PyPIArtifactSizeWrap
+  - name: Pyvisax1x11x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
