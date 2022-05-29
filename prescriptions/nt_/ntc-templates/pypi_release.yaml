@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: NtcTemplatesPyPIReleaseWrap
+  - name: NtcxTemplatesPyPIReleaseWrap
     type: wrap
     should_include:
       adviser_pipeline: true
