@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: ProtoGoogleCloudDatastoreV1PyPIReleaseWrap
+  - name: ProtoxGooglexCloudxDatastorexV1PyPIReleaseWrap
     type: wrap
     should_include:
       adviser_pipeline: true
