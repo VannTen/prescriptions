@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: PytestServicesGitHubReleaseNotesWrap
+  - name: PytestxServicesGitHubReleaseNotesWrap
     type: wrap.GHReleaseNotes
     should_include:
       adviser_pipeline: true
