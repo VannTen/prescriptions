@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: PyobjcFrameworkMlcomputeGitHubReleaseNotesWrap
+  - name: PyobjcxFrameworkxMlcomputeGitHubReleaseNotesWrap
     type: wrap.GHReleaseNotes
     should_include:
       adviser_pipeline: true
