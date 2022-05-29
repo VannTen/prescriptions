@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: RequestsNtlmGitHubReleaseNotesWrap
+  - name: RequestsxNtlmGitHubReleaseNotesWrap
     type: wrap.GHReleaseNotes
     should_include:
       adviser_pipeline: true
