@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: GetVersionGitHubURLWrap
+  - name: GetxVersionGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
