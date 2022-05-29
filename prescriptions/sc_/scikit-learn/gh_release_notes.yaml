@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: ScikitLearnGitHubReleaseNotesWrap
+  - name: ScikitxLearnGitHubReleaseNotesWrap
     type: wrap.GHReleaseNotes
     should_include:
       adviser_pipeline: true
