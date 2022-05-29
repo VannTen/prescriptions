@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: Pyqtwebengine5x12PyPIArtifactSizeWrap
+  - name: Pyqtwebenginex5x12PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -18,7 +18,7 @@ units:
           '5.12' can have up to 58.15MiB
         link: https://pypi.org/project/pyqtwebengine/5.12/#files
         package_name: pyqtwebengine
-  - name: Pyqtwebengine5x12x1PyPIArtifactSizeWrap
+  - name: Pyqtwebenginex5x12x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -36,7 +36,7 @@ units:
           '5.12.1' can have up to 57.35MiB
         link: https://pypi.org/project/pyqtwebengine/5.12.1/#files
         package_name: pyqtwebengine
-  - name: Pyqtwebengine5x13x0PyPIArtifactSizeWrap
+  - name: Pyqtwebenginex5x13x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -54,7 +54,7 @@ units:
           '5.13.0' can have up to 61.88MiB
         link: https://pypi.org/project/pyqtwebengine/5.13.0/#files
         package_name: pyqtwebengine
-  - name: Pyqtwebengine5x13x1PyPIArtifactSizeWrap
+  - name: Pyqtwebenginex5x13x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -72,7 +72,7 @@ units:
           '5.13.1' can have up to 61.90MiB
         link: https://pypi.org/project/pyqtwebengine/5.13.1/#files
         package_name: pyqtwebengine
-  - name: Pyqtwebengine5x13x2PyPIArtifactSizeWrap
+  - name: Pyqtwebenginex5x13x2PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -90,7 +90,7 @@ units:
           '5.13.2' can have up to 64.71MiB
         link: https://pypi.org/project/pyqtwebengine/5.13.2/#files
         package_name: pyqtwebengine
-  - name: Pyqtwebengine5x14x0PyPIArtifactSizeWrap
+  - name: Pyqtwebenginex5x14x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -108,7 +108,7 @@ units:
           '5.14.0' can have up to 72.44MiB
         link: https://pypi.org/project/pyqtwebengine/5.14.0/#files
         package_name: pyqtwebengine
-  - name: Pyqtwebengine5x15x0PyPIArtifactSizeWrap
+  - name: Pyqtwebenginex5x15x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -126,7 +126,7 @@ units:
           '5.15.0' can have up to 72.73MiB
         link: https://pypi.org/project/pyqtwebengine/5.15.0/#files
         package_name: pyqtwebengine
-  - name: Pyqtwebengine5x15x1PyPIArtifactSizeWrap
+  - name: Pyqtwebenginex5x15x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -144,7 +144,7 @@ units:
           '5.15.1' can have up to 73.19MiB
         link: https://pypi.org/project/pyqtwebengine/5.15.1/#files
         package_name: pyqtwebengine
-  - name: Pyqtwebengine5x15x2PyPIArtifactSizeWrap
+  - name: Pyqtwebenginex5x15x2PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
