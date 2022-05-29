@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: PdftotextPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: pdftotext
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'pdftotext' has no recent release, last release dates back to 2021-11-23 19:29:39.358389
+        link: https://pypi.org/project/pdftotext/#history
+        package_name: pdftotext
