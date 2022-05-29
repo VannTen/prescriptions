@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: CoverageEnableSubprocessGitHubReleaseNotesWrap
+  - name: CoveragexEnablexSubprocessGitHubReleaseNotesWrap
     type: wrap.GHReleaseNotes
     should_include:
       adviser_pipeline: true
