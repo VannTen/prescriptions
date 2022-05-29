@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: SplunkHandlerGitHubReleaseNotesWrap
+  - name: SplunkxHandlerGitHubReleaseNotesWrap
     type: wrap.GHReleaseNotes
     should_include:
       adviser_pipeline: true
