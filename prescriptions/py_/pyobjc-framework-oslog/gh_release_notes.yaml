@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: PyobjcFrameworkOslogGitHubReleaseNotesWrap
+  - name: PyobjcxFrameworkxOslogGitHubReleaseNotesWrap
     type: wrap.GHReleaseNotes
     should_include:
       adviser_pipeline: true
