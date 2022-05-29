@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: OpentelemetrySdkGitHubReleaseNotesWrap
+  - name: OpentelemetryxSdkGitHubReleaseNotesWrap
     type: wrap.GHReleaseNotes
     should_include:
       adviser_pipeline: true
