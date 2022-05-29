@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: FunctionsFrameworkGitHubReleaseNotesWrap
+  - name: FunctionsxFrameworkGitHubReleaseNotesWrap
     type: wrap.GHReleaseNotes
     should_include:
       adviser_pipeline: true
