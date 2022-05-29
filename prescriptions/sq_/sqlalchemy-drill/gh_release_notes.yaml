@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: SqlalchemyDrillGitHubReleaseNotesWrap
+  - name: SqlalchemyxDrillGitHubReleaseNotesWrap
     type: wrap.GHReleaseNotes
     should_include:
       adviser_pipeline: true
