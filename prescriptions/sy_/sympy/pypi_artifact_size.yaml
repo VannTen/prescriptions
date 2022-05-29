@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: Sympy1x1PyPIArtifactSizeWrap
+  - name: Sympyx1x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -18,7 +18,7 @@ units:
           '1.1' can have up to 4.37MiB
         link: https://pypi.org/project/sympy/1.1/#files
         package_name: sympy
-  - name: Sympy1x1x1PyPIArtifactSizeWrap
+  - name: Sympyx1x1x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -36,7 +36,7 @@ units:
           '1.1.1' can have up to 4.37MiB
         link: https://pypi.org/project/sympy/1.1.1/#files
         package_name: sympy
-  - name: Sympy1x10PyPIArtifactSizeWrap
+  - name: Sympyx1x10PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -54,7 +54,7 @@ units:
           '1.10' can have up to 6.78MiB
         link: https://pypi.org/project/sympy/1.10/#files
         package_name: sympy
-  - name: Sympy1x10x1PyPIArtifactSizeWrap
+  - name: Sympyx1x10x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -72,7 +72,7 @@ units:
           '1.10.1' can have up to 6.78MiB
         link: https://pypi.org/project/sympy/1.10.1/#files
         package_name: sympy
-  - name: Sympy1x10rc1PyPIArtifactSizeWrap
+  - name: Sympyx1x10rc1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -90,7 +90,7 @@ units:
           '1.10rc1' can have up to 6.78MiB
         link: https://pypi.org/project/sympy/1.10rc1/#files
         package_name: sympy
-  - name: Sympy1x10rc2PyPIArtifactSizeWrap
+  - name: Sympyx1x10rc2PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -108,7 +108,7 @@ units:
           '1.10rc2' can have up to 6.78MiB
         link: https://pypi.org/project/sympy/1.10rc2/#files
         package_name: sympy
-  - name: Sympy1x10rc3PyPIArtifactSizeWrap
+  - name: Sympyx1x10rc3PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -126,7 +126,7 @@ units:
           '1.10rc3' can have up to 6.78MiB
         link: https://pypi.org/project/sympy/1.10rc3/#files
         package_name: sympy
-  - name: Sympy1x2PyPIArtifactSizeWrap
+  - name: Sympyx1x2PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -144,7 +144,7 @@ units:
           '1.2' can have up to 5.17MiB
         link: https://pypi.org/project/sympy/1.2/#files
         package_name: sympy
-  - name: Sympy1x3PyPIArtifactSizeWrap
+  - name: Sympyx1x3PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -162,7 +162,7 @@ units:
           '1.3' can have up to 5.61MiB
         link: https://pypi.org/project/sympy/1.3/#files
         package_name: sympy
-  - name: Sympy1x4PyPIArtifactSizeWrap
+  - name: Sympyx1x4PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -180,7 +180,7 @@ units:
           '1.4' can have up to 5.74MiB
         link: https://pypi.org/project/sympy/1.4/#files
         package_name: sympy
-  - name: Sympy1x5PyPIArtifactSizeWrap
+  - name: Sympyx1x5PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -198,7 +198,7 @@ units:
           '1.5' can have up to 6.00MiB
         link: https://pypi.org/project/sympy/1.5/#files
         package_name: sympy
-  - name: Sympy1x5x1PyPIArtifactSizeWrap
+  - name: Sympyx1x5x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -216,7 +216,7 @@ units:
           '1.5.1' can have up to 6.00MiB
         link: https://pypi.org/project/sympy/1.5.1/#files
         package_name: sympy
-  - name: Sympy1x5b1PyPIArtifactSizeWrap
+  - name: Sympyx1x5b1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -234,7 +234,7 @@ units:
           '1.5b1' can have up to 6.00MiB
         link: https://pypi.org/project/sympy/1.5b1/#files
         package_name: sympy
-  - name: Sympy1x5rc1PyPIArtifactSizeWrap
+  - name: Sympyx1x5rc1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -252,7 +252,7 @@ units:
           '1.5rc1' can have up to 6.00MiB
         link: https://pypi.org/project/sympy/1.5rc1/#files
         package_name: sympy
-  - name: Sympy1x6PyPIArtifactSizeWrap
+  - name: Sympyx1x6PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -270,7 +270,7 @@ units:
           '1.6' can have up to 5.99MiB
         link: https://pypi.org/project/sympy/1.6/#files
         package_name: sympy
-  - name: Sympy1x6x1PyPIArtifactSizeWrap
+  - name: Sympyx1x6x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -288,7 +288,7 @@ units:
           '1.6.1' can have up to 5.99MiB
         link: https://pypi.org/project/sympy/1.6.1/#files
         package_name: sympy
-  - name: Sympy1x6x2PyPIArtifactSizeWrap
+  - name: Sympyx1x6x2PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -306,7 +306,7 @@ units:
           '1.6.2' can have up to 5.99MiB
         link: https://pypi.org/project/sympy/1.6.2/#files
         package_name: sympy
-  - name: Sympy1x6rc1PyPIArtifactSizeWrap
+  - name: Sympyx1x6rc1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -324,7 +324,7 @@ units:
           '1.6rc1' can have up to 5.99MiB
         link: https://pypi.org/project/sympy/1.6rc1/#files
         package_name: sympy
-  - name: Sympy1x6rc2PyPIArtifactSizeWrap
+  - name: Sympyx1x6rc2PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -342,7 +342,7 @@ units:
           '1.6rc2' can have up to 5.99MiB
         link: https://pypi.org/project/sympy/1.6rc2/#files
         package_name: sympy
-  - name: Sympy1x7PyPIArtifactSizeWrap
+  - name: Sympyx1x7PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -360,7 +360,7 @@ units:
           '1.7' can have up to 6.17MiB
         link: https://pypi.org/project/sympy/1.7/#files
         package_name: sympy
-  - name: Sympy1x7x1PyPIArtifactSizeWrap
+  - name: Sympyx1x7x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -378,7 +378,7 @@ units:
           '1.7.1' can have up to 6.17MiB
         link: https://pypi.org/project/sympy/1.7.1/#files
         package_name: sympy
-  - name: Sympy1x7rc1PyPIArtifactSizeWrap
+  - name: Sympyx1x7rc1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -396,7 +396,7 @@ units:
           '1.7rc1' can have up to 6.17MiB
         link: https://pypi.org/project/sympy/1.7rc1/#files
         package_name: sympy
-  - name: Sympy1x8PyPIArtifactSizeWrap
+  - name: Sympyx1x8PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -414,7 +414,7 @@ units:
           '1.8' can have up to 6.32MiB
         link: https://pypi.org/project/sympy/1.8/#files
         package_name: sympy
-  - name: Sympy1x9PyPIArtifactSizeWrap
+  - name: Sympyx1x9PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -432,7 +432,7 @@ units:
           '1.9' can have up to 6.61MiB
         link: https://pypi.org/project/sympy/1.9/#files
         package_name: sympy
-  - name: Sympy1x9rc1PyPIArtifactSizeWrap
+  - name: Sympyx1x9rc1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
