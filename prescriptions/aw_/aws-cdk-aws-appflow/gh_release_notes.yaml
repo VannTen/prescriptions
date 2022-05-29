@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: AwsCdkAwsAppflowGitHubReleaseNotesWrap
+  - name: AwsxCdkxAwsxAppflowGitHubReleaseNotesWrap
     type: wrap.GHReleaseNotes
     should_include:
       adviser_pipeline: true
