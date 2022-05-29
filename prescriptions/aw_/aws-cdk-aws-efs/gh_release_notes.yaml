@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: AwsCdkAwsEfsGitHubReleaseNotesWrap
+  - name: AwsxCdkxAwsxEfsGitHubReleaseNotesWrap
     type: wrap.GHReleaseNotes
     should_include:
       adviser_pipeline: true
