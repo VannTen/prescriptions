@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: JupyterContribNbextensionsGitHubReleaseNotesWrap
+  - name: JupyterxContribxNbextensionsGitHubReleaseNotesWrap
     type: wrap.GHReleaseNotes
     should_include:
       adviser_pipeline: true
