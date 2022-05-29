@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: DjangoCeleryBeatPyPIReleaseWrap
+  - name: DjangoxCeleryxBeatPyPIReleaseWrap
     type: wrap
     should_include:
       adviser_pipeline: true
