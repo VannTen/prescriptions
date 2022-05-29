@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: Scapy2x4x1PyPIArtifactSizeWrap
+  - name: Scapyx2x4x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
