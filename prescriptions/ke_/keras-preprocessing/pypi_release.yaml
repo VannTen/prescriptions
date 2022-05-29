@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: KerasPreprocessingPyPIReleaseWrap
+  - name: KerasxPreprocessingPyPIReleaseWrap
     type: wrap
     should_include:
       adviser_pipeline: true
