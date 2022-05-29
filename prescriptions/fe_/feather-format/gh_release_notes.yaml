@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: FeatherFormatGitHubReleaseNotesWrap
+  - name: FeatherxFormatGitHubReleaseNotesWrap
     type: wrap.GHReleaseNotes
     should_include:
       adviser_pipeline: true
