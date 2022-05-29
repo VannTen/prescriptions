@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: AwsCdkAwsElasticloadbalancingGitHubReleaseNotesWrap
+  - name: AwsxCdkxAwsxElasticloadbalancingGitHubReleaseNotesWrap
     type: wrap.GHReleaseNotes
     should_include:
       adviser_pipeline: true
