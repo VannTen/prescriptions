@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: Speechrecognition3x6x0PyPIArtifactSizeWrap
+  - name: Speechrecognitionx3x6x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -18,7 +18,7 @@ units:
           '3.6.0' can have up to 30.36MiB
         link: https://pypi.org/project/speechrecognition/3.6.0/#files
         package_name: speechrecognition
-  - name: Speechrecognition3x6x1PyPIArtifactSizeWrap
+  - name: Speechrecognitionx3x6x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -36,7 +36,7 @@ units:
           '3.6.1' can have up to 30.36MiB
         link: https://pypi.org/project/speechrecognition/3.6.1/#files
         package_name: speechrecognition
-  - name: Speechrecognition3x6x3PyPIArtifactSizeWrap
+  - name: Speechrecognitionx3x6x3PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -54,7 +54,7 @@ units:
           '3.6.3' can have up to 30.34MiB
         link: https://pypi.org/project/speechrecognition/3.6.3/#files
         package_name: speechrecognition
-  - name: Speechrecognition3x6x4PyPIArtifactSizeWrap
+  - name: Speechrecognitionx3x6x4PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -72,7 +72,7 @@ units:
           '3.6.4' can have up to 30.35MiB
         link: https://pypi.org/project/speechrecognition/3.6.4/#files
         package_name: speechrecognition
-  - name: Speechrecognition3x6x5PyPIArtifactSizeWrap
+  - name: Speechrecognitionx3x6x5PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -90,7 +90,7 @@ units:
           '3.6.5' can have up to 30.35MiB
         link: https://pypi.org/project/speechrecognition/3.6.5/#files
         package_name: speechrecognition
-  - name: Speechrecognition3x7x1PyPIArtifactSizeWrap
+  - name: Speechrecognitionx3x7x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -108,7 +108,7 @@ units:
           '3.7.1' can have up to 31.31MiB
         link: https://pypi.org/project/speechrecognition/3.7.1/#files
         package_name: speechrecognition
-  - name: Speechrecognition3x8x0PyPIArtifactSizeWrap
+  - name: Speechrecognitionx3x8x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -126,7 +126,7 @@ units:
           '3.8.0' can have up to 31.31MiB
         link: https://pypi.org/project/speechrecognition/3.8.0/#files
         package_name: speechrecognition
-  - name: Speechrecognition3x8x1PyPIArtifactSizeWrap
+  - name: Speechrecognitionx3x8x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
