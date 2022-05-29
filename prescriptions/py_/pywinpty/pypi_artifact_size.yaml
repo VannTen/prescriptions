@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: Pywinpty0x4x1PyPIArtifactSizeWrap
+  - name: Pywinptyx0x4x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -18,7 +18,7 @@ units:
           '0.4.1' can have up to 48.45MiB
         link: https://pypi.org/project/pywinpty/0.4.1/#files
         package_name: pywinpty
-  - name: Pywinpty0x5PyPIArtifactSizeWrap
+  - name: Pywinptyx0x5PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
