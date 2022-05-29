@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: DocstringParserGitHubReleaseNotesWrap
+  - name: DocstringxParserGitHubReleaseNotesWrap
     type: wrap.GHReleaseNotes
     should_include:
       adviser_pipeline: true
