@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: PlasterPastedeployPyPIReleaseWrap
+  - name: PlasterxPastedeployPyPIReleaseWrap
     type: wrap
     should_include:
       adviser_pipeline: true
