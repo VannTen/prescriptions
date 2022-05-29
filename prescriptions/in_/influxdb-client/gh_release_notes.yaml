@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: InfluxdbClientGitHubReleaseNotesWrap
+  - name: InfluxdbxClientGitHubReleaseNotesWrap
     type: wrap.GHReleaseNotes
     should_include:
       adviser_pipeline: true
