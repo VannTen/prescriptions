@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: SphinxPy3docEnhancedThemeGitHubReleaseNotesWrap
+  - name: SphinxxPy3docxEnhancedxThemeGitHubReleaseNotesWrap
     type: wrap.GHReleaseNotes
     should_include:
       adviser_pipeline: true
