@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: CupyCuda100GitHubReleaseNotesWrap
+  - name: CupyxCuda100GitHubReleaseNotesWrap
     type: wrap.GHReleaseNotes
     should_include:
       adviser_pipeline: true
