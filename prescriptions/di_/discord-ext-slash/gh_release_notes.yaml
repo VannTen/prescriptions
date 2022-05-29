@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: DiscordExtSlashGitHubReleaseNotesWrap
+  - name: DiscordxExtxSlashGitHubReleaseNotesWrap
     type: wrap.GHReleaseNotes
     should_include:
       adviser_pipeline: true
