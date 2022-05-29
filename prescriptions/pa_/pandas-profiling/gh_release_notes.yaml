@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: PandasProfilingGitHubReleaseNotesWrap
+  - name: PandasxProfilingGitHubReleaseNotesWrap
     type: wrap.GHReleaseNotes
     should_include:
       adviser_pipeline: true
@@ -10,6 +10,6 @@ units:
         - name: pandas-profiling
     run:
       release_notes:
-        organization: pandas-profiling
+        organization: ydataai
         repository: pandas-profiling
         tag_version_prefix: v
