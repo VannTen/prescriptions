@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: Scons4x0x0PyPIArtifactSizeWrap
+  - name: Sconsx4x0x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -18,7 +18,7 @@ units:
           '4.0.0' can have up to 3.79MiB
         link: https://pypi.org/project/scons/4.0.0/#files
         package_name: scons
-  - name: Scons4x0x1PyPIArtifactSizeWrap
+  - name: Sconsx4x0x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -36,7 +36,7 @@ units:
           '4.0.1' can have up to 3.79MiB
         link: https://pypi.org/project/scons/4.0.1/#files
         package_name: scons
-  - name: Scons4x1x0PyPIArtifactSizeWrap
+  - name: Sconsx4x1x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -54,7 +54,7 @@ units:
           '4.1.0' can have up to 3.92MiB
         link: https://pypi.org/project/scons/4.1.0/#files
         package_name: scons
-  - name: Scons4x1x0xpost1PyPIArtifactSizeWrap
+  - name: Sconsx4x1x0xpost1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -72,7 +72,7 @@ units:
           '4.1.0.post1' can have up to 3.92MiB
         link: https://pypi.org/project/scons/4.1.0.post1/#files
         package_name: scons
-  - name: Scons4x2x0PyPIArtifactSizeWrap
+  - name: Sconsx4x2x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -90,7 +90,7 @@ units:
           '4.2.0' can have up to 3.96MiB
         link: https://pypi.org/project/scons/4.2.0/#files
         package_name: scons
-  - name: Scons4x3x0PyPIArtifactSizeWrap
+  - name: Sconsx4x3x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
