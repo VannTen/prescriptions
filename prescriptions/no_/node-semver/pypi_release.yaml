@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: NodeSemverPyPIReleaseWrap
+  - name: NodexSemverPyPIReleaseWrap
     type: wrap
     should_include:
       adviser_pipeline: true
