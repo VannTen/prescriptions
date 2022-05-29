@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: ProtoGoogleCloudLoggingV2PyPIReleaseWrap
+  - name: ProtoxGooglexCloudxLoggingxV2PyPIReleaseWrap
     type: wrap
     should_include:
       adviser_pipeline: true
