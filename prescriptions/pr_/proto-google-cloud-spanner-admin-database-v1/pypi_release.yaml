@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: ProtoGoogleCloudSpannerAdminDatabaseV1PyPIReleaseWrap
+  - name: ProtoxGooglexCloudxSpannerxAdminxDatabasexV1PyPIReleaseWrap
     type: wrap
     should_include:
       adviser_pipeline: true
