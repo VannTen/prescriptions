@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: ApacheAirflowProvidersYandexGitHubReleaseNotesWrap
+  - name: ApachexAirflowxProvidersxYandexGitHubReleaseNotesWrap
     type: wrap.GHReleaseNotes
     should_include:
       adviser_pipeline: true
