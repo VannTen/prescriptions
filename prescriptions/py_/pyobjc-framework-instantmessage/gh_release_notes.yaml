@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: PyobjcFrameworkInstantmessageGitHubReleaseNotesWrap
+  - name: PyobjcxFrameworkxInstantmessageGitHubReleaseNotesWrap
     type: wrap.GHReleaseNotes
     should_include:
       adviser_pipeline: true
