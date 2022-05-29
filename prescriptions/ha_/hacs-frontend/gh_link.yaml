@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: HacsFrontendGitHubURLWrap
+  - name: HacsxFrontendGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
