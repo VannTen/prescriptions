@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: GoogleCloudIamGitHubReleaseNotesWrap
+  - name: GooglexCloudxIamGitHubReleaseNotesWrap
     type: wrap.GHReleaseNotes
     should_include:
       adviser_pipeline: true
