@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: SpyderKernelsGitHubReleaseNotesWrap
+  - name: SpyderxKernelsGitHubReleaseNotesWrap
     type: wrap.GHReleaseNotes
     should_include:
       adviser_pipeline: true
