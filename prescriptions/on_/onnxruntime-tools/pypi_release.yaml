@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: OnnxruntimeToolsPyPIReleaseWrap
+  - name: OnnxruntimexToolsPyPIReleaseWrap
     type: wrap
     should_include:
       adviser_pipeline: true
