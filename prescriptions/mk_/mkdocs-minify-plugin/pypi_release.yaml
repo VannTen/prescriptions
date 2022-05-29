@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: MkdocsMinifyPluginPyPIReleaseWrap
+  - name: MkdocsxMinifyxPluginPyPIReleaseWrap
     type: wrap
     should_include:
       adviser_pipeline: true
