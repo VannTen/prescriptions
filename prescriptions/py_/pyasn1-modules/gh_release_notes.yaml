@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: Pyasn1ModulesGitHubReleaseNotesWrap
+  - name: Pyasn1xModulesGitHubReleaseNotesWrap
     type: wrap.GHReleaseNotes
     should_include:
       adviser_pipeline: true
