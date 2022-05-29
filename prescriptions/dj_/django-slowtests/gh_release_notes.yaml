@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: DjangoSlowtestsGitHubReleaseNotesWrap
+  - name: DjangoxSlowtestsGitHubReleaseNotesWrap
     type: wrap.GHReleaseNotes
     should_include:
       adviser_pipeline: true
