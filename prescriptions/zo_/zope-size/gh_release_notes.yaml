@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: ZopeSizeGitHubReleaseNotesWrap
+  - name: ZopexSizeGitHubReleaseNotesWrap
     type: wrap.GHReleaseNotes
     should_include:
       adviser_pipeline: true
