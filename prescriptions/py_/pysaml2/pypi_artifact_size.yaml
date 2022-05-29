@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: Pysaml24x0x5rc1PyPIArtifactSizeWrap
+  - name: Pysaml2x4x0x5rc1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -18,7 +18,7 @@ units:
           '4.0.5rc1' can have up to 13.03MiB
         link: https://pypi.org/project/pysaml2/4.0.5rc1/#files
         package_name: pysaml2
-  - name: Pysaml24x5x0PyPIArtifactSizeWrap
+  - name: Pysaml2x4x5x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
