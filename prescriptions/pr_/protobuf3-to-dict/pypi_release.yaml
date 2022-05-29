@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: Protobuf3ToDictPyPIReleaseWrap
+  - name: Protobuf3xToxDictPyPIReleaseWrap
     type: wrap
     should_include:
       adviser_pipeline: true
