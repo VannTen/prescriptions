@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: Slip20191113PyPIArtifactSizeWrap
+  - name: Slipx20191113PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
