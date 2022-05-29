@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: NoseParallelPyPIReleaseWrap
+  - name: NosexParallelPyPIReleaseWrap
     type: wrap
     should_include:
       adviser_pipeline: true
