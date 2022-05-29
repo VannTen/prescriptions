@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: Auth0PythonGitHubReleaseNotesWrap
+  - name: Auth0xPythonGitHubReleaseNotesWrap
     type: wrap.GHReleaseNotes
     should_include:
       adviser_pipeline: true
