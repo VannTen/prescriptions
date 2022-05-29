@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: Pyswarms0x2x0PyPIArtifactSizeWrap
+  - name: Pyswarmsx0x2x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -18,7 +18,7 @@ units:
           '0.2.0' can have up to 4.04MiB
         link: https://pypi.org/project/pyswarms/0.2.0/#files
         package_name: pyswarms
-  - name: Pyswarms0x2x1PyPIArtifactSizeWrap
+  - name: Pyswarmsx0x2x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -36,7 +36,7 @@ units:
           '0.2.1' can have up to 3.73MiB
         link: https://pypi.org/project/pyswarms/0.2.1/#files
         package_name: pyswarms
-  - name: Pyswarms0x3x1PyPIArtifactSizeWrap
+  - name: Pyswarmsx0x3x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -54,7 +54,7 @@ units:
           '0.3.1' can have up to 3.75MiB
         link: https://pypi.org/project/pyswarms/0.3.1/#files
         package_name: pyswarms
-  - name: Pyswarms1x1x0PyPIArtifactSizeWrap
+  - name: Pyswarmsx1x1x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -72,7 +72,7 @@ units:
           '1.1.0' can have up to 18.55MiB
         link: https://pypi.org/project/pyswarms/1.1.0/#files
         package_name: pyswarms
-  - name: Pyswarms1x2x0PyPIArtifactSizeWrap
+  - name: Pyswarmsx1x2x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -90,7 +90,7 @@ units:
           '1.2.0' can have up to 16.91MiB
         link: https://pypi.org/project/pyswarms/1.2.0/#files
         package_name: pyswarms
-  - name: Pyswarms1x3x0PyPIArtifactSizeWrap
+  - name: Pyswarmsx1x3x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
