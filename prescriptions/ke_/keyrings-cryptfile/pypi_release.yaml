@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: KeyringsCryptfilePyPIReleaseWrap
+  - name: KeyringsxCryptfilePyPIReleaseWrap
     type: wrap
     should_include:
       adviser_pipeline: true
