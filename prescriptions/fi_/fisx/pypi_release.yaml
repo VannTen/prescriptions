@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: FisxPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: fisx
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'fisx' has no recent release, last release dates back to 2021-11-22 14:56:16.495981
+        link: https://pypi.org/project/fisx/#history
+        package_name: fisx
