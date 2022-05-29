@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: MegatronLmPyPIReleaseWrap
+  - name: MegatronxLmPyPIReleaseWrap
     type: wrap
     should_include:
       adviser_pipeline: true
