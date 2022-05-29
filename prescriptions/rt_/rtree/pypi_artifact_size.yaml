@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: Rtree0x9x1PyPIArtifactSizeWrap
+  - name: Rtreex0x9x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
