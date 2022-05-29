@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: CondaPackGitHubReleaseNotesWrap
+  - name: CondaxPackGitHubReleaseNotesWrap
     type: wrap.GHReleaseNotes
     should_include:
       adviser_pipeline: true
