@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: Sqlcipher3Binary0x4x0PyPIArtifactSizeWrap
+  - name: Sqlcipher3xBinaryx0x4x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -18,7 +18,7 @@ units:
           '0.4.0' can have up to 4.23MiB
         link: https://pypi.org/project/sqlcipher3-binary/0.4.0/#files
         package_name: sqlcipher3-binary
-  - name: Sqlcipher3Binary0x4x1PyPIArtifactSizeWrap
+  - name: Sqlcipher3xBinaryx0x4x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -36,7 +36,7 @@ units:
           '0.4.1' can have up to 4.27MiB
         link: https://pypi.org/project/sqlcipher3-binary/0.4.1/#files
         package_name: sqlcipher3-binary
-  - name: Sqlcipher3Binary0x4x2PyPIArtifactSizeWrap
+  - name: Sqlcipher3xBinaryx0x4x2PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -54,7 +54,7 @@ units:
           '0.4.2' can have up to 4.30MiB
         link: https://pypi.org/project/sqlcipher3-binary/0.4.2/#files
         package_name: sqlcipher3-binary
-  - name: Sqlcipher3Binary0x4x4PyPIArtifactSizeWrap
+  - name: Sqlcipher3xBinaryx0x4x4PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -72,7 +72,7 @@ units:
           '0.4.4' can have up to 4.34MiB
         link: https://pypi.org/project/sqlcipher3-binary/0.4.4/#files
         package_name: sqlcipher3-binary
-  - name: Sqlcipher3Binary0x4x5PyPIArtifactSizeWrap
+  - name: Sqlcipher3xBinaryx0x4x5PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
