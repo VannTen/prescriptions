@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: Segyio1x8x4PyPIArtifactSizeWrap
+  - name: Segyiox1x8x4PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -18,7 +18,7 @@ units:
           '1.8.4' can have up to 3.59MiB
         link: https://pypi.org/project/segyio/1.8.4/#files
         package_name: segyio
-  - name: Segyio1x8x5PyPIArtifactSizeWrap
+  - name: Segyiox1x8x5PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -36,7 +36,7 @@ units:
           '1.8.5' can have up to 3.60MiB
         link: https://pypi.org/project/segyio/1.8.5/#files
         package_name: segyio
-  - name: Segyio1x8x6PyPIArtifactSizeWrap
+  - name: Segyiox1x8x6PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
