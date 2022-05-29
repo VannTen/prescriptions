@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: SocialAuthCore3x4x0PyPIArtifactSizeWrap
+  - name: SocialxAuthxCorex3x4x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
