@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: JsxLexerGitHubReleaseNotesWrap
+  - name: JsxxLexerGitHubReleaseNotesWrap
     type: wrap.GHReleaseNotes
     should_include:
       adviser_pipeline: true
