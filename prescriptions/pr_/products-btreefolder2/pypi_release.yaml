@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: ProductsBtreefolder2PyPIReleaseWrap
+  - name: ProductsxBtreefolder2PyPIReleaseWrap
     type: wrap
     should_include:
       adviser_pipeline: true
