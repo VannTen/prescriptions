@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: ApacheAirflowBackportProvidersSftpGitHubURLWrap
+  - name: ApachexAirflowxBackportxProvidersxSftpGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
