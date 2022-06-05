@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: ApacheAirflowProvidersSqliteGitHubReleaseNotesWrap
+  - name: ApachexAirflowxProvidersxSqliteGitHubReleaseNotesWrap
     type: wrap.GHReleaseNotes
     should_include:
       adviser_pipeline: true
