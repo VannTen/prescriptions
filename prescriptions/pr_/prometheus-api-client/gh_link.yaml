@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: PrometheusApiClientGitHubURLWrap
+  - name: PrometheusxApixClientGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -12,5 +12,5 @@ units:
       justification:
       - type: INFO
         message: Package 'prometheus-api-client' is hosted on GitHub
-        link: https://github.com/AICoE/prometheus-api-client-python
+        link: https://github.com/4n4nd/prometheus-api-client-python
         package_name: prometheus-api-client
