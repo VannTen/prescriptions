@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: MecabPython3GitHubURLWrap
+  - name: MecabxPython3GitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
