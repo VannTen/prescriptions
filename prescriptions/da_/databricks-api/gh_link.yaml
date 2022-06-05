@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: DatabricksApiGitHubURLWrap
+  - name: DatabricksxApiGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
