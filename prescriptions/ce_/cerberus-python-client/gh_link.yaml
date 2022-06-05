@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: CerberusPythonClientGitHubURLWrap
+  - name: CerberusxPythonxClientGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
