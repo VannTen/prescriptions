@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: ApacheAirflowProvidersPapermillGitHubReleaseNotesWrap
+  - name: ApachexAirflowxProvidersxPapermillGitHubReleaseNotesWrap
     type: wrap.GHReleaseNotes
     should_include:
       adviser_pipeline: true
