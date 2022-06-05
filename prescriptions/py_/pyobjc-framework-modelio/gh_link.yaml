@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: PyobjcFrameworkModelioGitHubURLWrap
+  - name: PyobjcxFrameworkxModelioGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
