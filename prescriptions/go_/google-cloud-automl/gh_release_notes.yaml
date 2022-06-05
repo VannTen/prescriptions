@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: GoogleCloudAutomlGitHubReleaseNotesWrap
+  - name: GooglexCloudxAutomlGitHubReleaseNotesWrap
     type: wrap.GHReleaseNotes
     should_include:
       adviser_pipeline: true
