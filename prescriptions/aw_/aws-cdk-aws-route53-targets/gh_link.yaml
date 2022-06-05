@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: AwsCdkAwsRoute53TargetsGitHubURLWrap
+  - name: AwsxCdkxAwsxRoute53xTargetsGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
