@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: AwsXraySdkGitHubReleaseNotesWrap
+  - name: AwsxXrayxSdkGitHubReleaseNotesWrap
     type: wrap.GHReleaseNotes
     should_include:
       adviser_pipeline: true
