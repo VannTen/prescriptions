@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: FastapiUtilsGitHubURLWrap
+  - name: FastapixUtilsGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
