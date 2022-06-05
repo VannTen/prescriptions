@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: DocutilsStubsGitHubURLWrap
+  - name: DocutilsxStubsGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
