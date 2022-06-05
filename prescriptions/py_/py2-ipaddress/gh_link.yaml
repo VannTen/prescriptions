@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: Py2IpaddressGitHubURLWrap
+  - name: Py2xIpaddressGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
