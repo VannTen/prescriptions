@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: GapicGoogleCloudSpannerAdminInstanceV1GitHubURLWrap
+  - name: GapicxGooglexCloudxSpannerxAdminxInstancexV1GitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
