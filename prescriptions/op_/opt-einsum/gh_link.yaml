@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: OptEinsumGitHubURLWrap
+  - name: OptxEinsumGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
