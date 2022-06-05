@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: DjangoNestedAdminGitHubURLWrap
+  - name: DjangoxNestedxAdminGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
