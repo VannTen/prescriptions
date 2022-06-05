@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: FlaskSphinxThemesGitHubURLWrap
+  - name: FlaskxSphinxxThemesGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
