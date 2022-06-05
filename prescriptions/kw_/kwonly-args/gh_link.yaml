@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: KwonlyArgsGitHubURLWrap
+  - name: KwonlyxArgsGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
