@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: GoogleCloudBigqueryStorageGitHubURLWrap
+  - name: GooglexCloudxBigqueryxStorageGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
