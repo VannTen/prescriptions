@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: IbisFrameworkGitHubURLWrap
+  - name: IbisxFrameworkGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
