@@ -1,0 +1,19 @@
+units:
+  wraps:
+  - name: Python3xSamlPyPIMaintainersJoinWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: python3-saml
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Project 'python3-saml' has maintainers that joined PyPI
+          recently (less than 180 days ago)
+        link: https://pypi.org/project/python3-saml/
+        package_name: python3-saml
