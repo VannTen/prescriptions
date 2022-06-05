@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: GooglePastaGitHubURLWrap
+  - name: GooglexPastaGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
