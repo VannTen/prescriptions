@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: PulumiAwsGitHubURLWrap
+  - name: PulumixAwsGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
