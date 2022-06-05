@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: GapicGooglePubsubV1GitHubURLWrap
+  - name: GapicxGooglexPubsubxV1GitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
