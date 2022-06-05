@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: SetuptoolsScmGitArchiveGitHubURLWrap
+  - name: SetuptoolsxScmxGitxArchiveGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
