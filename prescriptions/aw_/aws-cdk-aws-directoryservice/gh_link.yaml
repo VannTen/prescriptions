@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: AwsCdkAwsDirectoryserviceGitHubURLWrap
+  - name: AwsxCdkxAwsxDirectoryserviceGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
