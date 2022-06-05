@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: DjangoChunkatorGitHubURLWrap
+  - name: DjangoxChunkatorGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
