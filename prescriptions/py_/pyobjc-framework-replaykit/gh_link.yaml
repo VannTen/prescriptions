@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: PyobjcFrameworkReplaykitGitHubURLWrap
+  - name: PyobjcxFrameworkxReplaykitGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
