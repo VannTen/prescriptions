@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: TapPyGitHubURLWrap
+  - name: TapxPyGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
