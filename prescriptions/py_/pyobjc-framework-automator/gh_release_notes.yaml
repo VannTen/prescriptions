@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: PyobjcFrameworkAutomatorGitHubReleaseNotesWrap
+  - name: PyobjcxFrameworkxAutomatorGitHubReleaseNotesWrap
     type: wrap.GHReleaseNotes
     should_include:
       adviser_pipeline: true
