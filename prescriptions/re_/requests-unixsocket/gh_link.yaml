@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: RequestsUnixsocketGitHubURLWrap
+  - name: RequestsxUnixsocketGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
