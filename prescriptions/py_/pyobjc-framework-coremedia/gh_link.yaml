@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: PyobjcFrameworkCoremediaGitHubURLWrap
+  - name: PyobjcxFrameworkxCoremediaGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
