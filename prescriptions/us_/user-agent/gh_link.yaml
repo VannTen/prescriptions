@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: UserAgentGitHubURLWrap
+  - name: UserxAgentGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
