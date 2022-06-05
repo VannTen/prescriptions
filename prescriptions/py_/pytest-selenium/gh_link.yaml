@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: PytestSeleniumGitHubURLWrap
+  - name: PytestxSeleniumGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
