@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: PyobjcFrameworkAutomatorGitHubURLWrap
+  - name: PyobjcxFrameworkxAutomatorGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
