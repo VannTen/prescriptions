@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: TorchGeometricGitHubURLWrap
+  - name: TorchxGeometricGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
