@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: ImportlibMetadataGitHubURLWrap
+  - name: ImportlibxMetadataGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
