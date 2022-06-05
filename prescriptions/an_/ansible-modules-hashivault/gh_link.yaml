@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: AnsibleModulesHashivaultGitHubURLWrap
+  - name: AnsiblexModulesxHashivaultGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
