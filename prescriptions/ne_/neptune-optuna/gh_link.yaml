@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: NeptuneOptunaGitHubURLWrap
+  - name: NeptunexOptunaGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
