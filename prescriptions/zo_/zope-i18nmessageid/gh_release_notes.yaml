@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: ZopeI18nmessageidGitHubReleaseNotesWrap
+  - name: ZopexI18nmessageidGitHubReleaseNotesWrap
     type: wrap.GHReleaseNotes
     should_include:
       adviser_pipeline: true
