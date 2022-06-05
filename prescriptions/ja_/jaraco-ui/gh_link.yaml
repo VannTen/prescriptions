@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: JaracoUiGitHubURLWrap
+  - name: JaracoxUiGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
