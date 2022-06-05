@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: TensorflowEstimatorGitHubURLWrap
+  - name: TensorflowxEstimatorGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
