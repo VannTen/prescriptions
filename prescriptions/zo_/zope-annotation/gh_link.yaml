@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: ZopeAnnotationGitHubURLWrap
+  - name: ZopexAnnotationGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
