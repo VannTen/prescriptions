@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: JsonRefDictGitHubURLWrap
+  - name: JsonxRefxDictGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
