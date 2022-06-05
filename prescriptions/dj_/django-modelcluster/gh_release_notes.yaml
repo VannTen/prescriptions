@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: DjangoModelclusterGitHubReleaseNotesWrap
+  - name: DjangoxModelclusterGitHubReleaseNotesWrap
     type: wrap.GHReleaseNotes
     should_include:
       adviser_pipeline: true
