@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: TimeoutDecoratorGitHubURLWrap
+  - name: TimeoutxDecoratorGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
