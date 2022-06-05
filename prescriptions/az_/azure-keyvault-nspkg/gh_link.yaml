@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: AzureKeyvaultNspkgGitHubURLWrap
+  - name: AzurexKeyvaultxNspkgGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
