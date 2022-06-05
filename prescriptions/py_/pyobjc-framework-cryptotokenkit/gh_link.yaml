@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: PyobjcFrameworkCryptotokenkitGitHubURLWrap
+  - name: PyobjcxFrameworkxCryptotokenkitGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
