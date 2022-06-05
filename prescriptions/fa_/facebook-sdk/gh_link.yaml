@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: FacebookSdkGitHubURLWrap
+  - name: FacebookxSdkGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
