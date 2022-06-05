@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: SpyderKernelsGitHubURLWrap
+  - name: SpyderxKernelsGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
