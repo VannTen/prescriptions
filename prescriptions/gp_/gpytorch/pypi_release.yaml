@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: GpytorchPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: gpytorch
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'gpytorch' has no recent release, last release dates back to 2021-12-04 15:50:17.385552
+        link: https://pypi.org/project/gpytorch/#history
+        package_name: gpytorch
