@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: Psycopg2PoolGitHubURLWrap
+  - name: Psycopg2xPoolGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
