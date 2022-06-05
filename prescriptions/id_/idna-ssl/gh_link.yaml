@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: IdnaSslGitHubURLWrap
+  - name: IdnaxSslGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
