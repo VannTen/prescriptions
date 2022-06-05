@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: GapicGoogleCloudSpeechV1beta1GitHubURLWrap
+  - name: GapicxGooglexCloudxSpeechxV1beta1GitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
