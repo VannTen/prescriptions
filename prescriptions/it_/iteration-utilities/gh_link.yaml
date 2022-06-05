@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: IterationUtilitiesGitHubURLWrap
+  - name: IterationxUtilitiesGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
