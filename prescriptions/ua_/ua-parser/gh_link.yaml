@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: UaParserGitHubURLWrap
+  - name: UaxParserGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
