@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: Python3OpenidGitHubReleaseNotesWrap
+  - name: Python3xOpenidGitHubReleaseNotesWrap
     type: wrap.GHReleaseNotes
     should_include:
       adviser_pipeline: true
