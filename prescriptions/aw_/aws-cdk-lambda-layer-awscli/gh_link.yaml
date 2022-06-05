@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: AwsCdkLambdaLayerAwscliGitHubURLWrap
+  - name: AwsxCdkxLambdaxLayerxAwscliGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
