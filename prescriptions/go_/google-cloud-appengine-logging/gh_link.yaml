@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: GoogleCloudAppengineLoggingGitHubURLWrap
+  - name: GooglexCloudxAppenginexLoggingGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
