@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: KlioExecGitHubReleaseNotesWrap
+  - name: KlioxExecGitHubReleaseNotesWrap
     type: wrap.GHReleaseNotes
     should_include:
       adviser_pipeline: true
