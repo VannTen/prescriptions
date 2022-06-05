@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: ZopeUntrustedpythonGitHubURLWrap
+  - name: ZopexUntrustedpythonGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
