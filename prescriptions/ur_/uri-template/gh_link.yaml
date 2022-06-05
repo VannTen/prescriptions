@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: UriTemplateGitHubURLWrap
+  - name: UrixTemplateGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
