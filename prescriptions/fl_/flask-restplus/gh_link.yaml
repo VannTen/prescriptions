@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: FlaskRestplusGitHubURLWrap
+  - name: FlaskxRestplusGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
