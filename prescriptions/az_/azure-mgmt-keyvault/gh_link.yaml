@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: AzureMgmtKeyvaultGitHubURLWrap
+  - name: AzurexMgmtxKeyvaultGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
