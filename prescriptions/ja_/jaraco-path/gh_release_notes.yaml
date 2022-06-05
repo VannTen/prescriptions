@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: JaracoPathGitHubReleaseNotesWrap
+  - name: JaracoxPathGitHubReleaseNotesWrap
     type: wrap.GHReleaseNotes
     should_include:
       adviser_pipeline: true
