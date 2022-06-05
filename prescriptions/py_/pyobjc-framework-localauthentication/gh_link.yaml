@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: PyobjcFrameworkLocalauthenticationGitHubURLWrap
+  - name: PyobjcxFrameworkxLocalauthenticationGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
