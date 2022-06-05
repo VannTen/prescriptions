@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: DjangoModeltranslationGitHubURLWrap
+  - name: DjangoxModeltranslationGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
