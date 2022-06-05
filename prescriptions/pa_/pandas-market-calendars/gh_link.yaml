@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: PandasMarketCalendarsGitHubURLWrap
+  - name: PandasxMarketxCalendarsGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
