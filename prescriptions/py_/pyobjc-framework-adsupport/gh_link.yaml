@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: PyobjcFrameworkAdsupportGitHubURLWrap
+  - name: PyobjcxFrameworkxAdsupportGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
