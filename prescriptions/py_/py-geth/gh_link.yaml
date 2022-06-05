@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: PyGethGitHubURLWrap
+  - name: PyxGethGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
