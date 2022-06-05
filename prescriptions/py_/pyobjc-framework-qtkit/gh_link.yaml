@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: PyobjcFrameworkQtkitGitHubURLWrap
+  - name: PyobjcxFrameworkxQtkitGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
