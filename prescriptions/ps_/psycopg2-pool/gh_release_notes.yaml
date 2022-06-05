@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: Psycopg2PoolGitHubReleaseNotesWrap
+  - name: Psycopg2xPoolGitHubReleaseNotesWrap
     type: wrap.GHReleaseNotes
     should_include:
       adviser_pipeline: true
