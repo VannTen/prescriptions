@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: ApacheAirflowProvidersSnowflakeGitHubURLWrap
+  - name: ApachexAirflowxProvidersxSnowflakeGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
