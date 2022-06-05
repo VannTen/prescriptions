@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: ConcurrentLogHandlerGitHubReleaseNotesWrap
+  - name: ConcurrentxLogxHandlerGitHubReleaseNotesWrap
     type: wrap.GHReleaseNotes
     should_include:
       adviser_pipeline: true
