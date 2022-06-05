@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: ClickPluginsGitHubReleaseNotesWrap
+  - name: ClickxPluginsGitHubReleaseNotesWrap
     type: wrap.GHReleaseNotes
     should_include:
       adviser_pipeline: true
