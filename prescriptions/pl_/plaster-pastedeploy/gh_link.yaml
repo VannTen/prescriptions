@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: PlasterPastedeployGitHubURLWrap
+  - name: PlasterxPastedeployGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
