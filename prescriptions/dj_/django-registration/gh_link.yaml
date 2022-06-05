@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: DjangoRegistrationGitHubURLWrap
+  - name: DjangoxRegistrationGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
