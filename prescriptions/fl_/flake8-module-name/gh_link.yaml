@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: Flake8ModuleNameGitHubURLWrap
+  - name: Flake8xModulexNameGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
