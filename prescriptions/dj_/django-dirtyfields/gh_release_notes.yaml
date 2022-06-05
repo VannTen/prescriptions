@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: DjangoDirtyfieldsGitHubReleaseNotesWrap
+  - name: DjangoxDirtyfieldsGitHubReleaseNotesWrap
     type: wrap.GHReleaseNotes
     should_include:
       adviser_pipeline: true
