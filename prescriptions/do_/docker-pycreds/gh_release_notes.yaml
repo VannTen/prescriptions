@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: DockerPycredsGitHubReleaseNotesWrap
+  - name: DockerxPycredsGitHubReleaseNotesWrap
     type: wrap.GHReleaseNotes
     should_include:
       adviser_pipeline: true
