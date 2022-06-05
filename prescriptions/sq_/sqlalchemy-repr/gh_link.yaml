@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: SqlalchemyReprGitHubURLWrap
+  - name: SqlalchemyxReprGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
