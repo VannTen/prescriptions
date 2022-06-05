@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: PytestFactoryboyGitHubURLWrap
+  - name: PytestxFactoryboyGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
