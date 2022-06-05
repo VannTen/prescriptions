@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: FcmDjangoGitHubURLWrap
+  - name: FcmxDjangoGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
