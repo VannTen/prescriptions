@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: SphinxcontribImagesGitHubURLWrap
+  - name: SphinxcontribxImagesGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
