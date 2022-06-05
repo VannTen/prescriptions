@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: FlaskCompressGitHubURLWrap
+  - name: FlaskxCompressGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
