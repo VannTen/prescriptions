@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: ComprefforPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: compreffor
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'compreffor' has no recent release, last release dates back to 2021-12-01 15:47:21.651449
+        link: https://pypi.org/project/compreffor/#history
+        package_name: compreffor
