@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: AwsCdkAwsGameliftGitHubURLWrap
+  - name: AwsxCdkxAwsxGameliftGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
