@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: Py3PinterestGitHubURLWrap
+  - name: Py3xPinterestGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
