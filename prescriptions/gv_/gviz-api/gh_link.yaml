@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: GvizApiGitHubURLWrap
+  - name: GvizxApiGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
