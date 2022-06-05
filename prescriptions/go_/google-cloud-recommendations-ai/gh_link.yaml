@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: GoogleCloudRecommendationsAiGitHubURLWrap
+  - name: GooglexCloudxRecommendationsxAiGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
