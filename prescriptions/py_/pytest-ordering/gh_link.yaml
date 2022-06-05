@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: PytestOrderingGitHubURLWrap
+  - name: PytestxOrderingGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
