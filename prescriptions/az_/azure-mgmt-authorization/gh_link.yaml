@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: AzureMgmtAuthorizationGitHubURLWrap
+  - name: AzurexMgmtxAuthorizationGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
