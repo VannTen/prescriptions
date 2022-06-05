@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: GlmnetPyGitHubURLWrap
+  - name: GlmnetxPyGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
