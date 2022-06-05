@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: EnumToolsGitHubURLWrap
+  - name: EnumxToolsGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
