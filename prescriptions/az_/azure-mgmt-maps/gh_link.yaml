@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: AzureMgmtMapsGitHubURLWrap
+  - name: AzurexMgmtxMapsGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
