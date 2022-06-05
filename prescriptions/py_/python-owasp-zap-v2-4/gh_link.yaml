@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: PythonOwaspZapV24GitHubURLWrap
+  - name: PythonxOwaspxZapxV2x4GitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
