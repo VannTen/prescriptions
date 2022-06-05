@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: Flake8CommasGitHubURLWrap
+  - name: Flake8xCommasGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
