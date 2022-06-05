@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: AzureMgmtConsumptionGitHubURLWrap
+  - name: AzurexMgmtxConsumptionGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
