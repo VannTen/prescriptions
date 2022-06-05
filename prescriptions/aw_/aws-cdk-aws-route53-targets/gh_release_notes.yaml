@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: AwsCdkAwsRoute53TargetsGitHubReleaseNotesWrap
+  - name: AwsxCdkxAwsxRoute53xTargetsGitHubReleaseNotesWrap
     type: wrap.GHReleaseNotes
     should_include:
       adviser_pipeline: true
