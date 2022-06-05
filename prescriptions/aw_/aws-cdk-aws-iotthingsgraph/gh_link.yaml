@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: AwsCdkAwsIotthingsgraphGitHubURLWrap
+  - name: AwsxCdkxAwsxIotthingsgraphGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
