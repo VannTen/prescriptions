@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: EthUtilsGitHubURLWrap
+  - name: EthxUtilsGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
