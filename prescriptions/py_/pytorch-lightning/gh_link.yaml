@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: PytorchLightningGitHubURLWrap
+  - name: PytorchxLightningGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
