@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: ServiceIdentityGitHubURLWrap
+  - name: ServicexIdentityGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
