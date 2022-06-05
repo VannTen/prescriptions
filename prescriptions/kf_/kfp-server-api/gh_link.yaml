@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: KfpServerApiGitHubURLWrap
+  - name: KfpxServerxApiGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
