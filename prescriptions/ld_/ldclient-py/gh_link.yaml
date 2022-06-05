@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: LdclientPyGitHubURLWrap
+  - name: LdclientxPyGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
