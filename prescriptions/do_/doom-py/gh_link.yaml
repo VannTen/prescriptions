@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: DoomPyGitHubURLWrap
+  - name: DoomxPyGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
