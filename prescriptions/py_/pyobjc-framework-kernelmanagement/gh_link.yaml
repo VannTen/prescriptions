@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: PyobjcFrameworkKernelmanagementGitHubURLWrap
+  - name: PyobjcxFrameworkxKernelmanagementGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
