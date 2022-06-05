@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: DjangoPushNotificationsGitHubURLWrap
+  - name: DjangoxPushxNotificationsGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
