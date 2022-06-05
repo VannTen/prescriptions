@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: ProductsGenericsetupGitHubURLWrap
+  - name: ProductsxGenericsetupGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
