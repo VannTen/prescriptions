@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: Flake8ExecutableGitHubURLWrap
+  - name: Flake8xExecutableGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
