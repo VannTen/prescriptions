@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: PyTrelloGitHubURLWrap
+  - name: PyxTrelloGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
