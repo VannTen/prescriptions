@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: PecanPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: pecan
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'pecan' has no recent release, last release dates back to 2021-12-08 17:51:45.262524
+        link: https://pypi.org/project/pecan/#history
+        package_name: pecan
