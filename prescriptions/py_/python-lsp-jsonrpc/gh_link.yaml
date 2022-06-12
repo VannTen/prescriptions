@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: PythonLspJsonrpcGitHubURLWrap
+  - name: PythonxLspxJsonrpcGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
