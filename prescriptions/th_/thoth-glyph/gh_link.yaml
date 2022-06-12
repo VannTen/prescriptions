@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: ThothGlyphGitHubURLWrap
+  - name: ThothxGlyphGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
