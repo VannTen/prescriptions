@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: JsonlinesPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: jsonlines
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'jsonlines' has no recent release, last release dates back to 2021-12-04 15:27:51.711714
+        link: https://pypi.org/project/jsonlines/#history
+        package_name: jsonlines
