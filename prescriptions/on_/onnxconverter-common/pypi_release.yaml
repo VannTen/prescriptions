@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: OnnxconverterxCommonPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: onnxconverter-common
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'onnxconverter-common' has no recent release, last release dates back to 2021-12-02 19:41:09.652451
+        link: https://pypi.org/project/onnxconverter-common/#history
+        package_name: onnxconverter-common
