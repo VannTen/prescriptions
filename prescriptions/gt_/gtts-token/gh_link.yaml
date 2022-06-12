@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: GttsTokenGitHubURLWrap
+  - name: GttsxTokenGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
