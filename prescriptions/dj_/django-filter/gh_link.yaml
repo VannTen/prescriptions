@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: DjangoFilterGitHubURLWrap
+  - name: DjangoxFilterGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
