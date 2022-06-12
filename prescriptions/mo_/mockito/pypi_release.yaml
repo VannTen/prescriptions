@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: MockitoPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: mockito
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'mockito' has no recent release, last release dates back to 2021-12-03 11:30:45.480940
+        link: https://pypi.org/project/mockito/#history
+        package_name: mockito
