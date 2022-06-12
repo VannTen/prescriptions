@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: PyobjcFrameworkCoreaudioGitHubURLWrap
+  - name: PyobjcxFrameworkxCoreaudioGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
