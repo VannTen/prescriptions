@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: SwaggerUiBundleGitHubURLWrap
+  - name: SwaggerxUixBundleGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
