@@ -1,0 +1,16 @@
+units:
+  wraps:
+  - name: Xml2rfcGitHubURLWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: xml2rfc
+    run:
+      justification:
+      - type: INFO
+        message: Package 'xml2rfc' is hosted on GitHub
+        link: https://github.com/ietf-tools/xml2rfc
+        package_name: xml2rfc
