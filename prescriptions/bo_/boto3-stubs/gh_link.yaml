@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: Boto3StubsGitHubURLWrap
+  - name: Boto3xStubsGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
