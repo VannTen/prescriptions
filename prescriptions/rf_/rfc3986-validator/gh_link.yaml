@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: Rfc3986ValidatorGitHubURLWrap
+  - name: Rfc3986xValidatorGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
