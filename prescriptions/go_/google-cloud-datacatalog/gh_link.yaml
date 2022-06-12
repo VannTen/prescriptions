@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: GoogleCloudDatacatalogGitHubURLWrap
+  - name: GooglexCloudxDatacatalogGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
