@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: MditxPyxPluginsPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: mdit-py-plugins
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'mdit-py-plugins' has no recent release, last release dates back to 2021-12-03 08:09:48.674989
+        link: https://pypi.org/project/mdit-py-plugins/#history
+        package_name: mdit-py-plugins
