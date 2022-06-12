@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: Pdoc3PyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: pdoc3
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'pdoc3' has no recent release, last release dates back to 2021-12-05 13:17:45.254805
+        link: https://pypi.org/project/pdoc3/#history
+        package_name: pdoc3
