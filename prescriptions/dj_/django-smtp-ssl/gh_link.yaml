@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: DjangoSmtpSslGitHubURLWrap
+  - name: DjangoxSmtpxSslGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
