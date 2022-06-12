@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: KnotxFloerxHomologyPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: knot-floer-homology
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'knot-floer-homology' has no recent release, last release dates back to 2021-12-11 23:35:44.557309
+        link: https://pypi.org/project/knot-floer-homology/#history
+        package_name: knot-floer-homology
