@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: SpeedtestCliGitHubURLWrap
+  - name: SpeedtestxCliGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
