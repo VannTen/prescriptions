@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: ParallelSshGitHubURLWrap
+  - name: ParallelxSshGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
