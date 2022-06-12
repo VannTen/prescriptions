@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: SphinxcontribHttpdomainGitHubURLWrap
+  - name: SphinxcontribxHttpdomainGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
