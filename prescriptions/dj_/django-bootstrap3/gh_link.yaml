@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: DjangoBootstrap3GitHubURLWrap
+  - name: DjangoxBootstrap3GitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
