@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: ApacheAirflowProvidersDockerGitHubURLWrap
+  - name: ApachexAirflowxProvidersxDockerGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
