@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: JupyterServerProxyGitHubURLWrap
+  - name: JupyterxServerxProxyGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
