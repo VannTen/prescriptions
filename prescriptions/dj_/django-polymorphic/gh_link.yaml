@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: DjangoPolymorphicGitHubURLWrap
+  - name: DjangoxPolymorphicGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
