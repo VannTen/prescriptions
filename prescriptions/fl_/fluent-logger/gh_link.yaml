@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: FluentLoggerGitHubURLWrap
+  - name: FluentxLoggerGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
