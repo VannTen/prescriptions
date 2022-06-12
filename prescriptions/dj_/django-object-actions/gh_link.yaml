@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: DjangoObjectActionsGitHubURLWrap
+  - name: DjangoxObjectxActionsGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
