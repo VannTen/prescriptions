@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: InemaPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: inema
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'inema' has no recent release, last release dates back to 2021-12-11 11:25:02.911068
+        link: https://pypi.org/project/inema/#history
+        package_name: inema
