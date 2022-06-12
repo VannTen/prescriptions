@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: ApacheAirflowProvidersApacheBeamGitHubURLWrap
+  - name: ApachexAirflowxProvidersxApachexBeamGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
