@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: GenderGuesserGitHubURLWrap
+  - name: GenderxGuesserGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
