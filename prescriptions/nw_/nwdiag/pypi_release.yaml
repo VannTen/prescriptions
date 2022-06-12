@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: NwdiagPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: nwdiag
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'nwdiag' has no recent release, last release dates back to 2021-12-06 17:02:48.953377
+        link: https://pypi.org/project/nwdiag/#history
+        package_name: nwdiag
