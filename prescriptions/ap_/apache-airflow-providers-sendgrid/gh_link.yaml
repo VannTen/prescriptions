@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: ApacheAirflowProvidersSendgridGitHubURLWrap
+  - name: ApachexAirflowxProvidersxSendgridGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
