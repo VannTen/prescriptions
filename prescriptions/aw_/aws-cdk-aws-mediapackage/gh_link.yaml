@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: AwsCdkAwsMediapackageGitHubURLWrap
+  - name: AwsxCdkxAwsxMediapackageGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
