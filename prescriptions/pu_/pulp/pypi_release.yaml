@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: PulpPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: pulp
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'pulp' has no recent release, last release dates back to 2021-12-04 22:00:00.569558
+        link: https://pypi.org/project/pulp/#history
+        package_name: pulp
