@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: DatadogApiClientGitHubURLWrap
+  - name: DatadogxApixClientGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
