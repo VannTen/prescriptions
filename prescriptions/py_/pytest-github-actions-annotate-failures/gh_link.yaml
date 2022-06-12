@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: PytestGithubActionsAnnotateFailuresGitHubURLWrap
+  - name: PytestxGithubxActionsxAnnotatexFailuresGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
