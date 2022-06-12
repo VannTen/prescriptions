@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: NumexprPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: numexpr
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'numexpr' has no recent release, last release dates back to 2021-12-10 22:08:39.828894
+        link: https://pypi.org/project/numexpr/#history
+        package_name: numexpr
