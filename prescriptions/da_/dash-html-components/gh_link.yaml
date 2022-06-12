@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: DashHtmlComponentsGitHubURLWrap
+  - name: DashxHtmlxComponentsGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
