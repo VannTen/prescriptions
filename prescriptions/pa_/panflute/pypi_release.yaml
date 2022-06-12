@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: PanflutePyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: panflute
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'panflute' has no recent release, last release dates back to 2021-11-30 18:53:57.439183
+        link: https://pypi.org/project/panflute/#history
+        package_name: panflute
