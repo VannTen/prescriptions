@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: MdxIncludeGitHubURLWrap
+  - name: MdxxIncludeGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
