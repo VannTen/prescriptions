@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: InvenioAccountsGitHubURLWrap
+  - name: InvenioxAccountsGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
