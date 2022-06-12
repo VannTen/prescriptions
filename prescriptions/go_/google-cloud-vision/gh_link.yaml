@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: GoogleCloudVisionGitHubURLWrap
+  - name: GooglexCloudxVisionGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
