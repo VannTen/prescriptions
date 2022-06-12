@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: CryptographyVectorsGitHubURLWrap
+  - name: CryptographyxVectorsGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
