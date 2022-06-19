@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: StableBaselines3GitHubURLWrap
+  - name: StablexBaselines3GitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
