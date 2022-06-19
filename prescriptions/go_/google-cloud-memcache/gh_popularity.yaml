@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: GoogleCloudMemcacheGitHubPopularityWrap
+  - name: GooglexCloudxMemcacheGitHubPopularityWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -10,7 +10,7 @@ units:
         - name: google-cloud-memcache
     run:
       justification:
-      - type: WARNING
-        message: Project 'google-cloud-memcache' has low popularity on GitHub
+      - type: INFO
+        message: Project 'google-cloud-memcache' has moderate popularity on GitHub
         link: https://github.com/googleapis/python-memcache
         package_name: google-cloud-memcache
