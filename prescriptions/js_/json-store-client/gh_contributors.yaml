@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: JsonStoreClientGitHubContributorsWrap
+  - name: JsonxStorexClientGitHubContributorsWrap
     type: wrap
     should_include:
       adviser_pipeline: true
