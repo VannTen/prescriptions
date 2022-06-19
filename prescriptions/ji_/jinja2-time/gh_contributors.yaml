@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: Jinja2TimeGitHubContributorsWrap
+  - name: Jinja2xTimeGitHubContributorsWrap
     type: wrap
     should_include:
       adviser_pipeline: true
