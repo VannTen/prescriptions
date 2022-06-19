@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: ProtoGoogleCloudSpannerAdminInstanceV1GitHubURLWrap
+  - name: ProtoxGooglexCloudxSpannerxAdminxInstancexV1GitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
