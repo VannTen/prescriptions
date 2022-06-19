@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: PyobjcFrameworkDictionaryservicesGitHubURLWrap
+  - name: PyobjcxFrameworkxDictionaryservicesGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
