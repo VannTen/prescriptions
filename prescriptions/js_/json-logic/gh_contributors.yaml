@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: JsonLogicGitHubContributorsWrap
+  - name: JsonxLogicGitHubContributorsWrap
     type: wrap
     should_include:
       adviser_pipeline: true
