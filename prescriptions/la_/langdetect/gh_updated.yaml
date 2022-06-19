@@ -1,0 +1,16 @@
+units:
+  wraps:
+  - name: LangdetectGitHubUpdatedAtWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: langdetect
+    run:
+      justification:
+      - type: WARNING
+        message: Package 'langdetect' was last updated at 2021-05-07 07:38:45
+        link: https://github.com/Mimino666/langdetect
+        package_name: langdetect
