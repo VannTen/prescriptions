@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: GoogleCloudDnsGitHubPopularityWrap
+  - name: GooglexCloudxDnsGitHubPopularityWrap
     type: wrap
     should_include:
       adviser_pipeline: true
