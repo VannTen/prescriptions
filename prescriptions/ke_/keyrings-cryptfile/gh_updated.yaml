@@ -1,0 +1,16 @@
+units:
+  wraps:
+  - name: KeyringsxCryptfileGitHubUpdatedAtWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: keyrings-cryptfile
+    run:
+      justification:
+      - type: WARNING
+        message: Package 'keyrings-cryptfile' was last updated at 2021-02-05 12:29:38
+        link: https://github.com/frispete/keyrings.cryptfile
+        package_name: keyrings-cryptfile
