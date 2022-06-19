@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: LazyxObjectxProxyPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: lazy-object-proxy
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'lazy-object-proxy' has no recent release, last release dates back to 2021-12-15 16:56:56.100962
+        link: https://pypi.org/project/lazy-object-proxy/#history
+        package_name: lazy-object-proxy
