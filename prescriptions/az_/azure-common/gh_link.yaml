@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: AzureCommonGitHubURLWrap
+  - name: AzurexCommonGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
