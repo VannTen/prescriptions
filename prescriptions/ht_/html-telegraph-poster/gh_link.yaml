@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: HtmlTelegraphPosterGitHubURLWrap
+  - name: HtmlxTelegraphxPosterGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
