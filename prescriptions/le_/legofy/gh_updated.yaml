@@ -1,0 +1,16 @@
+units:
+  wraps:
+  - name: LegofyGitHubUpdatedAtWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: legofy
+    run:
+      justification:
+      - type: WARNING
+        message: Package 'legofy' was last updated at 2021-01-26 14:28:27
+        link: https://github.com/JuanPotato/Legofy
+        package_name: legofy
