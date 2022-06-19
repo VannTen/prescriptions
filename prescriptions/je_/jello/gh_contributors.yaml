@@ -1,0 +1,16 @@
+units:
+  wraps:
+  - name: JelloGitHubContributorsWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: jello
+    run:
+      justification:
+      - type: WARNING
+        message: Package 'jello' has less than 5 contributors on GitHub
+        link: https://github.com/kellyjonbrazil/jello
+        package_name: jello
