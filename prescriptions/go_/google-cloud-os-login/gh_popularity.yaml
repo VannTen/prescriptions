@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: GoogleCloudOsLoginGitHubPopularityWrap
+  - name: GooglexCloudxOsxLoginGitHubPopularityWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -10,7 +10,7 @@ units:
         - name: google-cloud-os-login
     run:
       justification:
-      - type: WARNING
-        message: Project 'google-cloud-os-login' has low popularity on GitHub
+      - type: INFO
+        message: Project 'google-cloud-os-login' has moderate popularity on GitHub
         link: https://github.com/googleapis/python-oslogin
         package_name: google-cloud-os-login
