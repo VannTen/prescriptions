@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: JsRegexGitHubContributorsWrap
+  - name: JsxRegexGitHubContributorsWrap
     type: wrap
     should_include:
       adviser_pipeline: true
