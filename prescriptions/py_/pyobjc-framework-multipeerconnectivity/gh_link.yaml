@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: PyobjcFrameworkMultipeerconnectivityGitHubURLWrap
+  - name: PyobjcxFrameworkxMultipeerconnectivityGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
