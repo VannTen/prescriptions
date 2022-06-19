@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: LibneuromlPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: libneuroml
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'libneuroml' has no recent release, last release dates back to 2021-12-17 11:46:03.044886
+        link: https://pypi.org/project/libneuroml/#history
+        package_name: libneuroml
