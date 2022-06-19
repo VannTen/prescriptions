@@ -1,0 +1,16 @@
+units:
+  wraps:
+  - name: KrbcontextGitHubUpdatedAtWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: krbcontext
+    run:
+      justification:
+      - type: WARNING
+        message: Package 'krbcontext' was last updated at 2021-05-28 10:10:27
+        link: https://github.com/krbcontext/python-krbcontext
+        package_name: krbcontext
