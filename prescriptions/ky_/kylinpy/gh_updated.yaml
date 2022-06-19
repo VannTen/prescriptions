@@ -1,0 +1,16 @@
+units:
+  wraps:
+  - name: KylinpyGitHubUpdatedAtWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: kylinpy
+    run:
+      justification:
+      - type: WARNING
+        message: Package 'kylinpy' was last updated at 2020-11-06 08:19:11
+        link: https://github.com/Kyligence/kylinpy
+        package_name: kylinpy
