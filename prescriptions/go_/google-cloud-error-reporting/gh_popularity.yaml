@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: GoogleCloudErrorReportingGitHubPopularityWrap
+  - name: GooglexCloudxErrorxReportingGitHubPopularityWrap
     type: wrap
     should_include:
       adviser_pipeline: true
