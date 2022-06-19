@@ -1,0 +1,16 @@
+units:
+  wraps:
+  - name: KerberosGitHubUpdatedAtWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: kerberos
+    run:
+      justification:
+      - type: WARNING
+        message: Package 'kerberos' was last updated at 2021-01-09 06:23:25
+        link: https://github.com/apple/ccs-pykerberos
+        package_name: kerberos
