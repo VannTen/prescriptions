@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: GoogleCloudProfilerGitHubPopularityWrap
+  - name: GooglexCloudxProfilerGitHubPopularityWrap
     type: wrap
     should_include:
       adviser_pipeline: true
