@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: MemoryxProfilerPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: memory-profiler
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'memory-profiler' has no recent release, last release dates back to 2021-12-18 13:42:24.391665
+        link: https://pypi.org/project/memory-profiler/#history
+        package_name: memory-profiler
