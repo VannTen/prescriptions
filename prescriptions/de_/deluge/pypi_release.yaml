@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: DelugePyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: deluge
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'deluge' has no recent release, last release dates back to 2021-12-15 19:08:57.863101
+        link: https://pypi.org/project/deluge/#history
+        package_name: deluge
