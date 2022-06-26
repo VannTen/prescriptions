@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: ZcLockfileGitHubPopularityWrap
+  - name: ZcxLockfileGitHubPopularityWrap
     type: wrap
     should_include:
       adviser_pipeline: true
