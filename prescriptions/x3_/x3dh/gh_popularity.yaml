@@ -1,0 +1,16 @@
+units:
+  wraps:
+  - name: X3dhGitHubPopularityWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: x3dh
+    run:
+      justification:
+      - type: INFO
+        message: Project 'x3dh' has moderate popularity on GitHub
+        link: https://github.com/Syndace/python-x3dh
+        package_name: x3dh
