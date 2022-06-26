@@ -1,0 +1,15 @@
+units:
+  wraps:
+  - name: AutoverGitHubReleaseNotesWrap
+    type: wrap.GHReleaseNotes
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: autover
+    run:
+      release_notes:
+        organization: pyviz-dev
+        repository: autover
+        tag_version_prefix: v
