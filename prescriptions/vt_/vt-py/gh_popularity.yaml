@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: VtPyGitHubPopularityWrap
+  - name: VtxPyGitHubPopularityWrap
     type: wrap
     should_include:
       adviser_pipeline: true
