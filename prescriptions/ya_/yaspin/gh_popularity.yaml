@@ -11,6 +11,6 @@ units:
     run:
       justification:
       - type: INFO
-        message: Project 'yaspin' has high popularity on GitHub
+        message: Project 'yaspin' has very high popularity on GitHub
         link: https://github.com/pavdmyt/yaspin
         package_name: yaspin
