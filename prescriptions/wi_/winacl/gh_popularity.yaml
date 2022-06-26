@@ -10,7 +10,7 @@ units:
         - name: winacl
     run:
       justification:
-      - type: WARNING
-        message: Project 'winacl' has low popularity on GitHub
+      - type: INFO
+        message: Project 'winacl' has moderate popularity on GitHub
         link: https://github.com/skelsec/winacl
         package_name: winacl
