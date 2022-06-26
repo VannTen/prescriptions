@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: JunitXmlGitHubURLWrap
+  - name: JunitxXmlGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
