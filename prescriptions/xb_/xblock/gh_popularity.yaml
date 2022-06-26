@@ -12,5 +12,5 @@ units:
       justification:
       - type: INFO
         message: Project 'xblock' has very high popularity on GitHub
-        link: https://github.com/edx/XBlock
+        link: https://github.com/openedx/XBlock
         package_name: xblock
