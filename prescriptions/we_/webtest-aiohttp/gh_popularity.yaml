@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: WebtestAiohttpGitHubPopularityWrap
+  - name: WebtestxAiohttpGitHubPopularityWrap
     type: wrap
     should_include:
       adviser_pipeline: true
