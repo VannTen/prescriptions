@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: WinInetPtonGitHubPopularityWrap
+  - name: WinxInetxPtonGitHubPopularityWrap
     type: wrap
     should_include:
       adviser_pipeline: true
