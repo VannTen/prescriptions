@@ -1,0 +1,16 @@
+units:
+  wraps:
+  - name: XeddsaGitHubPopularityWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: xeddsa
+    run:
+      justification:
+      - type: WARNING
+        message: Project 'xeddsa' has low popularity on GitHub
+        link: https://github.com/Syndace/python-xeddsa
+        package_name: xeddsa
