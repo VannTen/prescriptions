@@ -1,0 +1,16 @@
+units:
+  wraps:
+  - name: WhichcraftGitHubPopularityWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: whichcraft
+    run:
+      justification:
+      - type: INFO
+        message: Project 'whichcraft' has high popularity on GitHub
+        link: https://github.com/cookiecutter/whichcraft
+        package_name: whichcraft
