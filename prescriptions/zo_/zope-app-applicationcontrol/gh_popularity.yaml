@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: ZopeAppApplicationcontrolGitHubPopularityWrap
+  - name: ZopexAppxApplicationcontrolGitHubPopularityWrap
     type: wrap
     should_include:
       adviser_pipeline: true
