@@ -11,6 +11,6 @@ units:
     run:
       justification:
       - type: INFO
-        message: Project 'zeroconf' has high popularity on GitHub
+        message: Project 'zeroconf' has very high popularity on GitHub
         link: https://github.com/jstasiak/python-zeroconf
         package_name: zeroconf
