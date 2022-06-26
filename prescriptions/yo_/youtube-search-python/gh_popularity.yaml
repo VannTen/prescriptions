@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: YoutubeSearchPythonGitHubPopularityWrap
+  - name: YoutubexSearchxPythonGitHubPopularityWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -11,6 +11,6 @@ units:
     run:
       justification:
       - type: INFO
-        message: Project 'youtube-search-python' has high popularity on GitHub
+        message: Project 'youtube-search-python' has very high popularity on GitHub
         link: https://github.com/alexmercerind/youtube-search-python
         package_name: youtube-search-python
