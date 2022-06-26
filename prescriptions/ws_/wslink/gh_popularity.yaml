@@ -11,6 +11,6 @@ units:
     run:
       justification:
       - type: INFO
-        message: Project 'wslink' has moderate popularity on GitHub
+        message: Project 'wslink' has high popularity on GitHub
         link: https://github.com/kitware/wslink
         package_name: wslink
