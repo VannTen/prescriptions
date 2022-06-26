@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: VstsCdManagerGitHubPopularityWrap
+  - name: VstsxCdxManagerGitHubPopularityWrap
     type: wrap
     should_include:
       adviser_pipeline: true
