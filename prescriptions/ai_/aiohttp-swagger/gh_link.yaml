@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: AiohttpSwaggerGitHubURLWrap
+  - name: AiohttpxSwaggerGitHubURLWrap
     type: wrap
     should_include:
       adviser_pipeline: true
