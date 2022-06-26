@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: Z3cPtGitHubPopularityWrap
+  - name: Z3cxPtGitHubPopularityWrap
     type: wrap
     should_include:
       adviser_pipeline: true
