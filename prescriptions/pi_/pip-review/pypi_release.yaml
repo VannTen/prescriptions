@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: PipxReviewPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: pip-review
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'pip-review' has no recent release, last release dates back to 2021-12-26 00:57:28.978811
+        link: https://pypi.org/project/pip-review/#history
+        package_name: pip-review
