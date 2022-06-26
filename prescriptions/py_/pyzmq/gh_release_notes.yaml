@@ -1,0 +1,15 @@
+units:
+  wraps:
+  - name: PyzmqGitHubReleaseNotesWrap
+    type: wrap.GHReleaseNotes
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: pyzmq
+    run:
+      release_notes:
+        organization: zeromq
+        repository: pyzmq
+        tag_version_prefix: v
