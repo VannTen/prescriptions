@@ -11,6 +11,6 @@ units:
     run:
       justification:
       - type: INFO
-        message: Project 'webscrapbook' has moderate popularity on GitHub
+        message: Project 'webscrapbook' has high popularity on GitHub
         link: https://github.com/danny0838/PyWebScrapBook
         package_name: webscrapbook
