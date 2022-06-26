@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: WebCompileGitHubPopularityWrap
+  - name: WebxCompileGitHubPopularityWrap
     type: wrap
     should_include:
       adviser_pipeline: true
