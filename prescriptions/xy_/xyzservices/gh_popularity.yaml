@@ -1,0 +1,16 @@
+units:
+  wraps:
+  - name: XyzservicesGitHubPopularityWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: xyzservices
+    run:
+      justification:
+      - type: INFO
+        message: Project 'xyzservices' has high popularity on GitHub
+        link: https://github.com/geopandas/xyzservices
+        package_name: xyzservices
