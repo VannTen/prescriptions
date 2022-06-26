@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: WalkscoreApiGitHubPopularityWrap
+  - name: WalkscorexApiGitHubPopularityWrap
     type: wrap
     should_include:
       adviser_pipeline: true
