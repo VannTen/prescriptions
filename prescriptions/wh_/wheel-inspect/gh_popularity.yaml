@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: WheelInspectGitHubPopularityWrap
+  - name: WheelxInspectGitHubPopularityWrap
     type: wrap
     should_include:
       adviser_pipeline: true
