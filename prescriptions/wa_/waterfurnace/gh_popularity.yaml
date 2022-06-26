@@ -10,7 +10,7 @@ units:
         - name: waterfurnace
     run:
       justification:
-      - type: WARNING
-        message: Project 'waterfurnace' has low popularity on GitHub
+      - type: INFO
+        message: Project 'waterfurnace' has moderate popularity on GitHub
         link: https://github.com/sdague/waterfurnace
         package_name: waterfurnace
