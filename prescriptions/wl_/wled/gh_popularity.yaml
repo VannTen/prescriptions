@@ -11,6 +11,6 @@ units:
     run:
       justification:
       - type: INFO
-        message: Project 'wled' has moderate popularity on GitHub
+        message: Project 'wled' has high popularity on GitHub
         link: https://github.com/frenck/python-wled
         package_name: wled
