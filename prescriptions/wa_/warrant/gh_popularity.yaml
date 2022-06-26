@@ -11,6 +11,6 @@ units:
     run:
       justification:
       - type: INFO
-        message: Project 'warrant' has high popularity on GitHub
+        message: Project 'warrant' has very high popularity on GitHub
         link: https://github.com/capless/warrant
         package_name: warrant
