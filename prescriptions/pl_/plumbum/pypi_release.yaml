@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: PlumbumPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: plumbum
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'plumbum' has no recent release, last release dates back to 2021-12-23 19:58:50.258621
+        link: https://pypi.org/project/plumbum/#history
+        package_name: plumbum
