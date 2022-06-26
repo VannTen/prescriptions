@@ -1,0 +1,16 @@
+units:
+  wraps:
+  - name: PystacheGitHubForkedWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: pystache
+    run:
+      justification:
+      - type: WARNING
+        message: Package 'pystache' is a GitHub fork
+        link: https://github.com/sarnold/pystache
+        package_name: pystache
