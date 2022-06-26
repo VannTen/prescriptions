@@ -11,6 +11,6 @@ units:
     run:
       justification:
       - type: INFO
-        message: Project 'yamlpath' has moderate popularity on GitHub
+        message: Project 'yamlpath' has high popularity on GitHub
         link: https://github.com/wwkimball/yamlpath
         package_name: yamlpath
