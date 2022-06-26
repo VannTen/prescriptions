@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: PythonDaemon3kGitHubForkedWrap
+  - name: PythonxDaemonx3kGitHubForkedWrap
     type: wrap
     should_include:
       adviser_pipeline: true
