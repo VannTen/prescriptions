@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: WebdriverManagerGitHubPopularityWrap
+  - name: WebdriverxManagerGitHubPopularityWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -11,6 +11,6 @@ units:
     run:
       justification:
       - type: INFO
-        message: Project 'webdriver-manager' has high popularity on GitHub
+        message: Project 'webdriver-manager' has very high popularity on GitHub
         link: https://github.com/SergeyPirogov/webdriver_manager
         package_name: webdriver-manager
