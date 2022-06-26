@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: FlaskSslifyGitHubForkedWrap
+  - name: FlaskxSslifyGitHubForkedWrap
     type: wrap
     should_include:
       adviser_pipeline: true
