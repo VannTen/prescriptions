@@ -10,7 +10,7 @@ units:
         - name: yourls
     run:
       justification:
-      - type: WARNING
-        message: Project 'yourls' has low popularity on GitHub
+      - type: INFO
+        message: Project 'yourls' has moderate popularity on GitHub
         link: https://github.com/razerm/yourls-python
         package_name: yourls
