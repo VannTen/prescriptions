@@ -1,0 +1,16 @@
+units:
+  wraps:
+  - name: HikvisionGitHubUpdatedAtWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: hikvision
+    run:
+      justification:
+      - type: WARNING
+        message: Package 'hikvision' was last updated at 2021-03-20 21:15:18
+        link: https://github.com/fbradyirl/hikvision
+        package_name: hikvision
