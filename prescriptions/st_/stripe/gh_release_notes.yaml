@@ -1,0 +1,15 @@
+units:
+  wraps:
+  - name: StripeGitHubReleaseNotesWrap
+    type: wrap.GHReleaseNotes
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: stripe
+    run:
+      release_notes:
+        organization: stripe
+        repository: stripe-python
+        tag_version_prefix: v
