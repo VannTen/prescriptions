@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: MsoffcryptoToolGitHubPopularityWrap
+  - name: MsoffcryptoxToolGitHubPopularityWrap
     type: wrap
     should_include:
       adviser_pipeline: true
