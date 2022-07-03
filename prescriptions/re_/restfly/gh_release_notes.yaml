@@ -10,5 +10,5 @@ units:
         - name: restfly
     run:
       release_notes:
-        organization: stevemcgrath
+        organization: librestfly
         repository: restfly
