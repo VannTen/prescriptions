@@ -12,5 +12,5 @@ units:
       justification:
       - type: INFO
         message: Package 'dynaconf' is hosted on GitHub
-        link: https://github.com/rochacbruno/dynaconf
+        link: https://github.com/dynaconf/dynaconf
         package_name: dynaconf
