@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: ParsexTypePyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: parse-type
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'parse-type' has no recent release, last release dates back to 2022-01-19 06:47:52.367366
+        link: https://pypi.org/project/parse-type/#history
+        package_name: parse-type
