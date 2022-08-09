@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: PillowxSimdPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: pillow-simd
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'pillow-simd' has no recent release, last release dates back to 2022-01-04 16:11:51.696726
+        link: https://pypi.org/project/pillow-simd/#history
+        package_name: pillow-simd
