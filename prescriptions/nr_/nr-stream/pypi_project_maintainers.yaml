@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: NrStreamPyPIProjectMaintainersWrap
+  - name: NrxStreamPyPIProjectMaintainersWrap
     type: wrap
     should_include:
       adviser_pipeline: true
