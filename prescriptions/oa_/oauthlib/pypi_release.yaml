@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: OauthlibPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: oauthlib
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'oauthlib' has no recent release, last release dates back to 2022-01-29 21:59:35.381989
+        link: https://pypi.org/project/oauthlib/#history
+        package_name: oauthlib
