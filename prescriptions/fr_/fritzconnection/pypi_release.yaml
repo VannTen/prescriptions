@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: FritzconnectionPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: fritzconnection
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'fritzconnection' has no recent release, last release dates back to 2022-01-17 12:58:33.231049
+        link: https://pypi.org/project/fritzconnection/#history
+        package_name: fritzconnection
