@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: PusherPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: pusher
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'pusher' has no recent release, last release dates back to 2022-01-25 17:24:28.712752
+        link: https://pypi.org/project/pusher/#history
+        package_name: pusher
