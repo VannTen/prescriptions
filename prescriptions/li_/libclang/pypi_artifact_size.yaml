@@ -126,6 +126,24 @@ units:
           '14.0.1' can have up to 13.78MiB
         link: https://pypi.org/project/libclang/14.0.1/#files
         package_name: libclang
+  - name: Libclangx14x0x6PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: libclang
+          version: ==14.0.6
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'libclang' in version
+          '14.0.6' can have up to 14.32MiB
+        link: https://pypi.org/project/libclang/14.0.6/#files
+        package_name: libclang
   - name: Libclangx9x0x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
