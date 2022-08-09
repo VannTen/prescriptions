@@ -342,6 +342,24 @@ units:
           '7.7.0rc0' can have up to 3.89MiB
         link: https://pypi.org/project/ipywidgets/7.7.0rc0/#files
         package_name: ipywidgets
+  - name: Ipywidgetsx7x7x1PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: ipywidgets
+          version: ==7.7.1
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'ipywidgets' in version
+          '7.7.1' can have up to 3.89MiB
+        link: https://pypi.org/project/ipywidgets/7.7.1/#files
+        package_name: ipywidgets
   - name: Ipywidgetsx8x0x0a0PyPIArtifactSizeWrap
     type: wrap
     should_include:
