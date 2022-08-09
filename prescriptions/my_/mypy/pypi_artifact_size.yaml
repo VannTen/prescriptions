@@ -540,3 +540,39 @@ units:
           '0.960' can have up to 18.11MiB
         link: https://pypi.org/project/mypy/0.960/#files
         package_name: mypy
+  - name: Mypyx0x961PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: mypy
+          version: ==0.961
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'mypy' in version
+          '0.961' can have up to 18.10MiB
+        link: https://pypi.org/project/mypy/0.961/#files
+        package_name: mypy
+  - name: Mypyx0x971PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: mypy
+          version: ==0.971
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'mypy' in version
+          '0.971' can have up to 17.64MiB
+        link: https://pypi.org/project/mypy/0.971/#files
+        package_name: mypy
