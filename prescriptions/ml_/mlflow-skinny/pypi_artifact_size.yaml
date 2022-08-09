@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: MlflowSkinny1x23x0PyPIArtifactSizeWrap
+  - name: MlflowxSkinnyx1x23x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -18,7 +18,7 @@ units:
           '1.23.0' can have up to 3.02MiB
         link: https://pypi.org/project/mlflow-skinny/1.23.0/#files
         package_name: mlflow-skinny
-  - name: MlflowSkinny1x23x1PyPIArtifactSizeWrap
+  - name: MlflowxSkinnyx1x23x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -36,7 +36,7 @@ units:
           '1.23.1' can have up to 3.04MiB
         link: https://pypi.org/project/mlflow-skinny/1.23.1/#files
         package_name: mlflow-skinny
-  - name: MlflowSkinny1x24x0PyPIArtifactSizeWrap
+  - name: MlflowxSkinnyx1x24x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -54,7 +54,7 @@ units:
           '1.24.0' can have up to 3.11MiB
         link: https://pypi.org/project/mlflow-skinny/1.24.0/#files
         package_name: mlflow-skinny
-  - name: MlflowSkinny1x25x0PyPIArtifactSizeWrap
+  - name: MlflowxSkinnyx1x25x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -72,7 +72,7 @@ units:
           '1.25.0' can have up to 3.21MiB
         link: https://pypi.org/project/mlflow-skinny/1.25.0/#files
         package_name: mlflow-skinny
-  - name: MlflowSkinny1x25x1PyPIArtifactSizeWrap
+  - name: MlflowxSkinnyx1x25x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -90,7 +90,7 @@ units:
           '1.25.1' can have up to 3.22MiB
         link: https://pypi.org/project/mlflow-skinny/1.25.1/#files
         package_name: mlflow-skinny
-  - name: MlflowSkinny1x26x0PyPIArtifactSizeWrap
+  - name: MlflowxSkinnyx1x26x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -107,4 +107,40 @@ units:
           Installed artifact size for package 'mlflow-skinny' in version
           '1.26.0' can have up to 3.28MiB
         link: https://pypi.org/project/mlflow-skinny/1.26.0/#files
+        package_name: mlflow-skinny
+  - name: MlflowxSkinnyx1x26x1PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: mlflow-skinny
+          version: ==1.26.1
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'mlflow-skinny' in version
+          '1.26.1' can have up to 3.30MiB
+        link: https://pypi.org/project/mlflow-skinny/1.26.1/#files
+        package_name: mlflow-skinny
+  - name: MlflowxSkinnyx1x27x0PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: mlflow-skinny
+          version: ==1.27.0
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'mlflow-skinny' in version
+          '1.27.0' can have up to 3.41MiB
+        link: https://pypi.org/project/mlflow-skinny/1.27.0/#files
         package_name: mlflow-skinny
