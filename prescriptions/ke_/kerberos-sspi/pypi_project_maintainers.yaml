@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: KerberosSspiPyPIProjectMaintainersWrap
+  - name: KerberosxSspiPyPIProjectMaintainersWrap
     type: wrap
     should_include:
       adviser_pipeline: true
