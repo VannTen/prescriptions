@@ -324,3 +324,39 @@ units:
           '1.15.2' can have up to 22.64MiB
         link: https://pypi.org/project/healpy/1.15.2/#files
         package_name: healpy
+  - name: Healpyx1x16x0PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: healpy
+          version: ==1.16.0
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'healpy' in version
+          '1.16.0' can have up to 22.66MiB
+        link: https://pypi.org/project/healpy/1.16.0/#files
+        package_name: healpy
+  - name: Healpyx1x16x1PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: healpy
+          version: ==1.16.1
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'healpy' in version
+          '1.16.1' can have up to 22.66MiB
+        link: https://pypi.org/project/healpy/1.16.1/#files
+        package_name: healpy
