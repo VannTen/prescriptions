@@ -18,6 +18,24 @@ units:
           '0.9.10' can have up to 5.15MiB
         link: https://pypi.org/project/igraph/0.9.10/#files
         package_name: igraph
+  - name: Igraphx0x9x11PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: igraph
+          version: ==0.9.11
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'igraph' in version
+          '0.9.11' can have up to 3.56MiB
+        link: https://pypi.org/project/igraph/0.9.11/#files
+        package_name: igraph
   - name: Igraphx0x9x8PyPIArtifactSizeWrap
     type: wrap
     should_include:
