@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: PapermillPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: papermill
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'papermill' has no recent release, last release dates back to 2022-01-22 22:46:56.368117
+        link: https://pypi.org/project/papermill/#history
+        package_name: papermill
