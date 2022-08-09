@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: ImbalancedLearn0x3x0PyPIArtifactSizeWrap
+  - name: ImbalancedxLearnx0x3x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -18,7 +18,7 @@ units:
           '0.3.0' can have up to 40.06MiB
         link: https://pypi.org/project/imbalanced-learn/0.3.0/#files
         package_name: imbalanced-learn
-  - name: ImbalancedLearn0x3x2PyPIArtifactSizeWrap
+  - name: ImbalancedxLearnx0x3x2PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -36,7 +36,7 @@ units:
           '0.3.2' can have up to 39.94MiB
         link: https://pypi.org/project/imbalanced-learn/0.3.2/#files
         package_name: imbalanced-learn
-  - name: ImbalancedLearn0x3x3PyPIArtifactSizeWrap
+  - name: ImbalancedxLearnx0x3x3PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -54,7 +54,7 @@ units:
           '0.3.3' can have up to 39.94MiB
         link: https://pypi.org/project/imbalanced-learn/0.3.3/#files
         package_name: imbalanced-learn
-  - name: ImbalancedLearn0x5x0PyPIArtifactSizeWrap
+  - name: ImbalancedxLearnx0x5x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -72,7 +72,7 @@ units:
           '0.5.0' can have up to 41.30MiB
         link: https://pypi.org/project/imbalanced-learn/0.5.0/#files
         package_name: imbalanced-learn
-  - name: ImbalancedLearn0x6x2PyPIArtifactSizeWrap
+  - name: ImbalancedxLearnx0x6x2PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -90,7 +90,7 @@ units:
           '0.6.2' can have up to 41.62MiB
         link: https://pypi.org/project/imbalanced-learn/0.6.2/#files
         package_name: imbalanced-learn
-  - name: ImbalancedLearn0x8x0PyPIArtifactSizeWrap
+  - name: ImbalancedxLearnx0x8x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -108,7 +108,7 @@ units:
           '0.8.0' can have up to 18.00MiB
         link: https://pypi.org/project/imbalanced-learn/0.8.0/#files
         package_name: imbalanced-learn
-  - name: ImbalancedLearn0x9x1PyPIArtifactSizeWrap
+  - name: ImbalancedxLearnx0x9x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
