@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: MathlibPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: mathlib
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'mathlib' has no recent release, last release dates back to 2022-01-10 16:15:16.214605
+        link: https://pypi.org/project/mathlib/#history
+        package_name: mathlib
