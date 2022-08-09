@@ -1098,6 +1098,24 @@ units:
           '1.14.9rc2' can have up to 6.63MiB
         link: https://pypi.org/project/holoviews/1.14.9rc2/#files
         package_name: holoviews
+  - name: Holoviewsx1x15x0PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: holoviews
+          version: ==1.15.0
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'holoviews' in version
+          '1.15.0' can have up to 6.58MiB
+        link: https://pypi.org/project/holoviews/1.15.0/#files
+        package_name: holoviews
   - name: Holoviewsx1x15x0a2PyPIArtifactSizeWrap
     type: wrap
     should_include:
@@ -1115,6 +1133,114 @@ units:
           Installed artifact size for package 'holoviews' in version
           '1.15.0a2' can have up to 6.58MiB
         link: https://pypi.org/project/holoviews/1.15.0a2/#files
+        package_name: holoviews
+  - name: Holoviewsx1x15x0a3PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: holoviews
+          version: ==1.15.0a3
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'holoviews' in version
+          '1.15.0a3' can have up to 6.58MiB
+        link: https://pypi.org/project/holoviews/1.15.0a3/#files
+        package_name: holoviews
+  - name: Holoviewsx1x15x0a4PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: holoviews
+          version: ==1.15.0a4
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'holoviews' in version
+          '1.15.0a4' can have up to 6.58MiB
+        link: https://pypi.org/project/holoviews/1.15.0a4/#files
+        package_name: holoviews
+  - name: Holoviewsx1x15x0a5PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: holoviews
+          version: ==1.15.0a5
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'holoviews' in version
+          '1.15.0a5' can have up to 6.58MiB
+        link: https://pypi.org/project/holoviews/1.15.0a5/#files
+        package_name: holoviews
+  - name: Holoviewsx1x15x0rc1PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: holoviews
+          version: ==1.15.0rc1
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'holoviews' in version
+          '1.15.0rc1' can have up to 6.58MiB
+        link: https://pypi.org/project/holoviews/1.15.0rc1/#files
+        package_name: holoviews
+  - name: Holoviewsx1x15x0rc2PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: holoviews
+          version: ==1.15.0rc2
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'holoviews' in version
+          '1.15.0rc2' can have up to 6.58MiB
+        link: https://pypi.org/project/holoviews/1.15.0rc2/#files
+        package_name: holoviews
+  - name: Holoviewsx1x15x0rc3PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: holoviews
+          version: ==1.15.0rc3
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'holoviews' in version
+          '1.15.0rc3' can have up to 6.58MiB
+        link: https://pypi.org/project/holoviews/1.15.0rc3/#files
         package_name: holoviews
   - name: Holoviewsx1x8x2PyPIArtifactSizeWrap
     type: wrap
