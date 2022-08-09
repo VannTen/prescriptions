@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: NatsortPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: natsort
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'natsort' has no recent release, last release dates back to 2022-01-31 03:20:44.226150
+        link: https://pypi.org/project/natsort/#history
+        package_name: natsort
