@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: PipdeptreePyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: pipdeptree
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'pipdeptree' has no recent release, last release dates back to 2022-01-09 06:14:41.554813
+        link: https://pypi.org/project/pipdeptree/#history
+        package_name: pipdeptree
