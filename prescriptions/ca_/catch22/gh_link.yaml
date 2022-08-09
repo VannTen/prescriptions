@@ -12,5 +12,5 @@ units:
       justification:
       - type: INFO
         message: Package 'catch22' is hosted on GitHub
-        link: https://github.com/chlubba/catch22
+        link: https://github.com/DynamicsAndNeuralSystems/catch22
         package_name: catch22
