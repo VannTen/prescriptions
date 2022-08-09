@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: PyxEvmPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: py-evm
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'py-evm' has no recent release, last release dates back to 2022-01-26 18:07:25.209374
+        link: https://pypi.org/project/py-evm/#history
+        package_name: py-evm
