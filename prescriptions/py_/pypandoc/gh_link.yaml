@@ -12,5 +12,5 @@ units:
       justification:
       - type: INFO
         message: Package 'pypandoc' is hosted on GitHub
-        link: https://github.com/NicklasTegner/pypandoc
+        link: https://github.com/JessicaTegner/pypandoc
         package_name: pypandoc
