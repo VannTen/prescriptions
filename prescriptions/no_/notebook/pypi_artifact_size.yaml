@@ -630,6 +630,24 @@ units:
           '5.7.13' can have up to 13.92MiB
         link: https://pypi.org/project/notebook/5.7.13/#files
         package_name: notebook
+  - name: Notebookx5x7x14a0PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: notebook
+          version: ==5.7.14a0
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'notebook' in version
+          '5.7.14a0' can have up to 13.38MiB
+        link: https://pypi.org/project/notebook/5.7.14a0/#files
+        package_name: notebook
   - name: Notebookx5x7x2PyPIArtifactSizeWrap
     type: wrap
     should_include:
@@ -1152,6 +1170,24 @@ units:
           '6.4.11' can have up to 13.71MiB
         link: https://pypi.org/project/notebook/6.4.11/#files
         package_name: notebook
+  - name: Notebookx6x4x12PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: notebook
+          version: ==6.4.12
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'notebook' in version
+          '6.4.12' can have up to 13.72MiB
+        link: https://pypi.org/project/notebook/6.4.12/#files
+        package_name: notebook
   - name: Notebookx6x4x2PyPIArtifactSizeWrap
     type: wrap
     should_include:
@@ -1295,4 +1331,40 @@ units:
           Installed artifact size for package 'notebook' in version
           '6.4.9' can have up to 13.68MiB
         link: https://pypi.org/project/notebook/6.4.9/#files
+        package_name: notebook
+  - name: Notebookx6x5x0a0PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: notebook
+          version: ==6.5.0a0
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'notebook' in version
+          '6.5.0a0' can have up to 5.45MiB
+        link: https://pypi.org/project/notebook/6.5.0a0/#files
+        package_name: notebook
+  - name: Notebookx6x5x0b0PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: notebook
+          version: ==6.5.0b0
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'notebook' in version
+          '6.5.0b0' can have up to 5.45MiB
+        link: https://pypi.org/project/notebook/6.5.0b0/#files
         package_name: notebook
