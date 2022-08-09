@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: Ipyparallel2x0x0rc1PyPIArtifactSizeWrap
+  - name: Ipyparallelx2x0x0rc1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -18,7 +18,7 @@ units:
           '2.0.0rc1' can have up to 8.77MiB
         link: https://pypi.org/project/ipyparallel/2.0.0rc1/#files
         package_name: ipyparallel
-  - name: Ipyparallel7x0x0PyPIArtifactSizeWrap
+  - name: Ipyparallelx7x0x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -36,7 +36,7 @@ units:
           '7.0.0' can have up to 3.82MiB
         link: https://pypi.org/project/ipyparallel/7.0.0/#files
         package_name: ipyparallel
-  - name: Ipyparallel7x0x0a5PyPIArtifactSizeWrap
+  - name: Ipyparallelx7x0x0a5PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -54,7 +54,7 @@ units:
           '7.0.0a5' can have up to 3.22MiB
         link: https://pypi.org/project/ipyparallel/7.0.0a5/#files
         package_name: ipyparallel
-  - name: Ipyparallel7x0x0b1PyPIArtifactSizeWrap
+  - name: Ipyparallelx7x0x0b1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -72,7 +72,7 @@ units:
           '7.0.0b1' can have up to 3.62MiB
         link: https://pypi.org/project/ipyparallel/7.0.0b1/#files
         package_name: ipyparallel
-  - name: Ipyparallel7x0x0b2PyPIArtifactSizeWrap
+  - name: Ipyparallelx7x0x0b2PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -90,7 +90,7 @@ units:
           '7.0.0b2' can have up to 3.63MiB
         link: https://pypi.org/project/ipyparallel/7.0.0b2/#files
         package_name: ipyparallel
-  - name: Ipyparallel7x0x0b3PyPIArtifactSizeWrap
+  - name: Ipyparallelx7x0x0b3PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -108,7 +108,7 @@ units:
           '7.0.0b3' can have up to 3.78MiB
         link: https://pypi.org/project/ipyparallel/7.0.0b3/#files
         package_name: ipyparallel
-  - name: Ipyparallel7x0x1PyPIArtifactSizeWrap
+  - name: Ipyparallelx7x0x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -126,7 +126,7 @@ units:
           '7.0.1' can have up to 3.83MiB
         link: https://pypi.org/project/ipyparallel/7.0.1/#files
         package_name: ipyparallel
-  - name: Ipyparallel7x1x0PyPIArtifactSizeWrap
+  - name: Ipyparallelx7x1x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -144,7 +144,7 @@ units:
           '7.1.0' can have up to 3.84MiB
         link: https://pypi.org/project/ipyparallel/7.1.0/#files
         package_name: ipyparallel
-  - name: Ipyparallel8x0x0PyPIArtifactSizeWrap
+  - name: Ipyparallelx8x0x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -162,7 +162,7 @@ units:
           '8.0.0' can have up to 8.77MiB
         link: https://pypi.org/project/ipyparallel/8.0.0/#files
         package_name: ipyparallel
-  - name: Ipyparallel8x0x0b1PyPIArtifactSizeWrap
+  - name: Ipyparallelx8x0x0b1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -180,7 +180,7 @@ units:
           '8.0.0b1' can have up to 8.77MiB
         link: https://pypi.org/project/ipyparallel/8.0.0b1/#files
         package_name: ipyparallel
-  - name: Ipyparallel8x1x0PyPIArtifactSizeWrap
+  - name: Ipyparallelx8x1x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -198,7 +198,7 @@ units:
           '8.1.0' can have up to 8.93MiB
         link: https://pypi.org/project/ipyparallel/8.1.0/#files
         package_name: ipyparallel
-  - name: Ipyparallel8x2x0PyPIArtifactSizeWrap
+  - name: Ipyparallelx8x2x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -216,7 +216,7 @@ units:
           '8.2.0' can have up to 8.93MiB
         link: https://pypi.org/project/ipyparallel/8.2.0/#files
         package_name: ipyparallel
-  - name: Ipyparallel8x2x1PyPIArtifactSizeWrap
+  - name: Ipyparallelx8x2x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -234,7 +234,7 @@ units:
           '8.2.1' can have up to 8.93MiB
         link: https://pypi.org/project/ipyparallel/8.2.1/#files
         package_name: ipyparallel
-  - name: Ipyparallel8x3x0PyPIArtifactSizeWrap
+  - name: Ipyparallelx8x3x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -251,4 +251,40 @@ units:
           Installed artifact size for package 'ipyparallel' in version
           '8.3.0' can have up to 6.54MiB
         link: https://pypi.org/project/ipyparallel/8.3.0/#files
+        package_name: ipyparallel
+  - name: Ipyparallelx8x4x0PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: ipyparallel
+          version: ==8.4.0
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'ipyparallel' in version
+          '8.4.0' can have up to 6.53MiB
+        link: https://pypi.org/project/ipyparallel/8.4.0/#files
+        package_name: ipyparallel
+  - name: Ipyparallelx8x4x1PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: ipyparallel
+          version: ==8.4.1
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'ipyparallel' in version
+          '8.4.1' can have up to 6.53MiB
+        link: https://pypi.org/project/ipyparallel/8.4.1/#files
         package_name: ipyparallel
