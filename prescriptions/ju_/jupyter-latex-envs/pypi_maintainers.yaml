@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: JupyterLatexEnvsPyPIMaintainerProjectsWrap
+  - name: JupyterxLatexxEnvsPyPIMaintainerProjectsWrap
     type: wrap
     should_include:
       adviser_pipeline: true
