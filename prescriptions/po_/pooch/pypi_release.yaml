@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: PoochPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: pooch
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'pooch' has no recent release, last release dates back to 2022-01-24 09:57:19.362092
+        link: https://pypi.org/project/pooch/#history
+        package_name: pooch
