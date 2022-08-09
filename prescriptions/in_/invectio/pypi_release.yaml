@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: InvectioPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: invectio
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'invectio' has no recent release, last release dates back to 2022-01-11 17:05:49.652016
+        link: https://pypi.org/project/invectio/#history
+        package_name: invectio
