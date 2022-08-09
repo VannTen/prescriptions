@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: MccabePyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: mccabe
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'mccabe' has no recent release, last release dates back to 2022-01-24 01:14:51.113403
+        link: https://pypi.org/project/mccabe/#history
+        package_name: mccabe
