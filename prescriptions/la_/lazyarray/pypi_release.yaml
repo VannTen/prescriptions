@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: LazyarrayPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: lazyarray
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'lazyarray' has no recent release, last release dates back to 2022-01-24 17:12:23.030399
+        link: https://pypi.org/project/lazyarray/#history
+        package_name: lazyarray
