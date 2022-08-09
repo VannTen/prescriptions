@@ -12,5 +12,5 @@ units:
       justification:
       - type: INFO
         message: Package 'pydantic' is hosted on GitHub
-        link: https://github.com/samuelcolvin/pydantic
+        link: https://github.com/pydantic/pydantic
         package_name: pydantic
