@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: KerasRetinanetPyPIProjectMaintainersWrap
+  - name: KerasxRetinanetPyPIProjectMaintainersWrap
     type: wrap
     should_include:
       adviser_pipeline: true
