@@ -1,0 +1,14 @@
+units:
+  wraps:
+  - name: JupyterxContribxCoreGitHubReleaseNotesWrap
+    type: wrap.GHReleaseNotes
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: jupyter-contrib-core
+    run:
+      release_notes:
+        organization: jupyter-contrib
+        repository: jupyter_contrib_core
