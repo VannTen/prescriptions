@@ -12,4 +12,3 @@ units:
       release_notes:
         organization: gristlabs
         repository: asttokens
-        tag_version_prefix: v
