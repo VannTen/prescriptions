@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: KerasxTransformerPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: keras-transformer
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'keras-transformer' has no recent release, last release dates back to 2022-01-22 10:11:47.554962
+        link: https://pypi.org/project/keras-transformer/#history
+        package_name: keras-transformer
