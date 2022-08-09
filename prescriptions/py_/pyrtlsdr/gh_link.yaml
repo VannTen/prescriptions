@@ -12,5 +12,5 @@ units:
       justification:
       - type: INFO
         message: Package 'pyrtlsdr' is hosted on GitHub
-        link: https://github.com/roger-/pyrtlsdr
+        link: https://github.com/pyrtlsdr/pyrtlsdr
         package_name: pyrtlsdr
