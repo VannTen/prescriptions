@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: SpacyPkuseg0028PyPIArtifactSizeWrap
+  - name: SpacyxPkusegx0x0x31PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -8,13 +8,13 @@ units:
       state:
         resolved_dependencies:
         - name: spacy-pkuseg
-          version: ==0.0.28
+          version: ==0.0.31
           index_url: https://pypi.org/simple
     run:
       justification:
       - type: INFO
         message: >-
           Installed artifact size for package 'spacy-pkuseg' in version
-          '0.0.28' can have up to 2.29MiB
-        link: https://pypi.org/project/spacy-pkuseg/0.0.28/#files
+          '0.0.31' can have up to 3.73MiB
+        link: https://pypi.org/project/spacy-pkuseg/0.0.31/#files
         package_name: spacy-pkuseg
