@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: LuftdatenPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: luftdaten
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'luftdaten' has no recent release, last release dates back to 2022-01-04 08:51:42.166878
+        link: https://pypi.org/project/luftdaten/#history
+        package_name: luftdaten
