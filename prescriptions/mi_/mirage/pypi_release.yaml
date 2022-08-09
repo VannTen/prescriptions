@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: MiragePyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: mirage
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'mirage' has no recent release, last release dates back to 2022-01-12 22:26:10.734981
+        link: https://pypi.org/project/mirage/#history
+        package_name: mirage
