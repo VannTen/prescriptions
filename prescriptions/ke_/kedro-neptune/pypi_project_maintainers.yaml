@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: KedroNeptunePyPIProjectMaintainersWrap
+  - name: KedroxNeptunePyPIProjectMaintainersWrap
     type: wrap
     should_include:
       adviser_pipeline: true
