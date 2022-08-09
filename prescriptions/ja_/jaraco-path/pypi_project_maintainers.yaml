@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: JaracoPathPyPIProjectMaintainersWrap
+  - name: JaracoxPathPyPIProjectMaintainersWrap
     type: wrap
     should_include:
       adviser_pipeline: true
