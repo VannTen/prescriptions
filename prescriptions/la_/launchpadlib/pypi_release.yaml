@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: LaunchpadlibPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: launchpadlib
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'launchpadlib' has no recent release, last release dates back to 2022-01-21 14:31:45.438385
+        link: https://pypi.org/project/launchpadlib/#history
+        package_name: launchpadlib
