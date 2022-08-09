@@ -1764,6 +1764,42 @@ units:
           '6.1.2' can have up to 7.69MiB
         link: https://pypi.org/project/mercurial/6.1.2/#files
         package_name: mercurial
+  - name: Mercurialx6x1x3PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: mercurial
+          version: ==6.1.3
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'mercurial' in version
+          '6.1.3' can have up to 7.70MiB
+        link: https://pypi.org/project/mercurial/6.1.3/#files
+        package_name: mercurial
+  - name: Mercurialx6x1x4PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: mercurial
+          version: ==6.1.4
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'mercurial' in version
+          '6.1.4' can have up to 7.70MiB
+        link: https://pypi.org/project/mercurial/6.1.4/#files
+        package_name: mercurial
   - name: Mercurialx6x1rc0PyPIArtifactSizeWrap
     type: wrap
     should_include:
@@ -1781,4 +1817,58 @@ units:
           Installed artifact size for package 'mercurial' in version
           '6.1rc0' can have up to 7.69MiB
         link: https://pypi.org/project/mercurial/6.1rc0/#files
+        package_name: mercurial
+  - name: Mercurialx6x2PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: mercurial
+          version: ==6.2
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'mercurial' in version
+          '6.2' can have up to 7.68MiB
+        link: https://pypi.org/project/mercurial/6.2/#files
+        package_name: mercurial
+  - name: Mercurialx6x2x1PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: mercurial
+          version: ==6.2.1
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'mercurial' in version
+          '6.2.1' can have up to 7.68MiB
+        link: https://pypi.org/project/mercurial/6.2.1/#files
+        package_name: mercurial
+  - name: Mercurialx6x2rc0PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: mercurial
+          version: ==6.2rc0
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'mercurial' in version
+          '6.2rc0' can have up to 7.68MiB
+        link: https://pypi.org/project/mercurial/6.2rc0/#files
         package_name: mercurial
