@@ -12,5 +12,5 @@ units:
       justification:
       - type: INFO
         message: Package 'pandera' is hosted on GitHub
-        link: https://github.com/pandera-dev/pandera
+        link: https://github.com/unionai-oss/pandera
         package_name: pandera
