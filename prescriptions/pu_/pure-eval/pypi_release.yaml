@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: PureEvalPyPIReleaseWrap
+  - name: PurexEvalPyPIReleaseWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -12,6 +12,6 @@ units:
       justification:
       - type: WARNING
         message: >-
-          Package 'pure-eval' has no recent release, last release dates back to 2021-03-26 15:18:43.083904
+          Package 'pure-eval' has no recent release, last release dates back to 2022-01-22 15:41:29.465682
         link: https://pypi.org/project/pure-eval/#history
         package_name: pure-eval
