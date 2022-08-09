@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: Numpy1x11x3PyPIArtifactSizeWrap
+  - name: Numpyx1x11x3PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -18,7 +18,7 @@ units:
           '1.11.3' can have up to 14.98MiB
         link: https://pypi.org/project/numpy/1.11.3/#files
         package_name: numpy
-  - name: Numpy1x12x0PyPIArtifactSizeWrap
+  - name: Numpyx1x12x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -36,7 +36,7 @@ units:
           '1.12.0' can have up to 16.05MiB
         link: https://pypi.org/project/numpy/1.12.0/#files
         package_name: numpy
-  - name: Numpy1x12x1PyPIArtifactSizeWrap
+  - name: Numpyx1x12x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -54,7 +54,7 @@ units:
           '1.12.1' can have up to 16.06MiB
         link: https://pypi.org/project/numpy/1.12.1/#files
         package_name: numpy
-  - name: Numpy1x13x0PyPIArtifactSizeWrap
+  - name: Numpyx1x13x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -72,7 +72,7 @@ units:
           '1.13.0' can have up to 16.19MiB
         link: https://pypi.org/project/numpy/1.13.0/#files
         package_name: numpy
-  - name: Numpy1x13x0rc1PyPIArtifactSizeWrap
+  - name: Numpyx1x13x0rc1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -90,7 +90,7 @@ units:
           '1.13.0rc1' can have up to 16.18MiB
         link: https://pypi.org/project/numpy/1.13.0rc1/#files
         package_name: numpy
-  - name: Numpy1x13x0rc2PyPIArtifactSizeWrap
+  - name: Numpyx1x13x0rc2PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -108,7 +108,7 @@ units:
           '1.13.0rc2' can have up to 16.19MiB
         link: https://pypi.org/project/numpy/1.13.0rc2/#files
         package_name: numpy
-  - name: Numpy1x13x1PyPIArtifactSizeWrap
+  - name: Numpyx1x13x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -126,7 +126,7 @@ units:
           '1.13.1' can have up to 16.19MiB
         link: https://pypi.org/project/numpy/1.13.1/#files
         package_name: numpy
-  - name: Numpy1x13x3PyPIArtifactSizeWrap
+  - name: Numpyx1x13x3PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -144,7 +144,7 @@ units:
           '1.13.3' can have up to 16.20MiB
         link: https://pypi.org/project/numpy/1.13.3/#files
         package_name: numpy
-  - name: Numpy1x14x0PyPIArtifactSizeWrap
+  - name: Numpyx1x14x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -162,7 +162,7 @@ units:
           '1.14.0' can have up to 16.42MiB
         link: https://pypi.org/project/numpy/1.14.0/#files
         package_name: numpy
-  - name: Numpy1x14x0rc1PyPIArtifactSizeWrap
+  - name: Numpyx1x14x0rc1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -180,7 +180,7 @@ units:
           '1.14.0rc1' can have up to 16.42MiB
         link: https://pypi.org/project/numpy/1.14.0rc1/#files
         package_name: numpy
-  - name: Numpy1x14x1PyPIArtifactSizeWrap
+  - name: Numpyx1x14x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -198,7 +198,7 @@ units:
           '1.14.1' can have up to 12.76MiB
         link: https://pypi.org/project/numpy/1.14.1/#files
         package_name: numpy
-  - name: Numpy1x14x2PyPIArtifactSizeWrap
+  - name: Numpyx1x14x2PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -216,7 +216,7 @@ units:
           '1.14.2' can have up to 12.76MiB
         link: https://pypi.org/project/numpy/1.14.2/#files
         package_name: numpy
-  - name: Numpy1x14x3PyPIArtifactSizeWrap
+  - name: Numpyx1x14x3PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -234,7 +234,7 @@ units:
           '1.14.3' can have up to 12.76MiB
         link: https://pypi.org/project/numpy/1.14.3/#files
         package_name: numpy
-  - name: Numpy1x14x4PyPIArtifactSizeWrap
+  - name: Numpyx1x14x4PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -252,7 +252,7 @@ units:
           '1.14.4' can have up to 12.76MiB
         link: https://pypi.org/project/numpy/1.14.4/#files
         package_name: numpy
-  - name: Numpy1x14x5PyPIArtifactSizeWrap
+  - name: Numpyx1x14x5PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -270,7 +270,7 @@ units:
           '1.14.5' can have up to 12.76MiB
         link: https://pypi.org/project/numpy/1.14.5/#files
         package_name: numpy
-  - name: Numpy1x14x6PyPIArtifactSizeWrap
+  - name: Numpyx1x14x6PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -288,7 +288,7 @@ units:
           '1.14.6' can have up to 23.26MiB
         link: https://pypi.org/project/numpy/1.14.6/#files
         package_name: numpy
-  - name: Numpy1x15x0PyPIArtifactSizeWrap
+  - name: Numpyx1x15x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -306,7 +306,7 @@ units:
           '1.15.0' can have up to 23.33MiB
         link: https://pypi.org/project/numpy/1.15.0/#files
         package_name: numpy
-  - name: Numpy1x15x0rc1PyPIArtifactSizeWrap
+  - name: Numpyx1x15x0rc1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -324,7 +324,7 @@ units:
           '1.15.0rc1' can have up to 23.33MiB
         link: https://pypi.org/project/numpy/1.15.0rc1/#files
         package_name: numpy
-  - name: Numpy1x15x0rc2PyPIArtifactSizeWrap
+  - name: Numpyx1x15x0rc2PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -342,7 +342,7 @@ units:
           '1.15.0rc2' can have up to 23.33MiB
         link: https://pypi.org/project/numpy/1.15.0rc2/#files
         package_name: numpy
-  - name: Numpy1x15x1PyPIArtifactSizeWrap
+  - name: Numpyx1x15x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -360,7 +360,7 @@ units:
           '1.15.1' can have up to 23.34MiB
         link: https://pypi.org/project/numpy/1.15.1/#files
         package_name: numpy
-  - name: Numpy1x15x2PyPIArtifactSizeWrap
+  - name: Numpyx1x15x2PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -378,7 +378,7 @@ units:
           '1.15.2' can have up to 23.34MiB
         link: https://pypi.org/project/numpy/1.15.2/#files
         package_name: numpy
-  - name: Numpy1x15x3PyPIArtifactSizeWrap
+  - name: Numpyx1x15x3PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -396,7 +396,7 @@ units:
           '1.15.3' can have up to 23.35MiB
         link: https://pypi.org/project/numpy/1.15.3/#files
         package_name: numpy
-  - name: Numpy1x15x4PyPIArtifactSizeWrap
+  - name: Numpyx1x15x4PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -414,7 +414,7 @@ units:
           '1.15.4' can have up to 23.35MiB
         link: https://pypi.org/project/numpy/1.15.4/#files
         package_name: numpy
-  - name: Numpy1x16x0PyPIArtifactSizeWrap
+  - name: Numpyx1x16x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -432,7 +432,7 @@ units:
           '1.16.0' can have up to 16.49MiB
         link: https://pypi.org/project/numpy/1.16.0/#files
         package_name: numpy
-  - name: Numpy1x16x0rc1PyPIArtifactSizeWrap
+  - name: Numpyx1x16x0rc1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -450,7 +450,7 @@ units:
           '1.16.0rc1' can have up to 14.71MiB
         link: https://pypi.org/project/numpy/1.16.0rc1/#files
         package_name: numpy
-  - name: Numpy1x16x0rc2PyPIArtifactSizeWrap
+  - name: Numpyx1x16x0rc2PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -468,7 +468,7 @@ units:
           '1.16.0rc2' can have up to 16.49MiB
         link: https://pypi.org/project/numpy/1.16.0rc2/#files
         package_name: numpy
-  - name: Numpy1x16x1PyPIArtifactSizeWrap
+  - name: Numpyx1x16x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -486,7 +486,7 @@ units:
           '1.16.1' can have up to 16.53MiB
         link: https://pypi.org/project/numpy/1.16.1/#files
         package_name: numpy
-  - name: Numpy1x16x2PyPIArtifactSizeWrap
+  - name: Numpyx1x16x2PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -504,7 +504,7 @@ units:
           '1.16.2' can have up to 16.52MiB
         link: https://pypi.org/project/numpy/1.16.2/#files
         package_name: numpy
-  - name: Numpy1x16x3PyPIArtifactSizeWrap
+  - name: Numpyx1x16x3PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -522,7 +522,7 @@ units:
           '1.16.3' can have up to 16.53MiB
         link: https://pypi.org/project/numpy/1.16.3/#files
         package_name: numpy
-  - name: Numpy1x16x4PyPIArtifactSizeWrap
+  - name: Numpyx1x16x4PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -540,7 +540,7 @@ units:
           '1.16.4' can have up to 16.54MiB
         link: https://pypi.org/project/numpy/1.16.4/#files
         package_name: numpy
-  - name: Numpy1x16x5PyPIArtifactSizeWrap
+  - name: Numpyx1x16x5PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -558,7 +558,7 @@ units:
           '1.16.5' can have up to 16.55MiB
         link: https://pypi.org/project/numpy/1.16.5/#files
         package_name: numpy
-  - name: Numpy1x16x6PyPIArtifactSizeWrap
+  - name: Numpyx1x16x6PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -576,7 +576,7 @@ units:
           '1.16.6' can have up to 16.55MiB
         link: https://pypi.org/project/numpy/1.16.6/#files
         package_name: numpy
-  - name: Numpy1x17x0PyPIArtifactSizeWrap
+  - name: Numpyx1x17x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -594,7 +594,7 @@ units:
           '1.17.0' can have up to 19.42MiB
         link: https://pypi.org/project/numpy/1.17.0/#files
         package_name: numpy
-  - name: Numpy1x17x0rc1PyPIArtifactSizeWrap
+  - name: Numpyx1x17x0rc1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -612,7 +612,7 @@ units:
           '1.17.0rc1' can have up to 19.20MiB
         link: https://pypi.org/project/numpy/1.17.0rc1/#files
         package_name: numpy
-  - name: Numpy1x17x0rc2PyPIArtifactSizeWrap
+  - name: Numpyx1x17x0rc2PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -630,7 +630,7 @@ units:
           '1.17.0rc2' can have up to 19.40MiB
         link: https://pypi.org/project/numpy/1.17.0rc2/#files
         package_name: numpy
-  - name: Numpy1x17x1PyPIArtifactSizeWrap
+  - name: Numpyx1x17x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -648,7 +648,7 @@ units:
           '1.17.1' can have up to 19.42MiB
         link: https://pypi.org/project/numpy/1.17.1/#files
         package_name: numpy
-  - name: Numpy1x17x2PyPIArtifactSizeWrap
+  - name: Numpyx1x17x2PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -666,7 +666,7 @@ units:
           '1.17.2' can have up to 19.42MiB
         link: https://pypi.org/project/numpy/1.17.2/#files
         package_name: numpy
-  - name: Numpy1x17x3PyPIArtifactSizeWrap
+  - name: Numpyx1x17x3PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -684,7 +684,7 @@ units:
           '1.17.3' can have up to 19.52MiB
         link: https://pypi.org/project/numpy/1.17.3/#files
         package_name: numpy
-  - name: Numpy1x17x4PyPIArtifactSizeWrap
+  - name: Numpyx1x17x4PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -702,7 +702,7 @@ units:
           '1.17.4' can have up to 19.52MiB
         link: https://pypi.org/project/numpy/1.17.4/#files
         package_name: numpy
-  - name: Numpy1x17x5PyPIArtifactSizeWrap
+  - name: Numpyx1x17x5PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -720,7 +720,7 @@ units:
           '1.17.5' can have up to 19.52MiB
         link: https://pypi.org/project/numpy/1.17.5/#files
         package_name: numpy
-  - name: Numpy1x18x0PyPIArtifactSizeWrap
+  - name: Numpyx1x18x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -738,7 +738,7 @@ units:
           '1.18.0' can have up to 19.65MiB
         link: https://pypi.org/project/numpy/1.18.0/#files
         package_name: numpy
-  - name: Numpy1x18x0rc1PyPIArtifactSizeWrap
+  - name: Numpyx1x18x0rc1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -756,7 +756,7 @@ units:
           '1.18.0rc1' can have up to 19.64MiB
         link: https://pypi.org/project/numpy/1.18.0rc1/#files
         package_name: numpy
-  - name: Numpy1x18x1PyPIArtifactSizeWrap
+  - name: Numpyx1x18x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -774,7 +774,7 @@ units:
           '1.18.1' can have up to 19.65MiB
         link: https://pypi.org/project/numpy/1.18.1/#files
         package_name: numpy
-  - name: Numpy1x18x2PyPIArtifactSizeWrap
+  - name: Numpyx1x18x2PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -792,7 +792,7 @@ units:
           '1.18.2' can have up to 19.68MiB
         link: https://pypi.org/project/numpy/1.18.2/#files
         package_name: numpy
-  - name: Numpy1x18x3PyPIArtifactSizeWrap
+  - name: Numpyx1x18x3PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -810,7 +810,7 @@ units:
           '1.18.3' can have up to 19.67MiB
         link: https://pypi.org/project/numpy/1.18.3/#files
         package_name: numpy
-  - name: Numpy1x18x4PyPIArtifactSizeWrap
+  - name: Numpyx1x18x4PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -828,7 +828,7 @@ units:
           '1.18.4' can have up to 19.70MiB
         link: https://pypi.org/project/numpy/1.18.4/#files
         package_name: numpy
-  - name: Numpy1x18x5PyPIArtifactSizeWrap
+  - name: Numpyx1x18x5PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -846,7 +846,7 @@ units:
           '1.18.5' can have up to 19.63MiB
         link: https://pypi.org/project/numpy/1.18.5/#files
         package_name: numpy
-  - name: Numpy1x19x0PyPIArtifactSizeWrap
+  - name: Numpyx1x19x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -864,7 +864,7 @@ units:
           '1.19.0' can have up to 14.65MiB
         link: https://pypi.org/project/numpy/1.19.0/#files
         package_name: numpy
-  - name: Numpy1x19x0rc1PyPIArtifactSizeWrap
+  - name: Numpyx1x19x0rc1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -882,7 +882,7 @@ units:
           '1.19.0rc1' can have up to 14.64MiB
         link: https://pypi.org/project/numpy/1.19.0rc1/#files
         package_name: numpy
-  - name: Numpy1x19x0rc2PyPIArtifactSizeWrap
+  - name: Numpyx1x19x0rc2PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -900,7 +900,7 @@ units:
           '1.19.0rc2' can have up to 14.64MiB
         link: https://pypi.org/project/numpy/1.19.0rc2/#files
         package_name: numpy
-  - name: Numpy1x19x1PyPIArtifactSizeWrap
+  - name: Numpyx1x19x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -918,7 +918,7 @@ units:
           '1.19.1' can have up to 14.61MiB
         link: https://pypi.org/project/numpy/1.19.1/#files
         package_name: numpy
-  - name: Numpy1x19x2PyPIArtifactSizeWrap
+  - name: Numpyx1x19x2PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -936,7 +936,7 @@ units:
           '1.19.2' can have up to 14.61MiB
         link: https://pypi.org/project/numpy/1.19.2/#files
         package_name: numpy
-  - name: Numpy1x19x3PyPIArtifactSizeWrap
+  - name: Numpyx1x19x3PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -954,7 +954,7 @@ units:
           '1.19.3' can have up to 15.17MiB
         link: https://pypi.org/project/numpy/1.19.3/#files
         package_name: numpy
-  - name: Numpy1x19x4PyPIArtifactSizeWrap
+  - name: Numpyx1x19x4PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -972,7 +972,7 @@ units:
           '1.19.4' can have up to 14.64MiB
         link: https://pypi.org/project/numpy/1.19.4/#files
         package_name: numpy
-  - name: Numpy1x19x5PyPIArtifactSizeWrap
+  - name: Numpyx1x19x5PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -990,7 +990,7 @@ units:
           '1.19.5' can have up to 14.90MiB
         link: https://pypi.org/project/numpy/1.19.5/#files
         package_name: numpy
-  - name: Numpy1x20x0PyPIArtifactSizeWrap
+  - name: Numpyx1x20x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -1008,7 +1008,7 @@ units:
           '1.20.0' can have up to 15.33MiB
         link: https://pypi.org/project/numpy/1.20.0/#files
         package_name: numpy
-  - name: Numpy1x20x0rc1PyPIArtifactSizeWrap
+  - name: Numpyx1x20x0rc1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -1026,7 +1026,7 @@ units:
           '1.20.0rc1' can have up to 15.59MiB
         link: https://pypi.org/project/numpy/1.20.0rc1/#files
         package_name: numpy
-  - name: Numpy1x20x0rc2PyPIArtifactSizeWrap
+  - name: Numpyx1x20x0rc2PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -1044,7 +1044,7 @@ units:
           '1.20.0rc2' can have up to 15.33MiB
         link: https://pypi.org/project/numpy/1.20.0rc2/#files
         package_name: numpy
-  - name: Numpy1x20x1PyPIArtifactSizeWrap
+  - name: Numpyx1x20x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -1062,7 +1062,7 @@ units:
           '1.20.1' can have up to 15.33MiB
         link: https://pypi.org/project/numpy/1.20.1/#files
         package_name: numpy
-  - name: Numpy1x20x2PyPIArtifactSizeWrap
+  - name: Numpyx1x20x2PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -1080,7 +1080,7 @@ units:
           '1.20.2' can have up to 15.34MiB
         link: https://pypi.org/project/numpy/1.20.2/#files
         package_name: numpy
-  - name: Numpy1x20x3PyPIArtifactSizeWrap
+  - name: Numpyx1x20x3PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -1098,7 +1098,7 @@ units:
           '1.20.3' can have up to 15.34MiB
         link: https://pypi.org/project/numpy/1.20.3/#files
         package_name: numpy
-  - name: Numpy1x21x0PyPIArtifactSizeWrap
+  - name: Numpyx1x21x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -1116,7 +1116,7 @@ units:
           '1.21.0' can have up to 25.67MiB
         link: https://pypi.org/project/numpy/1.21.0/#files
         package_name: numpy
-  - name: Numpy1x21x0rc1PyPIArtifactSizeWrap
+  - name: Numpyx1x21x0rc1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -1134,7 +1134,7 @@ units:
           '1.21.0rc1' can have up to 25.66MiB
         link: https://pypi.org/project/numpy/1.21.0rc1/#files
         package_name: numpy
-  - name: Numpy1x21x0rc2PyPIArtifactSizeWrap
+  - name: Numpyx1x21x0rc2PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -1152,7 +1152,7 @@ units:
           '1.21.0rc2' can have up to 25.67MiB
         link: https://pypi.org/project/numpy/1.21.0rc2/#files
         package_name: numpy
-  - name: Numpy1x21x1PyPIArtifactSizeWrap
+  - name: Numpyx1x21x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -1170,7 +1170,7 @@ units:
           '1.21.1' can have up to 25.94MiB
         link: https://pypi.org/project/numpy/1.21.1/#files
         package_name: numpy
-  - name: Numpy1x21x2PyPIArtifactSizeWrap
+  - name: Numpyx1x21x2PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -1188,7 +1188,7 @@ units:
           '1.21.2' can have up to 25.94MiB
         link: https://pypi.org/project/numpy/1.21.2/#files
         package_name: numpy
-  - name: Numpy1x21x3PyPIArtifactSizeWrap
+  - name: Numpyx1x21x3PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -1206,7 +1206,7 @@ units:
           '1.21.3' can have up to 25.94MiB
         link: https://pypi.org/project/numpy/1.21.3/#files
         package_name: numpy
-  - name: Numpy1x21x4PyPIArtifactSizeWrap
+  - name: Numpyx1x21x4PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -1224,7 +1224,7 @@ units:
           '1.21.4' can have up to 25.94MiB
         link: https://pypi.org/project/numpy/1.21.4/#files
         package_name: numpy
-  - name: Numpy1x21x5PyPIArtifactSizeWrap
+  - name: Numpyx1x21x5PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -1242,7 +1242,7 @@ units:
           '1.21.5' can have up to 25.94MiB
         link: https://pypi.org/project/numpy/1.21.5/#files
         package_name: numpy
-  - name: Numpy1x21x6PyPIArtifactSizeWrap
+  - name: Numpyx1x21x6PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -1260,7 +1260,7 @@ units:
           '1.21.6' can have up to 25.94MiB
         link: https://pypi.org/project/numpy/1.21.6/#files
         package_name: numpy
-  - name: Numpy1x22x0PyPIArtifactSizeWrap
+  - name: Numpyx1x22x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -1278,7 +1278,7 @@ units:
           '1.22.0' can have up to 26.52MiB
         link: https://pypi.org/project/numpy/1.22.0/#files
         package_name: numpy
-  - name: Numpy1x22x0rc1PyPIArtifactSizeWrap
+  - name: Numpyx1x22x0rc1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -1296,7 +1296,7 @@ units:
           '1.22.0rc1' can have up to 26.52MiB
         link: https://pypi.org/project/numpy/1.22.0rc1/#files
         package_name: numpy
-  - name: Numpy1x22x0rc2PyPIArtifactSizeWrap
+  - name: Numpyx1x22x0rc2PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -1314,7 +1314,7 @@ units:
           '1.22.0rc2' can have up to 26.52MiB
         link: https://pypi.org/project/numpy/1.22.0rc2/#files
         package_name: numpy
-  - name: Numpy1x22x0rc3PyPIArtifactSizeWrap
+  - name: Numpyx1x22x0rc3PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -1332,7 +1332,7 @@ units:
           '1.22.0rc3' can have up to 26.52MiB
         link: https://pypi.org/project/numpy/1.22.0rc3/#files
         package_name: numpy
-  - name: Numpy1x22x1PyPIArtifactSizeWrap
+  - name: Numpyx1x22x1PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -1350,7 +1350,7 @@ units:
           '1.22.1' can have up to 26.53MiB
         link: https://pypi.org/project/numpy/1.22.1/#files
         package_name: numpy
-  - name: Numpy1x22x2PyPIArtifactSizeWrap
+  - name: Numpyx1x22x2PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -1368,7 +1368,7 @@ units:
           '1.22.2' can have up to 16.83MiB
         link: https://pypi.org/project/numpy/1.22.2/#files
         package_name: numpy
-  - name: Numpy1x22x3PyPIArtifactSizeWrap
+  - name: Numpyx1x22x3PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -1386,7 +1386,7 @@ units:
           '1.22.3' can have up to 16.83MiB
         link: https://pypi.org/project/numpy/1.22.3/#files
         package_name: numpy
-  - name: Numpy1x22x4PyPIArtifactSizeWrap
+  - name: Numpyx1x22x4PyPIArtifactSizeWrap
     type: wrap
     should_include:
       adviser_pipeline: true
@@ -1403,4 +1403,94 @@ units:
           Installed artifact size for package 'numpy' in version
           '1.22.4' can have up to 16.84MiB
         link: https://pypi.org/project/numpy/1.22.4/#files
+        package_name: numpy
+  - name: Numpyx1x23x0PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: numpy
+          version: ==1.23.0
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'numpy' in version
+          '1.23.0' can have up to 17.28MiB
+        link: https://pypi.org/project/numpy/1.23.0/#files
+        package_name: numpy
+  - name: Numpyx1x23x0rc1PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: numpy
+          version: ==1.23.0rc1
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'numpy' in version
+          '1.23.0rc1' can have up to 17.28MiB
+        link: https://pypi.org/project/numpy/1.23.0rc1/#files
+        package_name: numpy
+  - name: Numpyx1x23x0rc2PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: numpy
+          version: ==1.23.0rc2
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'numpy' in version
+          '1.23.0rc2' can have up to 17.27MiB
+        link: https://pypi.org/project/numpy/1.23.0rc2/#files
+        package_name: numpy
+  - name: Numpyx1x23x0rc3PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: numpy
+          version: ==1.23.0rc3
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'numpy' in version
+          '1.23.0rc3' can have up to 17.28MiB
+        link: https://pypi.org/project/numpy/1.23.0rc3/#files
+        package_name: numpy
+  - name: Numpyx1x23x1PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: numpy
+          version: ==1.23.1
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'numpy' in version
+          '1.23.1' can have up to 17.28MiB
+        link: https://pypi.org/project/numpy/1.23.1/#files
         package_name: numpy
