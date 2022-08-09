@@ -1,6 +1,6 @@
 units:
   wraps:
-  - name: KerasApplicationsPyPIProjectMaintainersWrap
+  - name: KerasxApplicationsPyPIProjectMaintainersWrap
     type: wrap
     should_include:
       adviser_pipeline: true
