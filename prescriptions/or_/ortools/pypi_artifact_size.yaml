@@ -666,3 +666,21 @@ units:
           '9.3.10497' can have up to 38.60MiB
         link: https://pypi.org/project/ortools/9.3.10497/#files
         package_name: ortools
+  - name: Ortoolsx9x4x1874PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: ortools
+          version: ==9.4.1874
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'ortools' in version
+          '9.4.1874' can have up to 39.61MiB
+        link: https://pypi.org/project/ortools/9.4.1874/#files
+        package_name: ortools
