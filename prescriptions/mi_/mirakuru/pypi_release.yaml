@@ -1,0 +1,17 @@
+units:
+  wraps:
+  - name: MirakuruPyPIReleaseWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: mirakuru
+    run:
+      justification:
+      - type: WARNING
+        message: >-
+          Package 'mirakuru' has no recent release, last release dates back to 2022-02-09 21:19:02.716072
+        link: https://pypi.org/project/mirakuru/#history
+        package_name: mirakuru
