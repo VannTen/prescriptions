@@ -10,6 +10,5 @@ units:
         - name: adlfs
     run:
       release_notes:
-        organization: dask
+        organization: fsspec
         repository: adlfs
-        tag_version_prefix: v
