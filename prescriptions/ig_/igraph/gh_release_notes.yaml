@@ -1,0 +1,14 @@
+units:
+  wraps:
+  - name: IgraphGitHubReleaseNotesWrap
+    type: wrap.GHReleaseNotes
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: igraph
+    run:
+      release_notes:
+        organization: igraph
+        repository: python-igraph
