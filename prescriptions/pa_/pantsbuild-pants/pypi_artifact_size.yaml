@@ -1746,6 +1746,24 @@ units:
           '2.14.0.dev5' can have up to 47.02MiB
         link: https://pypi.org/project/pantsbuild-pants/2.14.0.dev5/#files
         package_name: pantsbuild-pants
+  - name: PantsbuildxPantsx2x14x0xdev6PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: pantsbuild-pants
+          version: ==2.14.0.dev6
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'pantsbuild-pants' in version
+          '2.14.0.dev6' can have up to 47.05MiB
+        link: https://pypi.org/project/pantsbuild-pants/2.14.0.dev6/#files
+        package_name: pantsbuild-pants
   - name: PantsbuildxPantsx2x2x0PyPIArtifactSizeWrap
     type: wrap
     should_include:
