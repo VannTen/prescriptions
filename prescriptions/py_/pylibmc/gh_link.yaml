@@ -1,0 +1,16 @@
+units:
+  wraps:
+  - name: PylibmcGitHubURLWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: pylibmc
+    run:
+      justification:
+      - type: INFO
+        message: Package 'pylibmc' is hosted on GitHub
+        link: https://github.com/lericson/pylibmc
+        package_name: pylibmc
