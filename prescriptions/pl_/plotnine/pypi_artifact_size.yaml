@@ -198,3 +198,21 @@ units:
           '0.8.0' can have up to 4.45MiB
         link: https://pypi.org/project/plotnine/0.8.0/#files
         package_name: plotnine
+  - name: Plotninex0x9x0PyPIArtifactSizeWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: plotnine
+          version: ==0.9.0
+          index_url: https://pypi.org/simple
+    run:
+      justification:
+      - type: INFO
+        message: >-
+          Installed artifact size for package 'plotnine' in version
+          '0.9.0' can have up to 4.70MiB
+        link: https://pypi.org/project/plotnine/0.9.0/#files
+        package_name: plotnine
