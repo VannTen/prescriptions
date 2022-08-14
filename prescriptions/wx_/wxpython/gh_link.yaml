@@ -1,0 +1,16 @@
+units:
+  wraps:
+  - name: WxpythonGitHubURLWrap
+    type: wrap
+    should_include:
+      adviser_pipeline: true
+    match:
+      state:
+        resolved_dependencies:
+        - name: wxpython
+    run:
+      justification:
+      - type: INFO
+        message: Package 'wxpython' is hosted on GitHub
+        link: https://github.com/wxWidgets/Phoenix
+        package_name: wxpython
