@@ -12,5 +12,5 @@ units:
       justification:
       - type: INFO
         message: Package 'pywinpty' is hosted on GitHub
-        link: https://github.com/spyder-ide/pywinpty
+        link: https://github.com/andfoy/pywinpty
         package_name: pywinpty
